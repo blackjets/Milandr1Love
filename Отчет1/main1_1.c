@@ -41,10 +41,10 @@ static void PeriphInit( void )
 {
     PORT_InitTypeDef PORT_InitStruct;
     
-    //Светодиоды
-    /* Включение тактирования порта C */
+    //РЎРІРµС‚РѕРґРёРѕРґС‹
+    /* Р’РєР»СЋС‡РµРЅРёРµ С‚Р°РєС‚РёСЂРѕРІР°РЅРёСЏ РїРѕСЂС‚Р° C */
     RST_CLK_PCLKcmd(RST_CLK_PCLK_PORTC, ENABLE);
-    /* Настройка порта C для вывода в дискретном режиме. */
+    /* РќР°СЃС‚СЂРѕР№РєР° РїРѕСЂС‚Р° C РґР»СЏ РІС‹РІРѕРґР° РІ РґРёСЃРєСЂРµС‚РЅРѕРј СЂРµР¶РёРјРµ. */
     PORT_InitStruct.PORT_OE        = PORT_OE_OUT;
     PORT_InitStruct.PORT_FUNC      = PORT_FUNC_PORT;
     PORT_InitStruct.PORT_MODE      = PORT_MODE_DIGITAL;
@@ -58,9 +58,9 @@ static void PeriphInit( void )
     
     PORT_Init(MDR_PORTC, &PORT_InitStruct);
     
-    //Кнопка SELECT
-    //Тактирование порта уже включено
-    /* Настройка порта C для входа в дискретном режиме. */
+    //РљРЅРѕРїРєР° SELECT
+    //РўР°РєС‚РёСЂРѕРІР°РЅРёРµ РїРѕСЂС‚Р° СѓР¶Рµ РІРєР»СЋС‡РµРЅРѕ
+    /* РќР°СЃС‚СЂРѕР№РєР° РїРѕСЂС‚Р° C РґР»СЏ РІС…РѕРґР° РІ РґРёСЃРєСЂРµС‚РЅРѕРј СЂРµР¶РёРјРµ. */
     PORT_InitStruct.PORT_OE        = PORT_OE_IN;
     PORT_InitStruct.PORT_FUNC      = PORT_FUNC_PORT;
     PORT_InitStruct.PORT_MODE      = PORT_MODE_DIGITAL;
@@ -74,10 +74,10 @@ static void PeriphInit( void )
     
     PORT_Init(MDR_PORTC, &PORT_InitStruct);
     
-    //Кнопки UP RIGHT
-    /* Включение тактирования порта B */
+    //РљРЅРѕРїРєРё UP RIGHT
+    /* Р’РєР»СЋС‡РµРЅРёРµ С‚Р°РєС‚РёСЂРѕРІР°РЅРёСЏ РїРѕСЂС‚Р° B */
     RST_CLK_PCLKcmd(RST_CLK_PCLK_PORTB, ENABLE);
-    /* Настройка порта B для входа в дискретном режиме. */
+    /* РќР°СЃС‚СЂРѕР№РєР° РїРѕСЂС‚Р° B РґР»СЏ РІС…РѕРґР° РІ РґРёСЃРєСЂРµС‚РЅРѕРј СЂРµР¶РёРјРµ. */
     PORT_InitStruct.PORT_OE        = PORT_OE_IN;
     PORT_InitStruct.PORT_FUNC      = PORT_FUNC_PORT;
     PORT_InitStruct.PORT_MODE      = PORT_MODE_DIGITAL;
@@ -91,10 +91,10 @@ static void PeriphInit( void )
 
     PORT_Init(MDR_PORTB, &PORT_InitStruct);
 
-    //Кнопки DOWN LEFT
-    /* Включение тактирования порта E */
+    //РљРЅРѕРїРєРё DOWN LEFT
+    /* Р’РєР»СЋС‡РµРЅРёРµ С‚Р°РєС‚РёСЂРѕРІР°РЅРёСЏ РїРѕСЂС‚Р° E */
     RST_CLK_PCLKcmd(RST_CLK_PCLK_PORTE, ENABLE);
-    /* Настройка порта E для входа в дискретном режиме. */
+    /* РќР°СЃС‚СЂРѕР№РєР° РїРѕСЂС‚Р° E РґР»СЏ РІС…РѕРґР° РІ РґРёСЃРєСЂРµС‚РЅРѕРј СЂРµР¶РёРјРµ. */
     PORT_InitStruct.PORT_OE        = PORT_OE_IN;
     PORT_InitStruct.PORT_FUNC      = PORT_FUNC_PORT;
     PORT_InitStruct.PORT_MODE      = PORT_MODE_DIGITAL;
