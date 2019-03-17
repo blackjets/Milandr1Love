@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.10.3)  18 MAR 2019 01:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.10.3)  18 MAR 2019 01:24
 entering extended mode
 **./otchyot.tex
 (otchyot.tex
@@ -534,7 +534,11 @@ File: lstlang1.sty 2018/09/02 1.7 listings language file
 LaTeX Warning: Unused global option(s):
     [14pt,report].
 
-(otchyot.aux)
+(otchyot.aux
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 20.
+ ("C:\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmr.fd"
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+))
 \openout1 = `otchyot.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
@@ -550,10 +554,6 @@ LaTeX Font Info:    ... okay on input line 54.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 54.
-LaTeX Font Info:    Try loading font information for T2A+cmr on input line 54.
- ("C:\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmr.fd"
-File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
 LaTeX Font Info:    ... okay on input line 54.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
@@ -660,10 +660,8 @@ Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 100.
  [1
 
-{C:/Users/blackjetsRPN/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
+{C:/Users/blackjetsRPN/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (otc
+hyot.toc)
 \tf@toc=\write4
 \openout4 = `otchyot.toc'.
 
@@ -758,7 +756,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 126.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 126.
-<img/1_1.png, id=171, 237.13594pt x 136.25906pt>
+<img/1_1.png, id=182, 237.13594pt x 136.25906pt>
 File: img/1_1.png Graphic file (type png)
 <use img/1_1.png>
 Package pdftex.def Info: img/1_1.png  used on input line 134.
@@ -930,8 +928,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
  ) 
 Here is how much of TeX's memory you used:
- 14300 strings out of 492973
- 204144 string characters out of 3138111
+ 14302 strings out of 492973
+ 204221 string characters out of 3138111
  755849 words of memory out of 3000000
  17263 multiletter control sequences out of 15000+200000
  16020 words of font info for 33 fonts, out of 3000000 for 9000
@@ -942,17 +940,18 @@ i600\lasi0900.pk> <C:\Users\blackjetsRPN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
 ur\lh\lh-t2a\dpi600\lass0900.pk> <C:\Users\blackjetsRPN\AppData\Local\MiKTeX\2.
 9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lasx0900.pk> <C:\Users\blackjetsRPN\AppData\
 Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0500.pk> <C:\Users\blackj
-etsRPN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2074.pk> <
+etsRPN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1000.pk> <
 C:\Users\blackjetsRPN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600
-\larm0900.pk> <C:\Users\blackjetsRPN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\l
-h\lh-t2a\dpi600\larm1000.pk> <C:\Users\blackjetsRPN\AppData\Local\MiKTeX\2.9\fo
-nts\pk\ljfour\lh\lh-t2a\dpi600\labx1200.pk> <C:\Users\blackjetsRPN\AppData\Loca
-l\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk> <C:\Users\blackjetsR
-PN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lacc1200.pk><C:/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on otchyot.pdf (16 pages, 339453 bytes).
+\labx2074.pk> <C:\Users\blackjetsRPN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\l
+h\lh-t2a\dpi600\larm0900.pk> <C:\Users\blackjetsRPN\AppData\Local\MiKTeX\2.9\fo
+nts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk> <C:\Users\blackjetsRPN\AppData\Loca
+l\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1200.pk> <C:\Users\blackjetsR
+PN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk> <C:\U
+sers\blackjetsRPN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lac
+c1200.pk><C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on otchyot.pdf (16 pages, 355163 bytes).
 PDF statistics:
- 1511 PDF objects out of 1728 (max. 8388607)
+ 1563 PDF objects out of 1728 (max. 8388607)
  768 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
