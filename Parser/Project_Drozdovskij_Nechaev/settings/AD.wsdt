@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+    
+    
+  <CurrentConfigs><Project>Lab1/Debug</Project><Project>lcd/Debug</Project><Project>Lab2/Debug</Project><Project>Lab3/Debug</Project><Project>LCD_new/Debug</Project></CurrentConfigs><CurrentProj>LCD_new</CurrentProj><OverviewSelected>0</OverviewSelected></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>198</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+    <Build><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>663</ColumnWidth1><ColumnWidth2>588</ColumnWidth2><ColumnWidth3>44</ColumnWidth3></Build><Debug-Log><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>885</ColumnWidth1></Debug-Log><TerminalIO/><Select-Ambiguous-Definitions><ColumnWidth0>664</ColumnWidth0><ColumnWidth1>94</ColumnWidth1><ColumnWidth2>1138</ColumnWidth2></Select-Ambiguous-Definitions><Find-in-Files><ColumnWidth0>569</ColumnWidth0><ColumnWidth1>94</ColumnWidth1><ColumnWidth2>854</ColumnWidth2><ColumnWidth3>379</ColumnWidth3></Find-in-Files></Static>
+    <Windows>
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-17518-7819</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>&lt;ws&gt;/Lab1</ExpandedNode><ExpandedNode>&lt;ws&gt;/Lab3</ExpandedNode><ExpandedNode>&lt;ws&gt;/lcd</ExpandedNode><ExpandedNode>LCD_new</ExpandedNode><ExpandedNode>LCD_new/lvgl</ExpandedNode><ExpandedNode>Lab1</ExpandedNode><ExpandedNode>Lab1/CMSIS</ExpandedNode><ExpandedNode>Lab1/SPL</ExpandedNode><ExpandedNode>Lab2</ExpandedNode><ExpandedNode>Lab3</ExpandedNode><ExpandedNode>Lab3/CMSIS</ExpandedNode><ExpandedNode>Lab3/SPL</ExpandedNode><ExpandedNode>lcd</ExpandedNode><ExpandedNode>lcd/lcd</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3><Tabs><Tab><Identity>TabID-10554-8563</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab><Tab><Identity>TabID-24085-13018</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab><Tab><Identity>TabID-29493-6583</Identity><TabName>Ambiguous Definitions</TabName><Factory>Select-Ambiguous-Definitions</Factory><Session/></Tab><Tab><Identity>TabID-17082-14213</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs><SelectedTab>1</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Third\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>784</SelStart2><SelEnd2>784</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\LCD_new\lv_conf.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>66</YPos2><SelStart2>3186</SelStart2><SelEnd2>3186</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\LCD_new\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>527</SelStart2><SelEnd2>527</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\LCD_new\lvgl\lv_misc\lv_color.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>36</YPos2><SelStart2>788</SelStart2><SelEnd2>788</SelEnd2></Tab><ActiveTab>3</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\LCD_new\lvgl\lv_draw\lv_draw.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>412</YPos2><SelStart2>13502</SelStart2><SelEnd2>13502</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\LCD_new\lvgl\lvgl.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>39</YPos2><SelStart2>1051</SelStart2><SelEnd2>1051</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\LCD_new\lvgl\lv_misc\lv_color.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>260</YPos2><SelStart2>7489</SelStart2><SelEnd2>7489</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-03464C58><key>iaridepm.enu1</key></Toolbar-03464C58></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>668</Bottom><Right>272</Right><x>-2</x><y>-2</y><xscreen>412</xscreen><yscreen>244</yscreen><sizeHorzCX>214583</sizeHorzCX><sizeHorzCY>244734</sizeHorzCY><sizeVertCX>142708</sizeVertCX><sizeVertCY>672016</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>284</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>286</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>286861</sizeHorzCY><sizeVertCX>214583</sizeVertCX><sizeVertCY>244734</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

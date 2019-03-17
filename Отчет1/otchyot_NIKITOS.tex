@@ -1,0 +1,154 @@
+\documentclass[14pt,a4paper,report]{report}
+\usepackage[a4paper, mag=1000, left=2.5cm, right=1cm, top=2cm, bottom=2cm, headsep=0.7cm, footskip=1cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{indentfirst}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[colorlinks]{hyperref}
+\usepackage{listings} 
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage{graphicx}
+\hypersetup{
+	colorlinks = true,
+	linkcolor  = black
+}
+
+\usepackage{titlesec}
+\titleformat{\chapter}
+{\Large\bfseries} % format
+{}                % label
+{0pt}             % sep
+{\huge}           % before-code
+
+
+\DeclareCaptionFont{white}{\color{white}} 
+
+% Listing description
+\usepackage{listings} 
+\DeclareCaptionFormat{listing}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
+\lstset{ 
+	% Listing settings
+	inputencoding = utf8,			
+	extendedchars = \true, 
+	keepspaces = true, 			  	 % Поддержка кириллицы и пробелов в комментариях
+	language = bash,            	 	 % Язык программирования (для подсветки)
+	basicstyle = \small\sffamily, 	 % Размер и начертание шрифта для подсветки кода
+	numbers = left,               	 % Где поставить нумерацию строк (слева\справа)
+	numberstyle = \tiny,          	 % Размер шрифта для номеров строк
+	stepnumber = 1,               	 % Размер шага между двумя номерами строк
+	numbersep = 5pt,              	 % Как далеко отстоят номера строк от подсвечиваемого кода
+	backgroundcolor = \color{white}, % Цвет фона подсветки - используем \usepackage{color}
+	showspaces = false,           	 % Показывать или нет пробелы специальными отступами
+	showstringspaces = false,    	 % Показывать или нет пробелы в строках
+	showtabs = false,           	 % Показывать или нет табуляцию в строках
+	frame = single,              	 % Рисовать рамку вокруг кода
+	tabsize = 2,                  	 % Размер табуляции по умолчанию равен 2 пробелам
+	captionpos = t,             	 % Позиция заголовка вверху [t] или внизу [b] 
+	breaklines = true,           	 % Автоматически переносить строки (да\нет)
+	breakatwhitespace = false,   	 % Переносить строки только если есть пробел
+	escapeinside = {\%*}{*)}      	 % Если нужно добавить комментарии в коде
+}
+
+\begin{document}
+
+\def\contentsname{Содержание}
+
+% Titlepage
+\begin{titlepage}
+	\begin{center}
+		\textsc{\largeСанкт-Петербургский Политехнический Университет Петра Великого\\[5mm]
+Институт компьютерных наук и технологий\\[5mm]
+Кафедра компьютерных систем и программных технологий\\[5mm]}
+		
+		\vfill
+		
+		\textbf{\LargeОтчет по лабораторному практикуму\\[3mm]
+			\largeДисциплина: Аппаратные платформы встраиваемых систем\\[15mm]
+		}
+	\end{center}
+	
+	\vfill
+\begin{flushright}
+	\begin{minipage}{.4\textwidth}
+		{\normalsizeВыполнили студенты гр.13541/1:\\[2mm] 
+		\underline{\hspace{2in}}\\ % линия подчёркивания на два дюйма
+  		\centering
+  		\small(подпись)
+		%Никитин А.Е.\\[5mm]
+		Егоров Д.Е. \\[5mm]
+		\underline{\hspace{2in}}\\ % линия подчёркивания на два дюйма
+  		\centering
+ 		 \small(подпись)
+		%Баринов М.С.\\[5mm]
+		Чупин Н.С. \\[5mm]
+		
+		\normalsizeРуководитель:\\[2mm] 
+		\underline{\hspace{2in}}\\ % линия подчёркивания на два дюйма
+  		\centering
+ 		 \small(подпись)
+		Васильев А.Е.\\
+		}
+	\end{minipage}
+\end{flushright}
+	\vfill
+	\begin{center}
+		Санкт-Петербург\\ \the\year\ г.
+	\end{center}
+\end{titlepage}
+
+% Contents
+\tableofcontents
+\clearpage
+
+\chapter {Лабораторная работа №1 «IAR, CMSIS, SPL, GPIO»}
+
+\section {Цель работы}
+
+Ознакомиться с интегрированной средой разработки IAR Embedded Workbench for ARM, а также функциями CMSIS и MDRSPL, получить навыки создания и отладки программного обеспечения для целевой платформы на примере разработки программ, взаимодействующих с портами ввода-вывода.
+
+\section{Программа работы}
+
+\begin{enumerate}
+	\item Создать проект-заготовку для последующих лабораторных работ. Листинг демонстрационной программы приведен ниже.
+	\item Подключить к проекту библиотеку CMSIS. Объяснить назначение и содержание файлов библиотеки. Объяснить назначение и содержание файла startup\_MDR32F9Qx.c
+	\item Подключить к проекту библиотеку MDR32F9Qx Standart Peripherals Library.
+	\item Настроить параметры отладчика для запуска демонстрационного примера на отладочной плате. Собрать проект, продемонстрировать его исполнение «по шагам».
+	\item Разработать программу, включающую светодиоды на плате при нажатии кнопок; алгоритм согласовать с руководителем.
+\end{enumerate}
+
+Код демонстрационного примера приведен в листинге 1.1.
+
+\lstinputlisting[caption=Код демонстрационного примера,language=c]{main1_1.c}
+
+\section{Алгоритм переключения светодиодов}
+
+По нажатию кнопки SELECT, двухразрядное двоичное число, отображаемое светодиодами должно инкреметироваться. 
+
+Конечный автомат состояний программы представлен на рисунке 1.1, где st0 – состояние ожидания прерывания, а при переходе в состояние st1 вызывается подпрограмма обработки этого прерывания.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale = 1]{img/1_1.png}
+	\caption{Select a standard for the key pair}
+\end{figure}
+
+\section{Ход работы}
+
+После настройки среды разработки IAR Embedded Workbench for ARM для работы с микросхемой Milandr, подключения необходимых библиотек и запуска демонстрационного проекта, код программы был запущен и протестирован на работоспособность. Затем были внесены изменения в соответствии с заданием преподавателя. Для этого был разработан конечный автомат, схема которого приведена выше. 
+Код программы, разработанной в соответствии с индивидуальным заданием руководителя приведен в листинге 1.2. 
+
+\lstinputlisting[caption=Код демонстрационного примера,language=c]{main1_2.c}
+
+
+\section{Выводы}
+По итогам лабораторной работы было произведено ознакомление с интегрированной средой разработки IAR Embedded Workbench for ARM, а также функциями CMSIS и MDRSPL. Также были получены навыки создания и отладки программного обеспечения для целевой платформы на примере разработки программ, взаимодействующих с портами ввода-вывода. \\
+\indent Была реализована система управления миганием светодиодов. Отличительной чертой данной реализации является конечный автомат который обрабатывает нажатие кнопки, и при помощи программно реализованного триггера переключает состояния системы, сравнивая текущее её состояние с сохраненным предыдущим. \\
+\indent Улучшение данной системы возможно путем использования обработчика прерываний. Это позволит оптимизировать работу системы, ввиду отсутствия лишней проверки на нажатие кнопки во время её работы.
+
+\clearpage
+
+\chapter {Лабораторная работа №2 «Системы тайминга и прерываний»}
+
+\end{document}

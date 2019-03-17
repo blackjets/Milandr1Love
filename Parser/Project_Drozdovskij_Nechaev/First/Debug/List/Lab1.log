@@ -1,0 +1,1882 @@
+Loading object D:\Student\Project_Drozdovskij_Nechaev\First\Debug\Obj\main.o.
+              reference :  PORT_Init
+              reference :  PORT_ReadInputDataBit
+              reference :  PORT_ResetBits
+              reference :  PORT_SetBits
+              reference :  RST_CLK_PCLKcmd
+              definition:  main
+Loading object D:\Student\Project_Drozdovskij_Nechaev\First\Debug\Obj\MDR32F9Qx_port.o.
+              definition:  PORT_DeInit
+              definition:  PORT_Init
+              definition:  PORT_ReadInputData
+              definition:  PORT_ReadInputDataBit
+              definition:  PORT_ResetBits
+              definition:  PORT_SetBits
+              definition:  PORT_StructInit
+              definition:  PORT_Write
+              definition:  PORT_WriteBit
+Loading object D:\Student\Project_Drozdovskij_Nechaev\First\Debug\Obj\MDR32F9Qx_rst_clk.o.
+              definition:  RST_CLK_ADCclkEnable
+              definition:  RST_CLK_ADCclkPrescaler
+              definition:  RST_CLK_ADCclkSelection
+              definition:  RST_CLK_CPU_PLLcmd
+              definition:  RST_CLK_CPU_PLLconfig
+              definition:  RST_CLK_CPU_PLLstatus
+              definition:  RST_CLK_CPU_PLLuse
+              definition:  RST_CLK_CPUclkPrescaler
+              definition:  RST_CLK_CPUclkSelection
+              definition:  RST_CLK_DeInit
+              definition:  RST_CLK_GetClocksFreq
+              definition:  RST_CLK_GetFlagStatus
+              definition:  RST_CLK_HSEclkPrescaler
+              definition:  RST_CLK_HSEconfig
+              definition:  RST_CLK_HSEstatus
+              definition:  RST_CLK_HSIadjust
+              definition:  RST_CLK_HSIclkPrescaler
+              definition:  RST_CLK_HSIcmd
+              definition:  RST_CLK_HSIstatus
+              definition:  RST_CLK_LSEconfig
+              definition:  RST_CLK_LSEstatus
+              definition:  RST_CLK_LSIadjust
+              definition:  RST_CLK_LSIcmd
+              definition:  RST_CLK_LSIstatus
+              definition:  RST_CLK_PCLKcmd
+              definition:  RST_CLK_RTC_HSEclkEnable
+              definition:  RST_CLK_RTC_HSIclkEnable
+              definition:  RST_CLK_USB_PLLcmd
+              definition:  RST_CLK_USB_PLLconfig
+              definition:  RST_CLK_USB_PLLstatus
+              definition:  RST_CLK_USB_PLLuse
+              definition:  RST_CLK_USBclkEnable
+              definition:  RST_CLK_USBclkPrescaler
+              definition:  RST_CLK_WarmDeInit
+Loading object D:\Student\Project_Drozdovskij_Nechaev\First\Debug\Obj\startup_MDR32F9Qx.o.
+              reference :  __iar_program_start
+              reference :  SystemInit
+              definition:  __vector_table
+              weak def  :  Reset_Handler
+              weak def  :  NMI_Handler
+              weak def  :  HardFault_Handler
+              weak def  :  MemManage_Handler
+              weak def  :  BusFault_Handler
+              weak def  :  UsageFault_Handler
+              weak def  :  SVC_Handler
+              weak def  :  DebugMon_Handler
+              weak def  :  PendSV_Handler
+              weak def  :  SysTick_Handler
+              weak def  :  CAN1_IRQHandler
+              weak def  :  CAN2_IRQHandler
+              weak def  :  USB_IRQHandler
+              weak def  :  DMA_IRQHandler
+              weak def  :  UART1_IRQHandler
+              weak def  :  UART2_IRQHandler
+              weak def  :  SSP1_IRQHandler
+              weak def  :  I2C_IRQHandler
+              weak def  :  POWER_IRQHandler
+              weak def  :  WWDG_IRQHandler
+              weak def  :  Timer1_IRQHandler
+              weak def  :  Timer2_IRQHandler
+              weak def  :  Timer3_IRQHandler
+              weak def  :  ADC_IRQHandler
+              weak def  :  COMPARATOR_IRQHandler
+              weak def  :  SSP2_IRQHandler
+              weak def  :  BACKUP_IRQHandler
+              weak def  :  EXT_INT1_IRQHandler
+              weak def  :  EXT_INT2_IRQHandler
+              weak def  :  EXT_INT3_IRQHandler
+              weak def  :  EXT_INT4_IRQHandler
+              reference :  CSTACK$$Limit
+Loading object D:\Student\Project_Drozdovskij_Nechaev\First\Debug\Obj\system_MDR32F9Qx.o.
+              definition:  SystemCoreClock
+              definition:  SystemCoreClockUpdate
+              definition:  SystemInit
+
+Auto library: shb_l.a -> C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\lib\shb_l.a
+Auto library: rt7M_tl.a -> C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\lib\rt7M_tl.a
+Auto library: m7M_tl.a -> C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\lib\m7M_tl.a
+Auto library: dl7M_tln.a -> C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\lib\dl7M_tln.a
+
+Library configuration:
+
+  extra init __iar_cstart_call_ctors
+  no_inline  __DebugBreak
+  no_inline  __iar_return_from_swi
+  no_inline  __iar_semihosting
+  no_inline  __iar_sh_stdout_swo
+Selecting member cstartup_M.o(rt7M_tl.a) to define __iar_program_start.
+              reference :  __cmain
+              reference :  __vector_table
+              weak ref  :  __iar_init_core
+              weak ref  :  __iar_init_vfp
+              definition:  __iar_program_start
+Selecting member cmain.o(rt7M_tl.a) to define __cmain.
+              weak ref  :  __iar_data_init3
+              weak ref  :  __iar_argc_argv
+              reference :  __low_level_init
+              reference :  main
+              reference :  exit
+              definition:  __cmain
+              definition:  ?main
+              definition:  _main
+              definition:  _call_main
+Selecting member low_level_init.o(dl7M_tln.a) to define __low_level_init.
+              definition:  __low_level_init
+Selecting member exit.o(dl7M_tln.a) to define exit.
+              reference :  _exit
+              definition:  exit
+Selecting member cexit.o(rt7M_tl.a) to define _exit.
+              weak ref  :  __call_dtors
+              weak ref  :  _Close_all
+              weak ref  :  __iar_clearlocks
+              reference :  __exit
+              definition:  _exit
+              definition:  __cexit_call_dtors
+              definition:  __cexit_closeall
+              definition:  __cexit_clearlocks
+Selecting member exit.o(shb_l.a) to define __exit.
+              weak ref  :  __iar_close_ttio
+              definition:  __exit
+Selecting member data_init.o(rt7M_tl.a) to define __iar_data_init3 (optional).
+              definition:  __iar_data_init3
+              reference :  Region$$Table$$Base
+              reference :  Region$$Table$$Limit
+Selecting member zero_init3.o(rt7M_tl.a) to define __iar_zero_init3 (optional).
+              definition:  __iar_zero_init3
+Selecting member copy_init3.o(rt7M_tl.a) to define __iar_copy_init3 (optional).
+              definition:  __iar_copy_init3
+Selecting member rle_init.o(rt7M_tl.a) to define __iar_rle_init3 (optional).
+              reference :  abort
+              definition:  __iar_rle_init3
+Selecting member packbits_init.o(rt7M_tl.a) to define __iar_packbits_init3 (optional).
+              reference :  abort
+              definition:  __iar_packbits_init3
+Selecting member lzw_init.o(rt7M_tl.a) to define __iar_lzw_init3 (optional).
+              reference :  abort
+              definition:  __iar_lzw_init3
+Selecting member bwt_init.o(rt7M_tl.a) to define __iar_bwt_init3 (optional).
+              reference :  __aeabi_memclr4
+              reference :  abort
+              definition:  __iar_bwt_init3
+Selecting member lz77_init.o(rt7M_tl.a) to define __iar_lz77_init3 (optional).
+              reference :  abort
+              definition:  __iar_lz77_init3
+Selecting member abort.o(dl7M_tln.a) to define abort (optional).
+              reference :  __exit
+              definition:  abort
+Selecting member ABImemclr4.o(rt7M_tl.a) to define __aeabi_memclr4 (optional).
+              reference :  __iar_Memset4_word
+              definition:  __aeabi_memclr4
+Selecting member ABImemset48.o(rt7M_tl.a) to define __iar_Memset4_word (optional).
+              definition:  __aeabi_memset4
+              definition:  __aeabi_memset8
+              definition:  __iar_Memset4_word
+              definition:  __iar_Memset8_word
+Resolving duplicate symbol definitions
+*** Marking from roots ***
+Marking symbol __iar_program_start                Glb  (10 cstartup_M.o) [program entry]
+  Marking fragment #436 .text (6 cstartup_M.o(rt7M_tl.a)) init:always
+Marking symbol __iar_section$$root                     (3 cstartup_M.o) [__root]
+Marking section .intvec (7 startup_MDR32F9Qx.o) [keep]
+  Marking fragment #311 .intvec (7 startup_MDR32F9Qx.o)
+Marking from fragment #311 .intvec (7 startup_MDR32F9Qx.o)
+  Marking symbol CSTACK$$Limit                  Ext Glb  (135 startup_MDR32F9Qx.o)
+  Marking symbol Reset_Handler                           (104 startup_MDR32F9Qx.o)
+    Marking fragment #312 .text (8 startup_MDR32F9Qx.o)
+  Marking symbol NMI_Handler                             (105 startup_MDR32F9Qx.o)
+    Marking fragment #313 .text (9 startup_MDR32F9Qx.o)
+  Marking symbol HardFault_Handler                       (106 startup_MDR32F9Qx.o)
+    Marking fragment #314 .text (10 startup_MDR32F9Qx.o)
+  Marking symbol MemManage_Handler                       (107 startup_MDR32F9Qx.o)
+    Marking fragment #315 .text (11 startup_MDR32F9Qx.o)
+  Marking symbol BusFault_Handler                        (108 startup_MDR32F9Qx.o)
+    Marking fragment #316 .text (12 startup_MDR32F9Qx.o)
+  Marking symbol UsageFault_Handler                      (109 startup_MDR32F9Qx.o)
+    Marking fragment #317 .text (13 startup_MDR32F9Qx.o)
+  Marking symbol SVC_Handler                             (110 startup_MDR32F9Qx.o)
+    Marking fragment #318 .text (14 startup_MDR32F9Qx.o)
+  Marking symbol DebugMon_Handler                        (111 startup_MDR32F9Qx.o)
+    Marking fragment #319 .text (15 startup_MDR32F9Qx.o)
+  Marking symbol PendSV_Handler                          (112 startup_MDR32F9Qx.o)
+    Marking fragment #320 .text (16 startup_MDR32F9Qx.o)
+  Marking symbol SysTick_Handler                         (113 startup_MDR32F9Qx.o)
+    Marking fragment #321 .text (17 startup_MDR32F9Qx.o)
+  Marking symbol CAN1_IRQHandler                         (114 startup_MDR32F9Qx.o)
+    Marking fragment #322 .text (18 startup_MDR32F9Qx.o)
+  Marking symbol CAN2_IRQHandler                         (115 startup_MDR32F9Qx.o)
+    Marking fragment #323 .text (19 startup_MDR32F9Qx.o)
+  Marking symbol USB_IRQHandler                          (116 startup_MDR32F9Qx.o)
+    Marking fragment #324 .text (20 startup_MDR32F9Qx.o)
+  Marking symbol DMA_IRQHandler                          (117 startup_MDR32F9Qx.o)
+    Marking fragment #325 .text (21 startup_MDR32F9Qx.o)
+  Marking symbol UART1_IRQHandler                        (118 startup_MDR32F9Qx.o)
+    Marking fragment #326 .text (22 startup_MDR32F9Qx.o)
+  Marking symbol UART2_IRQHandler                        (119 startup_MDR32F9Qx.o)
+    Marking fragment #327 .text (23 startup_MDR32F9Qx.o)
+  Marking symbol SSP1_IRQHandler                         (120 startup_MDR32F9Qx.o)
+    Marking fragment #328 .text (24 startup_MDR32F9Qx.o)
+  Marking symbol I2C_IRQHandler                          (121 startup_MDR32F9Qx.o)
+    Marking fragment #329 .text (25 startup_MDR32F9Qx.o)
+  Marking symbol POWER_IRQHandler                        (122 startup_MDR32F9Qx.o)
+    Marking fragment #330 .text (26 startup_MDR32F9Qx.o)
+  Marking symbol WWDG_IRQHandler                         (123 startup_MDR32F9Qx.o)
+    Marking fragment #331 .text (27 startup_MDR32F9Qx.o)
+  Marking symbol Timer1_IRQHandler                       (124 startup_MDR32F9Qx.o)
+    Marking fragment #332 .text (28 startup_MDR32F9Qx.o)
+  Marking symbol Timer2_IRQHandler                       (125 startup_MDR32F9Qx.o)
+    Marking fragment #333 .text (29 startup_MDR32F9Qx.o)
+  Marking symbol Timer3_IRQHandler                       (126 startup_MDR32F9Qx.o)
+    Marking fragment #334 .text (30 startup_MDR32F9Qx.o)
+  Marking symbol ADC_IRQHandler                          (127 startup_MDR32F9Qx.o)
+    Marking fragment #335 .text (31 startup_MDR32F9Qx.o)
+  Marking symbol COMPARATOR_IRQHandler                   (128 startup_MDR32F9Qx.o)
+    Marking fragment #336 .text (32 startup_MDR32F9Qx.o)
+  Marking symbol SSP2_IRQHandler                         (129 startup_MDR32F9Qx.o)
+    Marking fragment #337 .text (33 startup_MDR32F9Qx.o)
+  Marking symbol BACKUP_IRQHandler                       (130 startup_MDR32F9Qx.o)
+    Marking fragment #338 .text (34 startup_MDR32F9Qx.o)
+  Marking symbol EXT_INT1_IRQHandler                     (131 startup_MDR32F9Qx.o)
+    Marking fragment #339 .text (35 startup_MDR32F9Qx.o)
+  Marking symbol EXT_INT2_IRQHandler                     (132 startup_MDR32F9Qx.o)
+    Marking fragment #340 .text (36 startup_MDR32F9Qx.o)
+  Marking symbol EXT_INT3_IRQHandler                     (133 startup_MDR32F9Qx.o)
+    Marking fragment #341 .text (37 startup_MDR32F9Qx.o)
+  Marking symbol EXT_INT4_IRQHandler                     (134 startup_MDR32F9Qx.o)
+    Marking fragment #342 .text (38 startup_MDR32F9Qx.o)
+Marking from fragment #342 .text (38 startup_MDR32F9Qx.o)
+  Marking symbol EXT_INT4_IRQHandler                     (134 startup_MDR32F9Qx.o)
+Marking from fragment #341 .text (37 startup_MDR32F9Qx.o)
+  Marking symbol EXT_INT3_IRQHandler                     (133 startup_MDR32F9Qx.o)
+Marking from fragment #340 .text (36 startup_MDR32F9Qx.o)
+  Marking symbol EXT_INT2_IRQHandler                     (132 startup_MDR32F9Qx.o)
+Marking from fragment #339 .text (35 startup_MDR32F9Qx.o)
+  Marking symbol EXT_INT1_IRQHandler                     (131 startup_MDR32F9Qx.o)
+Marking from fragment #338 .text (34 startup_MDR32F9Qx.o)
+  Marking symbol BACKUP_IRQHandler                       (130 startup_MDR32F9Qx.o)
+Marking from fragment #337 .text (33 startup_MDR32F9Qx.o)
+  Marking symbol SSP2_IRQHandler                         (129 startup_MDR32F9Qx.o)
+Marking from fragment #336 .text (32 startup_MDR32F9Qx.o)
+  Marking symbol COMPARATOR_IRQHandler                   (128 startup_MDR32F9Qx.o)
+Marking from fragment #335 .text (31 startup_MDR32F9Qx.o)
+  Marking symbol ADC_IRQHandler                          (127 startup_MDR32F9Qx.o)
+Marking from fragment #334 .text (30 startup_MDR32F9Qx.o)
+  Marking symbol Timer3_IRQHandler                       (126 startup_MDR32F9Qx.o)
+Marking from fragment #333 .text (29 startup_MDR32F9Qx.o)
+  Marking symbol Timer2_IRQHandler                       (125 startup_MDR32F9Qx.o)
+Marking from fragment #332 .text (28 startup_MDR32F9Qx.o)
+  Marking symbol Timer1_IRQHandler                       (124 startup_MDR32F9Qx.o)
+Marking from fragment #331 .text (27 startup_MDR32F9Qx.o)
+  Marking symbol WWDG_IRQHandler                         (123 startup_MDR32F9Qx.o)
+Marking from fragment #330 .text (26 startup_MDR32F9Qx.o)
+  Marking symbol POWER_IRQHandler                        (122 startup_MDR32F9Qx.o)
+Marking from fragment #329 .text (25 startup_MDR32F9Qx.o)
+  Marking symbol I2C_IRQHandler                          (121 startup_MDR32F9Qx.o)
+Marking from fragment #328 .text (24 startup_MDR32F9Qx.o)
+  Marking symbol SSP1_IRQHandler                         (120 startup_MDR32F9Qx.o)
+Marking from fragment #327 .text (23 startup_MDR32F9Qx.o)
+  Marking symbol UART2_IRQHandler                        (119 startup_MDR32F9Qx.o)
+Marking from fragment #326 .text (22 startup_MDR32F9Qx.o)
+  Marking symbol UART1_IRQHandler                        (118 startup_MDR32F9Qx.o)
+Marking from fragment #325 .text (21 startup_MDR32F9Qx.o)
+  Marking symbol DMA_IRQHandler                          (117 startup_MDR32F9Qx.o)
+Marking from fragment #324 .text (20 startup_MDR32F9Qx.o)
+  Marking symbol USB_IRQHandler                          (116 startup_MDR32F9Qx.o)
+Marking from fragment #323 .text (19 startup_MDR32F9Qx.o)
+  Marking symbol CAN2_IRQHandler                         (115 startup_MDR32F9Qx.o)
+Marking from fragment #322 .text (18 startup_MDR32F9Qx.o)
+  Marking symbol CAN1_IRQHandler                         (114 startup_MDR32F9Qx.o)
+Marking from fragment #321 .text (17 startup_MDR32F9Qx.o)
+  Marking symbol SysTick_Handler                         (113 startup_MDR32F9Qx.o)
+Marking from fragment #320 .text (16 startup_MDR32F9Qx.o)
+  Marking symbol PendSV_Handler                          (112 startup_MDR32F9Qx.o)
+Marking from fragment #319 .text (15 startup_MDR32F9Qx.o)
+  Marking symbol DebugMon_Handler                        (111 startup_MDR32F9Qx.o)
+Marking from fragment #318 .text (14 startup_MDR32F9Qx.o)
+  Marking symbol SVC_Handler                             (110 startup_MDR32F9Qx.o)
+Marking from fragment #317 .text (13 startup_MDR32F9Qx.o)
+  Marking symbol UsageFault_Handler                      (109 startup_MDR32F9Qx.o)
+Marking from fragment #316 .text (12 startup_MDR32F9Qx.o)
+  Marking symbol BusFault_Handler                        (108 startup_MDR32F9Qx.o)
+Marking from fragment #315 .text (11 startup_MDR32F9Qx.o)
+  Marking symbol MemManage_Handler                       (107 startup_MDR32F9Qx.o)
+Marking from fragment #314 .text (10 startup_MDR32F9Qx.o)
+  Marking symbol HardFault_Handler                       (106 startup_MDR32F9Qx.o)
+Marking from fragment #313 .text (9 startup_MDR32F9Qx.o)
+  Marking symbol NMI_Handler                             (105 startup_MDR32F9Qx.o)
+Marking from fragment #312 .text (8 startup_MDR32F9Qx.o)
+  Marking symbol SystemInit                         Glb  (53 system_MDR32F9Qx.o)
+    Marking fragment #664 .text (9 system_MDR32F9Qx.o)
+  Marking symbol __iar_program_start                Glb  (10 cstartup_M.o)
+Marking from fragment #664 .text (9 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_4                          (11 system_MDR32F9Qx.o)
+    Marking fragment #669 .text (9 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_5                          (12 system_MDR32F9Qx.o)
+    Marking fragment #670 .text (9 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1                            (3 system_MDR32F9Qx.o)
+    Marking fragment #665 .text (9 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1                            (3 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_2                          (9 system_MDR32F9Qx.o)
+    Marking fragment #667 .text (9 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_2                          (9 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_6                          (13 system_MDR32F9Qx.o)
+    Marking fragment #671 .text (9 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_6                          (13 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_7                          (14 system_MDR32F9Qx.o)
+    Marking fragment #672 .text (9 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_7                          (14 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_8                          (15 system_MDR32F9Qx.o)
+    Marking fragment #673 .text (9 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_8                          (15 system_MDR32F9Qx.o)
+  Marking symbol SystemCoreClockUpdate              Glb  (52 system_MDR32F9Qx.o)
+    Marking fragment #663 .text (9 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_9                          (16 system_MDR32F9Qx.o)
+    Marking fragment #674 .text (9 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_10                         (5 system_MDR32F9Qx.o)
+    Marking fragment #675 .text (9 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_11                         (6 system_MDR32F9Qx.o)
+    Marking fragment #676 .text (9 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_12                         (7 system_MDR32F9Qx.o)
+    Marking fragment #677 .text (9 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_13                         (8 system_MDR32F9Qx.o)
+    Marking fragment #678 .text (9 system_MDR32F9Qx.o)
+Marking from fragment #678 .text (9 system_MDR32F9Qx.o)
+Marking from fragment #677 .text (9 system_MDR32F9Qx.o)
+Marking from fragment #676 .text (9 system_MDR32F9Qx.o)
+Marking from fragment #675 .text (9 system_MDR32F9Qx.o)
+Marking from fragment #674 .text (9 system_MDR32F9Qx.o)
+Marking from fragment #663 .text (9 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1                            (3 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_1                          (4 system_MDR32F9Qx.o)
+    Marking fragment #666 .text (9 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_1                          (4 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1                            (3 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1                            (3 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_2                          (9 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1                            (3 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_1                          (4 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_3                          (10 system_MDR32F9Qx.o)
+    Marking fragment #668 .text (9 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1                            (3 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_3                          (10 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_3                          (10 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_3                          (10 system_MDR32F9Qx.o)
+Marking from fragment #668 .text (9 system_MDR32F9Qx.o)
+  Marking symbol SystemCoreClock                    Glb  (51 system_MDR32F9Qx.o)
+    Marking fragment #412 .data (8 system_MDR32F9Qx.o)
+Marking from fragment #412 .data (8 system_MDR32F9Qx.o)
+Marking from fragment #666 .text (9 system_MDR32F9Qx.o)
+Marking from fragment #673 .text (9 system_MDR32F9Qx.o)
+Marking from fragment #672 .text (9 system_MDR32F9Qx.o)
+Marking from fragment #671 .text (9 system_MDR32F9Qx.o)
+Marking from fragment #667 .text (9 system_MDR32F9Qx.o)
+Marking from fragment #665 .text (9 system_MDR32F9Qx.o)
+Marking from fragment #670 .text (9 system_MDR32F9Qx.o)
+Marking from fragment #669 .text (9 system_MDR32F9Qx.o)
+Marking from fragment #436 .text (6 cstartup_M.o(rt7M_tl.a)) init:always
+  Marking symbol __iar_init_core                Ext      (8 cstartup_M.o)
+  Marking symbol __vector_table                     Glb  (103 startup_MDR32F9Qx.o)
+    Marking fragment #311 .intvec (7 startup_MDR32F9Qx.o) init:always
+  Marking symbol __iar_init_vfp                 Ext      (9 cstartup_M.o)
+  Marking symbol __cmain                            Glb  (14 cmain.o)
+    Marking fragment #679 .text (8 cmain.o(rt7M_tl.a)) init:always
+Marking from fragment #679 .text (8 cmain.o(rt7M_tl.a)) init:always
+  Marking symbol __low_level_init                   Glb  (8 low_level_init.o)
+    Marking fragment #448 .text (6 low_level_init.o(dl7M_tln.a)) init:always
+  Marking symbol _call_main                         Glb  (17 cmain.o)
+    Marking fragment #680 .text (8 cmain.o(rt7M_tl.a))
+  Marking symbol __iar_data_init3                   Glb  (12 data_init.o)
+Marking from fragment #680 .text (8 cmain.o(rt7M_tl.a))
+  Marking symbol __iar_argc_argv                Ext      (10 cmain.o)
+  Marking symbol main                               Glb  (59 main.o)
+    Marking fragment #585 .text (8 main.o)
+  Marking symbol exit                               Glb  (11 exit.o)
+    Marking fragment #454 .text (6 exit.o(dl7M_tln.a))
+Marking from fragment #454 .text (6 exit.o(dl7M_tln.a))
+  Marking symbol _exit                              Glb  (14 cexit.o)
+    Marking fragment #681 .text (6 cexit.o(rt7M_tl.a))
+Marking from fragment #681 .text (6 cexit.o(rt7M_tl.a))
+  Marking symbol                                         (9 cexit.o)
+    Marking fragment #685 .text (6 cexit.o(rt7M_tl.a))
+Marking from fragment #685 .text (6 cexit.o(rt7M_tl.a))
+  Marking symbol __exit                             Glb  (12 exit.o)
+    Marking fragment #467 .text (6 exit.o(shb_l.a))
+Marking from fragment #467 .text (6 exit.o(shb_l.a))
+  Marking symbol __iar_close_ttio               Ext      (11 exit.o)
+Marking from fragment #585 .text (8 main.o)
+  Marking symbol ??DataTable1                            (3 main.o)
+    Marking fragment #588 .text (8 main.o)
+  Marking symbol PeriphInit                              (25 main.o)
+    Marking fragment #587 .text (8 main.o)
+  Marking symbol ??DataTable1_1                          (4 main.o)
+    Marking fragment #589 .text (8 main.o)
+  Marking symbol PORT_ReadInputDataBit              Glb  (100 MDR32F9Qx_port.o)
+    Marking fragment #598 .text (8 MDR32F9Qx_port.o)
+  Marking symbol ??DataTable1_2                          (5 main.o)
+    Marking fragment #590 .text (8 main.o)
+  Marking symbol PORT_ReadInputDataBit              Glb  (100 MDR32F9Qx_port.o)
+  Marking symbol ??DataTable1_3                          (6 main.o)
+    Marking fragment #591 .text (8 main.o)
+  Marking symbol PORT_ReadInputDataBit              Glb  (100 MDR32F9Qx_port.o)
+  Marking symbol ??DataTable1_4                          (7 main.o)
+    Marking fragment #592 .text (8 main.o)
+  Marking symbol ??DataTable1_5                          (8 main.o)
+    Marking fragment #593 .text (8 main.o)
+  Marking symbol ??DataTable1_6                          (9 main.o)
+    Marking fragment #594 .text (8 main.o)
+  Marking symbol ??Delay_0                               (10 main.o)
+    Marking fragment #586 .text (8 main.o)
+  Marking symbol ??DataTable1_1                          (4 main.o)
+  Marking symbol PORT_SetBits                       Glb  (102 MDR32F9Qx_port.o)
+    Marking fragment #600 .text (8 MDR32F9Qx_port.o)
+  Marking symbol ??DataTable1_1                          (4 main.o)
+  Marking symbol PORT_ResetBits                     Glb  (101 MDR32F9Qx_port.o)
+    Marking fragment #601 .text (8 MDR32F9Qx_port.o)
+  Marking symbol ??Delay_0                               (10 main.o)
+  Marking symbol ??DataTable1_1                          (4 main.o)
+  Marking symbol PORT_SetBits                       Glb  (102 MDR32F9Qx_port.o)
+  Marking symbol ??DataTable1_1                          (4 main.o)
+  Marking symbol PORT_ResetBits                     Glb  (101 MDR32F9Qx_port.o)
+Marking from fragment #601 .text (8 MDR32F9Qx_port.o)
+  Marking symbol ??DataTable4                            (3 MDR32F9Qx_port.o)
+    Marking fragment #604 .text (8 MDR32F9Qx_port.o)
+Marking from fragment #604 .text (8 MDR32F9Qx_port.o)
+Marking from fragment #600 .text (8 MDR32F9Qx_port.o)
+  Marking symbol ??DataTable4                            (3 MDR32F9Qx_port.o)
+Marking from fragment #586 .text (8 main.o)
+Marking from fragment #594 .text (8 main.o)
+Marking from fragment #593 .text (8 main.o)
+Marking from fragment #592 .text (8 main.o)
+Marking from fragment #591 .text (8 main.o)
+Marking from fragment #590 .text (8 main.o)
+Marking from fragment #598 .text (8 MDR32F9Qx_port.o)
+Marking from fragment #589 .text (8 main.o)
+Marking from fragment #587 .text (8 main.o)
+  Marking symbol RST_CLK_PCLKcmd                    Glb  (337 MDR32F9Qx_rst_clk.o)
+    Marking fragment #636 .text (8 MDR32F9Qx_rst_clk.o)
+  Marking symbol ??DataTable1_1                          (4 main.o)
+  Marking symbol PORT_Init                          Glb  (98 MDR32F9Qx_port.o)
+    Marking fragment #596 .text (8 MDR32F9Qx_port.o)
+  Marking symbol ??DataTable1_1                          (4 main.o)
+  Marking symbol PORT_Init                          Glb  (98 MDR32F9Qx_port.o)
+  Marking symbol ??DataTable1_3                          (6 main.o)
+  Marking symbol PORT_Init                          Glb  (98 MDR32F9Qx_port.o)
+  Marking symbol ??DataTable1_2                          (5 main.o)
+  Marking symbol PORT_Init                          Glb  (98 MDR32F9Qx_port.o)
+Marking from fragment #596 .text (8 MDR32F9Qx_port.o)
+  Marking symbol ??DataTable4                            (3 MDR32F9Qx_port.o)
+  Marking symbol ??DataTable4                            (3 MDR32F9Qx_port.o)
+  Marking symbol ??DataTable4                            (3 MDR32F9Qx_port.o)
+  Marking symbol ??DataTable4                            (3 MDR32F9Qx_port.o)
+  Marking symbol ??DataTable4                            (3 MDR32F9Qx_port.o)
+  Marking symbol ??DataTable4                            (3 MDR32F9Qx_port.o)
+  Marking symbol ??DataTable4                            (3 MDR32F9Qx_port.o)
+Marking from fragment #636 .text (8 MDR32F9Qx_rst_clk.o)
+  Marking symbol ??DataTable27_8                         (25 MDR32F9Qx_rst_clk.o)
+    Marking fragment #647 .text (8 MDR32F9Qx_rst_clk.o)
+  Marking symbol ??DataTable27_8                         (25 MDR32F9Qx_rst_clk.o)
+  Marking symbol ??DataTable27_8                         (25 MDR32F9Qx_rst_clk.o)
+  Marking symbol ??DataTable27_8                         (25 MDR32F9Qx_rst_clk.o)
+Marking from fragment #647 .text (8 MDR32F9Qx_rst_clk.o)
+Marking from fragment #588 .text (8 main.o)
+Marking from fragment #448 .text (6 low_level_init.o(dl7M_tln.a)) init:always
+Marking from fragment #311 .intvec (7 startup_MDR32F9Qx.o) init:always
+  Marking symbol CSTACK$$Limit                  Ext Glb  (135 startup_MDR32F9Qx.o)
+  Marking symbol Reset_Handler                           (104 startup_MDR32F9Qx.o)
+    Marking fragment #312 .text (8 startup_MDR32F9Qx.o) init:always
+  Marking symbol NMI_Handler                             (105 startup_MDR32F9Qx.o)
+    Marking fragment #313 .text (9 startup_MDR32F9Qx.o) init:always
+  Marking symbol HardFault_Handler                       (106 startup_MDR32F9Qx.o)
+    Marking fragment #314 .text (10 startup_MDR32F9Qx.o) init:always
+  Marking symbol MemManage_Handler                       (107 startup_MDR32F9Qx.o)
+    Marking fragment #315 .text (11 startup_MDR32F9Qx.o) init:always
+  Marking symbol BusFault_Handler                        (108 startup_MDR32F9Qx.o)
+    Marking fragment #316 .text (12 startup_MDR32F9Qx.o) init:always
+  Marking symbol UsageFault_Handler                      (109 startup_MDR32F9Qx.o)
+    Marking fragment #317 .text (13 startup_MDR32F9Qx.o) init:always
+  Marking symbol SVC_Handler                             (110 startup_MDR32F9Qx.o)
+    Marking fragment #318 .text (14 startup_MDR32F9Qx.o) init:always
+  Marking symbol DebugMon_Handler                        (111 startup_MDR32F9Qx.o)
+    Marking fragment #319 .text (15 startup_MDR32F9Qx.o) init:always
+  Marking symbol PendSV_Handler                          (112 startup_MDR32F9Qx.o)
+    Marking fragment #320 .text (16 startup_MDR32F9Qx.o) init:always
+  Marking symbol SysTick_Handler                         (113 startup_MDR32F9Qx.o)
+    Marking fragment #321 .text (17 startup_MDR32F9Qx.o) init:always
+  Marking symbol CAN1_IRQHandler                         (114 startup_MDR32F9Qx.o)
+    Marking fragment #322 .text (18 startup_MDR32F9Qx.o) init:always
+  Marking symbol CAN2_IRQHandler                         (115 startup_MDR32F9Qx.o)
+    Marking fragment #323 .text (19 startup_MDR32F9Qx.o) init:always
+  Marking symbol USB_IRQHandler                          (116 startup_MDR32F9Qx.o)
+    Marking fragment #324 .text (20 startup_MDR32F9Qx.o) init:always
+  Marking symbol DMA_IRQHandler                          (117 startup_MDR32F9Qx.o)
+    Marking fragment #325 .text (21 startup_MDR32F9Qx.o) init:always
+  Marking symbol UART1_IRQHandler                        (118 startup_MDR32F9Qx.o)
+    Marking fragment #326 .text (22 startup_MDR32F9Qx.o) init:always
+  Marking symbol UART2_IRQHandler                        (119 startup_MDR32F9Qx.o)
+    Marking fragment #327 .text (23 startup_MDR32F9Qx.o) init:always
+  Marking symbol SSP1_IRQHandler                         (120 startup_MDR32F9Qx.o)
+    Marking fragment #328 .text (24 startup_MDR32F9Qx.o) init:always
+  Marking symbol I2C_IRQHandler                          (121 startup_MDR32F9Qx.o)
+    Marking fragment #329 .text (25 startup_MDR32F9Qx.o) init:always
+  Marking symbol POWER_IRQHandler                        (122 startup_MDR32F9Qx.o)
+    Marking fragment #330 .text (26 startup_MDR32F9Qx.o) init:always
+  Marking symbol WWDG_IRQHandler                         (123 startup_MDR32F9Qx.o)
+    Marking fragment #331 .text (27 startup_MDR32F9Qx.o) init:always
+  Marking symbol Timer1_IRQHandler                       (124 startup_MDR32F9Qx.o)
+    Marking fragment #332 .text (28 startup_MDR32F9Qx.o) init:always
+  Marking symbol Timer2_IRQHandler                       (125 startup_MDR32F9Qx.o)
+    Marking fragment #333 .text (29 startup_MDR32F9Qx.o) init:always
+  Marking symbol Timer3_IRQHandler                       (126 startup_MDR32F9Qx.o)
+    Marking fragment #334 .text (30 startup_MDR32F9Qx.o) init:always
+  Marking symbol ADC_IRQHandler                          (127 startup_MDR32F9Qx.o)
+    Marking fragment #335 .text (31 startup_MDR32F9Qx.o) init:always
+  Marking symbol COMPARATOR_IRQHandler                   (128 startup_MDR32F9Qx.o)
+    Marking fragment #336 .text (32 startup_MDR32F9Qx.o) init:always
+  Marking symbol SSP2_IRQHandler                         (129 startup_MDR32F9Qx.o)
+    Marking fragment #337 .text (33 startup_MDR32F9Qx.o) init:always
+  Marking symbol BACKUP_IRQHandler                       (130 startup_MDR32F9Qx.o)
+    Marking fragment #338 .text (34 startup_MDR32F9Qx.o) init:always
+  Marking symbol EXT_INT1_IRQHandler                     (131 startup_MDR32F9Qx.o)
+    Marking fragment #339 .text (35 startup_MDR32F9Qx.o) init:always
+  Marking symbol EXT_INT2_IRQHandler                     (132 startup_MDR32F9Qx.o)
+    Marking fragment #340 .text (36 startup_MDR32F9Qx.o) init:always
+  Marking symbol EXT_INT3_IRQHandler                     (133 startup_MDR32F9Qx.o)
+    Marking fragment #341 .text (37 startup_MDR32F9Qx.o) init:always
+  Marking symbol EXT_INT4_IRQHandler                     (134 startup_MDR32F9Qx.o)
+    Marking fragment #342 .text (38 startup_MDR32F9Qx.o) init:always
+Marking from fragment #342 .text (38 startup_MDR32F9Qx.o) init:always
+  Marking symbol EXT_INT4_IRQHandler                     (134 startup_MDR32F9Qx.o)
+Marking from fragment #341 .text (37 startup_MDR32F9Qx.o) init:always
+  Marking symbol EXT_INT3_IRQHandler                     (133 startup_MDR32F9Qx.o)
+Marking from fragment #340 .text (36 startup_MDR32F9Qx.o) init:always
+  Marking symbol EXT_INT2_IRQHandler                     (132 startup_MDR32F9Qx.o)
+Marking from fragment #339 .text (35 startup_MDR32F9Qx.o) init:always
+  Marking symbol EXT_INT1_IRQHandler                     (131 startup_MDR32F9Qx.o)
+Marking from fragment #338 .text (34 startup_MDR32F9Qx.o) init:always
+  Marking symbol BACKUP_IRQHandler                       (130 startup_MDR32F9Qx.o)
+Marking from fragment #337 .text (33 startup_MDR32F9Qx.o) init:always
+  Marking symbol SSP2_IRQHandler                         (129 startup_MDR32F9Qx.o)
+Marking from fragment #336 .text (32 startup_MDR32F9Qx.o) init:always
+  Marking symbol COMPARATOR_IRQHandler                   (128 startup_MDR32F9Qx.o)
+Marking from fragment #335 .text (31 startup_MDR32F9Qx.o) init:always
+  Marking symbol ADC_IRQHandler                          (127 startup_MDR32F9Qx.o)
+Marking from fragment #334 .text (30 startup_MDR32F9Qx.o) init:always
+  Marking symbol Timer3_IRQHandler                       (126 startup_MDR32F9Qx.o)
+Marking from fragment #333 .text (29 startup_MDR32F9Qx.o) init:always
+  Marking symbol Timer2_IRQHandler                       (125 startup_MDR32F9Qx.o)
+Marking from fragment #332 .text (28 startup_MDR32F9Qx.o) init:always
+  Marking symbol Timer1_IRQHandler                       (124 startup_MDR32F9Qx.o)
+Marking from fragment #331 .text (27 startup_MDR32F9Qx.o) init:always
+  Marking symbol WWDG_IRQHandler                         (123 startup_MDR32F9Qx.o)
+Marking from fragment #330 .text (26 startup_MDR32F9Qx.o) init:always
+  Marking symbol POWER_IRQHandler                        (122 startup_MDR32F9Qx.o)
+Marking from fragment #329 .text (25 startup_MDR32F9Qx.o) init:always
+  Marking symbol I2C_IRQHandler                          (121 startup_MDR32F9Qx.o)
+Marking from fragment #328 .text (24 startup_MDR32F9Qx.o) init:always
+  Marking symbol SSP1_IRQHandler                         (120 startup_MDR32F9Qx.o)
+Marking from fragment #327 .text (23 startup_MDR32F9Qx.o) init:always
+  Marking symbol UART2_IRQHandler                        (119 startup_MDR32F9Qx.o)
+Marking from fragment #326 .text (22 startup_MDR32F9Qx.o) init:always
+  Marking symbol UART1_IRQHandler                        (118 startup_MDR32F9Qx.o)
+Marking from fragment #325 .text (21 startup_MDR32F9Qx.o) init:always
+  Marking symbol DMA_IRQHandler                          (117 startup_MDR32F9Qx.o)
+Marking from fragment #324 .text (20 startup_MDR32F9Qx.o) init:always
+  Marking symbol USB_IRQHandler                          (116 startup_MDR32F9Qx.o)
+Marking from fragment #323 .text (19 startup_MDR32F9Qx.o) init:always
+  Marking symbol CAN2_IRQHandler                         (115 startup_MDR32F9Qx.o)
+Marking from fragment #322 .text (18 startup_MDR32F9Qx.o) init:always
+  Marking symbol CAN1_IRQHandler                         (114 startup_MDR32F9Qx.o)
+Marking from fragment #321 .text (17 startup_MDR32F9Qx.o) init:always
+  Marking symbol SysTick_Handler                         (113 startup_MDR32F9Qx.o)
+Marking from fragment #320 .text (16 startup_MDR32F9Qx.o) init:always
+  Marking symbol PendSV_Handler                          (112 startup_MDR32F9Qx.o)
+Marking from fragment #319 .text (15 startup_MDR32F9Qx.o) init:always
+  Marking symbol DebugMon_Handler                        (111 startup_MDR32F9Qx.o)
+Marking from fragment #318 .text (14 startup_MDR32F9Qx.o) init:always
+  Marking symbol SVC_Handler                             (110 startup_MDR32F9Qx.o)
+Marking from fragment #317 .text (13 startup_MDR32F9Qx.o) init:always
+  Marking symbol UsageFault_Handler                      (109 startup_MDR32F9Qx.o)
+Marking from fragment #316 .text (12 startup_MDR32F9Qx.o) init:always
+  Marking symbol BusFault_Handler                        (108 startup_MDR32F9Qx.o)
+Marking from fragment #315 .text (11 startup_MDR32F9Qx.o) init:always
+  Marking symbol MemManage_Handler                       (107 startup_MDR32F9Qx.o)
+Marking from fragment #314 .text (10 startup_MDR32F9Qx.o) init:always
+  Marking symbol HardFault_Handler                       (106 startup_MDR32F9Qx.o)
+Marking from fragment #313 .text (9 startup_MDR32F9Qx.o) init:always
+  Marking symbol NMI_Handler                             (105 startup_MDR32F9Qx.o)
+Marking from fragment #312 .text (8 startup_MDR32F9Qx.o) init:always
+  Marking symbol SystemInit                         Glb  (53 system_MDR32F9Qx.o)
+    Marking fragment #664 .text (9 system_MDR32F9Qx.o) init:always
+  Marking symbol __iar_program_start                Glb  (10 cstartup_M.o)
+Marking from fragment #664 .text (9 system_MDR32F9Qx.o) init:always
+  Marking symbol ??DataTable1_4                          (11 system_MDR32F9Qx.o)
+    Marking fragment #669 .text (9 system_MDR32F9Qx.o) init:always
+  Marking symbol ??DataTable1_5                          (12 system_MDR32F9Qx.o)
+    Marking fragment #670 .text (9 system_MDR32F9Qx.o) init:always
+  Marking symbol ??DataTable1                            (3 system_MDR32F9Qx.o)
+    Marking fragment #665 .text (9 system_MDR32F9Qx.o) init:always
+  Marking symbol ??DataTable1                            (3 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_2                          (9 system_MDR32F9Qx.o)
+    Marking fragment #667 .text (9 system_MDR32F9Qx.o) init:always
+  Marking symbol ??DataTable1_2                          (9 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_6                          (13 system_MDR32F9Qx.o)
+    Marking fragment #671 .text (9 system_MDR32F9Qx.o) init:always
+  Marking symbol ??DataTable1_6                          (13 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_7                          (14 system_MDR32F9Qx.o)
+    Marking fragment #672 .text (9 system_MDR32F9Qx.o) init:always
+  Marking symbol ??DataTable1_7                          (14 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_8                          (15 system_MDR32F9Qx.o)
+    Marking fragment #673 .text (9 system_MDR32F9Qx.o) init:always
+  Marking symbol ??DataTable1_8                          (15 system_MDR32F9Qx.o)
+  Marking symbol SystemCoreClockUpdate              Glb  (52 system_MDR32F9Qx.o)
+    Marking fragment #663 .text (9 system_MDR32F9Qx.o) init:always
+  Marking symbol ??DataTable1_9                          (16 system_MDR32F9Qx.o)
+    Marking fragment #674 .text (9 system_MDR32F9Qx.o) init:always
+  Marking symbol ??DataTable1_10                         (5 system_MDR32F9Qx.o)
+    Marking fragment #675 .text (9 system_MDR32F9Qx.o) init:always
+  Marking symbol ??DataTable1_11                         (6 system_MDR32F9Qx.o)
+    Marking fragment #676 .text (9 system_MDR32F9Qx.o) init:always
+  Marking symbol ??DataTable1_12                         (7 system_MDR32F9Qx.o)
+    Marking fragment #677 .text (9 system_MDR32F9Qx.o) init:always
+  Marking symbol ??DataTable1_13                         (8 system_MDR32F9Qx.o)
+    Marking fragment #678 .text (9 system_MDR32F9Qx.o) init:always
+Marking from fragment #678 .text (9 system_MDR32F9Qx.o) init:always
+Marking from fragment #677 .text (9 system_MDR32F9Qx.o) init:always
+Marking from fragment #676 .text (9 system_MDR32F9Qx.o) init:always
+Marking from fragment #675 .text (9 system_MDR32F9Qx.o) init:always
+Marking from fragment #674 .text (9 system_MDR32F9Qx.o) init:always
+Marking from fragment #663 .text (9 system_MDR32F9Qx.o) init:always
+  Marking symbol ??DataTable1                            (3 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_1                          (4 system_MDR32F9Qx.o)
+    Marking fragment #666 .text (9 system_MDR32F9Qx.o) init:always
+  Marking symbol ??DataTable1_1                          (4 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1                            (3 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1                            (3 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_2                          (9 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1                            (3 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_1                          (4 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_3                          (10 system_MDR32F9Qx.o)
+    Marking fragment #668 .text (9 system_MDR32F9Qx.o) init:always
+  Marking symbol ??DataTable1                            (3 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_3                          (10 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_3                          (10 system_MDR32F9Qx.o)
+  Marking symbol ??DataTable1_3                          (10 system_MDR32F9Qx.o)
+Marking from fragment #668 .text (9 system_MDR32F9Qx.o) init:always
+  Marking symbol SystemCoreClock                    Glb  (51 system_MDR32F9Qx.o)
+    Marking fragment #412 .data (8 system_MDR32F9Qx.o) init:always
+Marking from fragment #412 .data (8 system_MDR32F9Qx.o) init:always
+Marking from fragment #666 .text (9 system_MDR32F9Qx.o) init:always
+Marking from fragment #673 .text (9 system_MDR32F9Qx.o) init:always
+Marking from fragment #672 .text (9 system_MDR32F9Qx.o) init:always
+Marking from fragment #671 .text (9 system_MDR32F9Qx.o) init:always
+Marking from fragment #667 .text (9 system_MDR32F9Qx.o) init:always
+Marking from fragment #665 .text (9 system_MDR32F9Qx.o) init:always
+Marking from fragment #670 .text (9 system_MDR32F9Qx.o) init:always
+Marking from fragment #669 .text (9 system_MDR32F9Qx.o) init:always
+*** Marking optional init routines ***
+Marking fragment #475 .text (6 data_init.o(rt7M_tl.a)) {__iar_data_init3} init:{__iar_data_init3}
+Marking fragment #485 .text (7 zero_init3.o(rt7M_tl.a)) {__iar_zero_init3} init:{__iar_zero_init3}
+Marking fragment #494 .text (7 copy_init3.o(rt7M_tl.a)) {__iar_copy_init3} init:{__iar_copy_init3}
+Marking fragment #687 .text (7 rle_init.o(rt7M_tl.a)) {__iar_rle_init3} init:{__iar_rle_init3}
+Marking fragment #689 .text (7 packbits_init.o(rt7M_tl.a)) {__iar_packbits_init3} init:{__iar_packbits_init3}
+Marking fragment #692 .text (7 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+Marking fragment #697 .text (7 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+Marking fragment #701 .text (7 lz77_init.o(rt7M_tl.a)) {__iar_lz77_init3} init:{__iar_lz77_init3}
+Marking from fragment #701 .text (7 lz77_init.o(rt7M_tl.a)) {__iar_lz77_init3} init:{__iar_lz77_init3}
+  Marking symbol __iar_SB                                (5 lz77_init.o)
+    Marking fragment #553 .rodata (6 lz77_init.o(rt7M_tl.a)) {__iar_lz77_init3} init:{__iar_lz77_init3}
+  Marking symbol InStream_Read                           (3 lz77_init.o)
+    Marking fragment #699 .text (7 lz77_init.o(rt7M_tl.a)) {__iar_lz77_init3} init:{__iar_lz77_init3}
+  Marking symbol InStream_Read                           (3 lz77_init.o)
+  Marking symbol InStream_Read                           (3 lz77_init.o)
+  Marking symbol OutStream_Write                         (4 lz77_init.o)
+    Marking fragment #700 .text (7 lz77_init.o(rt7M_tl.a)) {__iar_lz77_init3} init:{__iar_lz77_init3}
+  Marking symbol InStream_Read                           (3 lz77_init.o)
+  Marking symbol InStream_Read                           (3 lz77_init.o)
+  Marking symbol abort                              Glb  (11 abort.o)
+    Marking fragment #564 .text (6 abort.o(dl7M_tln.a)) {__iar_lz77_init3} init:{__iar_lz77_init3}
+Marking from fragment #564 .text (6 abort.o(dl7M_tln.a)) {__iar_lz77_init3} init:{__iar_lz77_init3}
+  Marking symbol __exit                             Glb  (12 exit.o)
+    Marking fragment #467 .text (6 exit.o(shb_l.a)) {__iar_lz77_init3} init:{__iar_lz77_init3}
+Marking from fragment #467 .text (6 exit.o(shb_l.a)) {__iar_lz77_init3} init:{__iar_lz77_init3}
+  Marking symbol __iar_close_ttio               Ext      (11 exit.o)
+Marking from fragment #700 .text (7 lz77_init.o(rt7M_tl.a)) {__iar_lz77_init3} init:{__iar_lz77_init3}
+  Marking symbol __iar_SB                                (5 lz77_init.o)
+  Marking symbol abort                              Glb  (11 abort.o)
+Marking from fragment #699 .text (7 lz77_init.o(rt7M_tl.a)) {__iar_lz77_init3} init:{__iar_lz77_init3}
+Marking from fragment #553 .rodata (6 lz77_init.o(rt7M_tl.a)) {__iar_lz77_init3} init:{__iar_lz77_init3}
+Marking from fragment #697 .text (7 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol __iar_SB                                (4 bwt_init.o)
+    Marking fragment #538 .rodata (6 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol                                         (21 bwt_init.o)
+    Marking fragment #698 .text (7 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol                                         (21 bwt_init.o)
+  Marking symbol abort                              Glb  (11 abort.o)
+    Marking fragment #564 .text (6 abort.o(dl7M_tln.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol packbitToByte                           (5 bwt_init.o)
+    Marking fragment #696 .text (7 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol packbitToByte                           (5 bwt_init.o)
+  Marking symbol                                         (21 bwt_init.o)
+  Marking symbol __aeabi_memclr4                    Glb  (7 ABImemclr4.o)
+    Marking fragment #703 .text (6 ABImemclr4.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol abort                              Glb  (11 abort.o)
+Marking from fragment #703 .text (6 ABImemclr4.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol __iar_Memset4_word                 Glb  (13 ABImemset48.o)
+    Marking fragment #705 .text (6 ABImemset48.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+Marking from fragment #705 .text (6 ABImemset48.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol Enter8                                  (3 ABImemset48.o)
+    Marking fragment #706 .text (6 ABImemset48.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+Marking from fragment #706 .text (6 ABImemset48.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+Marking from fragment #696 .text (7 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol InStream_StepRegion                     (3 bwt_init.o)
+    Marking fragment #695 .text (7 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+Marking from fragment #695 .text (7 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+Marking from fragment #564 .text (6 abort.o(dl7M_tln.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol __exit                             Glb  (12 exit.o)
+    Marking fragment #467 .text (6 exit.o(shb_l.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+Marking from fragment #467 .text (6 exit.o(shb_l.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol __iar_close_ttio               Ext      (11 exit.o)
+Marking from fragment #698 .text (7 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol packbitToByte                           (5 bwt_init.o)
+Marking from fragment #538 .rodata (6 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+Marking from fragment #692 .text (7 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol                                         (24 lzw_init.o)
+    Marking fragment #693 .text (7 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol OutStream_Write                         (4 lzw_init.o)
+    Marking fragment #690 .text (7 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol                                         (25 lzw_init.o)
+  Marking symbol DecodeCode                              (3 lzw_init.o)
+    Marking fragment #694 .text (7 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol DecodeCode                              (3 lzw_init.o)
+  Marking symbol OutStream_Write                         (4 lzw_init.o)
+  Marking symbol                                         (25 lzw_init.o)
+Marking from fragment #694 .text (7 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol __iar_SB                                (5 lzw_init.o)
+    Marking fragment #522 .rodata (6 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol OutStream_Write                         (4 lzw_init.o)
+  Marking symbol OutStream_Write                         (4 lzw_init.o)
+  Marking symbol abort                              Glb  (11 abort.o)
+    Marking fragment #564 .text (6 abort.o(dl7M_tln.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol OutStream_Write                         (4 lzw_init.o)
+Marking from fragment #564 .text (6 abort.o(dl7M_tln.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol __exit                             Glb  (12 exit.o)
+    Marking fragment #467 .text (6 exit.o(shb_l.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+Marking from fragment #467 .text (6 exit.o(shb_l.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol __iar_close_ttio               Ext      (11 exit.o)
+Marking from fragment #522 .rodata (6 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+Marking from fragment #690 .text (7 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol __iar_SB                                (5 lzw_init.o)
+  Marking symbol abort                              Glb  (11 abort.o)
+Marking from fragment #693 .text (7 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol nGetCodeWord                            (6 lzw_init.o)
+    Marking fragment #691 .text (7 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+Marking from fragment #691 .text (7 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+Marking from fragment #689 .text (7 packbits_init.o(rt7M_tl.a)) {__iar_packbits_init3} init:{__iar_packbits_init3}
+  Marking symbol __iar_SB                                (4 packbits_init.o)
+    Marking fragment #512 .rodata (6 packbits_init.o(rt7M_tl.a)) {__iar_packbits_init3} init:{__iar_packbits_init3}
+  Marking symbol InStream_Read                           (3 packbits_init.o)
+    Marking fragment #688 .text (7 packbits_init.o(rt7M_tl.a)) {__iar_packbits_init3} init:{__iar_packbits_init3}
+  Marking symbol abort                              Glb  (11 abort.o)
+    Marking fragment #564 .text (6 abort.o(dl7M_tln.a)) {__iar_packbits_init3} init:{__iar_packbits_init3}
+Marking from fragment #564 .text (6 abort.o(dl7M_tln.a)) {__iar_packbits_init3} init:{__iar_packbits_init3}
+  Marking symbol __exit                             Glb  (12 exit.o)
+    Marking fragment #467 .text (6 exit.o(shb_l.a)) {__iar_packbits_init3} init:{__iar_packbits_init3}
+Marking from fragment #467 .text (6 exit.o(shb_l.a)) {__iar_packbits_init3} init:{__iar_packbits_init3}
+  Marking symbol __iar_close_ttio               Ext      (11 exit.o)
+Marking from fragment #688 .text (7 packbits_init.o(rt7M_tl.a)) {__iar_packbits_init3} init:{__iar_packbits_init3}
+Marking from fragment #512 .rodata (6 packbits_init.o(rt7M_tl.a)) {__iar_packbits_init3} init:{__iar_packbits_init3}
+Marking from fragment #687 .text (7 rle_init.o(rt7M_tl.a)) {__iar_rle_init3} init:{__iar_rle_init3}
+  Marking symbol __iar_SB                                (4 rle_init.o)
+    Marking fragment #502 .rodata (6 rle_init.o(rt7M_tl.a)) {__iar_rle_init3} init:{__iar_rle_init3}
+  Marking symbol InStream_Read                           (3 rle_init.o)
+    Marking fragment #686 .text (7 rle_init.o(rt7M_tl.a)) {__iar_rle_init3} init:{__iar_rle_init3}
+  Marking symbol abort                              Glb  (11 abort.o)
+    Marking fragment #564 .text (6 abort.o(dl7M_tln.a)) {__iar_rle_init3} init:{__iar_rle_init3}
+Marking from fragment #564 .text (6 abort.o(dl7M_tln.a)) {__iar_rle_init3} init:{__iar_rle_init3}
+  Marking symbol __exit                             Glb  (12 exit.o)
+    Marking fragment #467 .text (6 exit.o(shb_l.a)) {__iar_rle_init3} init:{__iar_rle_init3}
+Marking from fragment #467 .text (6 exit.o(shb_l.a)) {__iar_rle_init3} init:{__iar_rle_init3}
+  Marking symbol __iar_close_ttio               Ext      (11 exit.o)
+Marking from fragment #686 .text (7 rle_init.o(rt7M_tl.a)) {__iar_rle_init3} init:{__iar_rle_init3}
+Marking from fragment #502 .rodata (6 rle_init.o(rt7M_tl.a)) {__iar_rle_init3} init:{__iar_rle_init3}
+Marking from fragment #494 .text (7 copy_init3.o(rt7M_tl.a)) {__iar_copy_init3} init:{__iar_copy_init3}
+  Marking symbol __iar_SB                                (3 copy_init3.o)
+    Marking fragment #493 .rodata (6 copy_init3.o(rt7M_tl.a)) {__iar_copy_init3} init:{__iar_copy_init3}
+Marking from fragment #493 .rodata (6 copy_init3.o(rt7M_tl.a)) {__iar_copy_init3} init:{__iar_copy_init3}
+Marking from fragment #485 .text (7 zero_init3.o(rt7M_tl.a)) {__iar_zero_init3} init:{__iar_zero_init3}
+  Marking symbol __iar_SB                                (3 zero_init3.o)
+    Marking fragment #484 .rodata (6 zero_init3.o(rt7M_tl.a)) {__iar_zero_init3} init:{__iar_zero_init3}
+Marking from fragment #484 .rodata (6 zero_init3.o(rt7M_tl.a)) {__iar_zero_init3} init:{__iar_zero_init3}
+Marking from fragment #475 .text (6 data_init.o(rt7M_tl.a)) {__iar_data_init3} init:{__iar_data_init3}
+  Marking symbol Region$$Table$$Base            Ext Glb  (13 data_init.o)
+  Marking symbol Region$$Table$$Limit           Ext Glb  (14 data_init.o)
+*** Marking debug sections ***
+----- pass 1
+References #585 .text (8 main.o)
+  Marking fragment #8 .debug_frame (13 main.o)
+References #585 .text (8 main.o)
+  Marking fragment #9 .iar.debug_line (15 main.o)
+References #585 .text (8 main.o)
+  Marking fragment #10 .debug_line (16 main.o)
+References #585 .text (8 main.o)
+  Marking fragment #11 .debug_info (17 main.o)
+References #586 .text (8 main.o)
+  Marking fragment #12 .debug_frame (19 main.o)
+References #586 .text (8 main.o)
+  Marking fragment #13 .iar.debug_line (21 main.o)
+References #586 .text (8 main.o)
+  Marking fragment #14 .debug_line (22 main.o)
+References #586 .text (8 main.o)
+  Marking fragment #15 .debug_info (23 main.o)
+References #587 .text (8 main.o)
+  Marking fragment #16 .debug_frame (24 main.o)
+References #587 .text (8 main.o)
+  Marking fragment #17 .iar.debug_line (26 main.o)
+References #587 .text (8 main.o)
+  Marking fragment #18 .debug_line (27 main.o)
+References #587 .text (8 main.o)
+  Marking fragment #19 .debug_info (28 main.o)
+References #11 .debug_info (17 main.o)
+  Marking fragment #25 .debug_pubnames (35 main.o)
+References #15 .debug_info (23 main.o)
+  Marking fragment #26 .debug_pubnames (38 main.o)
+References #19 .debug_info (28 main.o)
+  Marking fragment #27 .debug_pubnames (41 main.o)
+References #596 .text (8 MDR32F9Qx_port.o)
+  Marking fragment #41 .debug_frame (19 MDR32F9Qx_port.o)
+References #596 .text (8 MDR32F9Qx_port.o)
+  Marking fragment #42 .iar.debug_line (21 MDR32F9Qx_port.o)
+References #596 .text (8 MDR32F9Qx_port.o)
+  Marking fragment #43 .debug_line (22 MDR32F9Qx_port.o)
+References #596 .text (8 MDR32F9Qx_port.o)
+  Marking fragment #44 .debug_info (23 MDR32F9Qx_port.o)
+References #598 .text (8 MDR32F9Qx_port.o)
+  Marking fragment #49 .debug_frame (29 MDR32F9Qx_port.o)
+References #598 .text (8 MDR32F9Qx_port.o)
+  Marking fragment #50 .iar.debug_line (31 MDR32F9Qx_port.o)
+References #598 .text (8 MDR32F9Qx_port.o)
+  Marking fragment #51 .debug_line (32 MDR32F9Qx_port.o)
+References #598 .text (8 MDR32F9Qx_port.o)
+  Marking fragment #52 .debug_info (33 MDR32F9Qx_port.o)
+References #600 .text (8 MDR32F9Qx_port.o)
+  Marking fragment #57 .debug_frame (39 MDR32F9Qx_port.o)
+References #600 .text (8 MDR32F9Qx_port.o)
+  Marking fragment #58 .iar.debug_line (41 MDR32F9Qx_port.o)
+References #600 .text (8 MDR32F9Qx_port.o)
+  Marking fragment #59 .debug_line (42 MDR32F9Qx_port.o)
+References #600 .text (8 MDR32F9Qx_port.o)
+  Marking fragment #60 .debug_info (43 MDR32F9Qx_port.o)
+References #601 .text (8 MDR32F9Qx_port.o)
+  Marking fragment #61 .debug_frame (44 MDR32F9Qx_port.o)
+References #601 .text (8 MDR32F9Qx_port.o)
+  Marking fragment #62 .iar.debug_line (46 MDR32F9Qx_port.o)
+References #601 .text (8 MDR32F9Qx_port.o)
+  Marking fragment #63 .debug_line (47 MDR32F9Qx_port.o)
+References #601 .text (8 MDR32F9Qx_port.o)
+  Marking fragment #64 .debug_info (48 MDR32F9Qx_port.o)
+References #44 .debug_info (23 MDR32F9Qx_port.o)
+  Marking fragment #85 .debug_pubnames (74 MDR32F9Qx_port.o)
+References #52 .debug_info (33 MDR32F9Qx_port.o)
+  Marking fragment #87 .debug_pubnames (80 MDR32F9Qx_port.o)
+References #60 .debug_info (43 MDR32F9Qx_port.o)
+  Marking fragment #89 .debug_pubnames (86 MDR32F9Qx_port.o)
+References #64 .debug_info (48 MDR32F9Qx_port.o)
+  Marking fragment #90 .debug_pubnames (89 MDR32F9Qx_port.o)
+References #636 .text (8 MDR32F9Qx_rst_clk.o)
+  Marking fragment #226 .debug_frame (169 MDR32F9Qx_rst_clk.o)
+References #636 .text (8 MDR32F9Qx_rst_clk.o)
+  Marking fragment #227 .iar.debug_line (171 MDR32F9Qx_rst_clk.o)
+References #636 .text (8 MDR32F9Qx_rst_clk.o)
+  Marking fragment #228 .debug_line (172 MDR32F9Qx_rst_clk.o)
+References #636 .text (8 MDR32F9Qx_rst_clk.o)
+  Marking fragment #229 .debug_info (173 MDR32F9Qx_rst_clk.o)
+References #229 .debug_info (173 MDR32F9Qx_rst_clk.o)
+  Marking fragment #305 .debug_pubnames (314 MDR32F9Qx_rst_clk.o)
+References #312 .text (8 startup_MDR32F9Qx.o)
+  Marking fragment #344 .debug_line (40 startup_MDR32F9Qx.o)
+References #313 .text (9 startup_MDR32F9Qx.o)
+  Marking fragment #345 .debug_line (41 startup_MDR32F9Qx.o)
+References #314 .text (10 startup_MDR32F9Qx.o)
+  Marking fragment #346 .debug_line (42 startup_MDR32F9Qx.o)
+References #315 .text (11 startup_MDR32F9Qx.o)
+  Marking fragment #347 .debug_line (43 startup_MDR32F9Qx.o)
+References #316 .text (12 startup_MDR32F9Qx.o)
+  Marking fragment #348 .debug_line (44 startup_MDR32F9Qx.o)
+References #317 .text (13 startup_MDR32F9Qx.o)
+  Marking fragment #349 .debug_line (45 startup_MDR32F9Qx.o)
+References #318 .text (14 startup_MDR32F9Qx.o)
+  Marking fragment #350 .debug_line (46 startup_MDR32F9Qx.o)
+References #319 .text (15 startup_MDR32F9Qx.o)
+  Marking fragment #351 .debug_line (47 startup_MDR32F9Qx.o)
+References #320 .text (16 startup_MDR32F9Qx.o)
+  Marking fragment #352 .debug_line (48 startup_MDR32F9Qx.o)
+References #321 .text (17 startup_MDR32F9Qx.o)
+  Marking fragment #353 .debug_line (49 startup_MDR32F9Qx.o)
+References #322 .text (18 startup_MDR32F9Qx.o)
+  Marking fragment #354 .debug_line (50 startup_MDR32F9Qx.o)
+References #323 .text (19 startup_MDR32F9Qx.o)
+  Marking fragment #355 .debug_line (51 startup_MDR32F9Qx.o)
+References #324 .text (20 startup_MDR32F9Qx.o)
+  Marking fragment #356 .debug_line (52 startup_MDR32F9Qx.o)
+References #325 .text (21 startup_MDR32F9Qx.o)
+  Marking fragment #357 .debug_line (53 startup_MDR32F9Qx.o)
+References #326 .text (22 startup_MDR32F9Qx.o)
+  Marking fragment #358 .debug_line (54 startup_MDR32F9Qx.o)
+References #327 .text (23 startup_MDR32F9Qx.o)
+  Marking fragment #359 .debug_line (55 startup_MDR32F9Qx.o)
+References #328 .text (24 startup_MDR32F9Qx.o)
+  Marking fragment #360 .debug_line (56 startup_MDR32F9Qx.o)
+References #329 .text (25 startup_MDR32F9Qx.o)
+  Marking fragment #361 .debug_line (57 startup_MDR32F9Qx.o)
+References #330 .text (26 startup_MDR32F9Qx.o)
+  Marking fragment #362 .debug_line (58 startup_MDR32F9Qx.o)
+References #331 .text (27 startup_MDR32F9Qx.o)
+  Marking fragment #363 .debug_line (59 startup_MDR32F9Qx.o)
+References #332 .text (28 startup_MDR32F9Qx.o)
+  Marking fragment #364 .debug_line (60 startup_MDR32F9Qx.o)
+References #333 .text (29 startup_MDR32F9Qx.o)
+  Marking fragment #365 .debug_line (61 startup_MDR32F9Qx.o)
+References #334 .text (30 startup_MDR32F9Qx.o)
+  Marking fragment #366 .debug_line (62 startup_MDR32F9Qx.o)
+References #335 .text (31 startup_MDR32F9Qx.o)
+  Marking fragment #367 .debug_line (63 startup_MDR32F9Qx.o)
+References #336 .text (32 startup_MDR32F9Qx.o)
+  Marking fragment #368 .debug_line (64 startup_MDR32F9Qx.o)
+References #337 .text (33 startup_MDR32F9Qx.o)
+  Marking fragment #369 .debug_line (65 startup_MDR32F9Qx.o)
+References #338 .text (34 startup_MDR32F9Qx.o)
+  Marking fragment #370 .debug_line (66 startup_MDR32F9Qx.o)
+References #339 .text (35 startup_MDR32F9Qx.o)
+  Marking fragment #371 .debug_line (67 startup_MDR32F9Qx.o)
+References #340 .text (36 startup_MDR32F9Qx.o)
+  Marking fragment #372 .debug_line (68 startup_MDR32F9Qx.o)
+References #341 .text (37 startup_MDR32F9Qx.o)
+  Marking fragment #373 .debug_line (69 startup_MDR32F9Qx.o)
+References #342 .text (38 startup_MDR32F9Qx.o)
+  Marking fragment #374 .debug_line (70 startup_MDR32F9Qx.o)
+References #312 .text (8 startup_MDR32F9Qx.o)
+  Marking fragment #377 .debug_info (74 startup_MDR32F9Qx.o)
+References #313 .text (9 startup_MDR32F9Qx.o)
+  Marking fragment #379 .debug_info (78 startup_MDR32F9Qx.o)
+References #314 .text (10 startup_MDR32F9Qx.o)
+  Marking fragment #380 .debug_info (81 startup_MDR32F9Qx.o)
+References #315 .text (11 startup_MDR32F9Qx.o)
+  Marking fragment #381 .debug_info (84 startup_MDR32F9Qx.o)
+References #316 .text (12 startup_MDR32F9Qx.o)
+  Marking fragment #382 .debug_info (87 startup_MDR32F9Qx.o)
+References #317 .text (13 startup_MDR32F9Qx.o)
+  Marking fragment #383 .debug_info (90 startup_MDR32F9Qx.o)
+References #318 .text (14 startup_MDR32F9Qx.o)
+  Marking fragment #384 .debug_info (93 startup_MDR32F9Qx.o)
+References #319 .text (15 startup_MDR32F9Qx.o)
+  Marking fragment #385 .debug_info (96 startup_MDR32F9Qx.o)
+References #320 .text (16 startup_MDR32F9Qx.o)
+  Marking fragment #386 .debug_info (99 startup_MDR32F9Qx.o)
+References #321 .text (17 startup_MDR32F9Qx.o)
+  Marking fragment #387 .debug_info (102 startup_MDR32F9Qx.o)
+References #322 .text (18 startup_MDR32F9Qx.o)
+  Marking fragment #388 .debug_info (105 startup_MDR32F9Qx.o)
+References #323 .text (19 startup_MDR32F9Qx.o)
+  Marking fragment #389 .debug_info (108 startup_MDR32F9Qx.o)
+References #324 .text (20 startup_MDR32F9Qx.o)
+  Marking fragment #390 .debug_info (111 startup_MDR32F9Qx.o)
+References #325 .text (21 startup_MDR32F9Qx.o)
+  Marking fragment #391 .debug_info (114 startup_MDR32F9Qx.o)
+References #326 .text (22 startup_MDR32F9Qx.o)
+  Marking fragment #392 .debug_info (117 startup_MDR32F9Qx.o)
+References #327 .text (23 startup_MDR32F9Qx.o)
+  Marking fragment #393 .debug_info (120 startup_MDR32F9Qx.o)
+References #328 .text (24 startup_MDR32F9Qx.o)
+  Marking fragment #394 .debug_info (123 startup_MDR32F9Qx.o)
+References #329 .text (25 startup_MDR32F9Qx.o)
+  Marking fragment #395 .debug_info (126 startup_MDR32F9Qx.o)
+References #330 .text (26 startup_MDR32F9Qx.o)
+  Marking fragment #396 .debug_info (129 startup_MDR32F9Qx.o)
+References #331 .text (27 startup_MDR32F9Qx.o)
+  Marking fragment #397 .debug_info (132 startup_MDR32F9Qx.o)
+References #332 .text (28 startup_MDR32F9Qx.o)
+  Marking fragment #398 .debug_info (135 startup_MDR32F9Qx.o)
+References #333 .text (29 startup_MDR32F9Qx.o)
+  Marking fragment #399 .debug_info (138 startup_MDR32F9Qx.o)
+References #334 .text (30 startup_MDR32F9Qx.o)
+  Marking fragment #400 .debug_info (141 startup_MDR32F9Qx.o)
+References #335 .text (31 startup_MDR32F9Qx.o)
+  Marking fragment #401 .debug_info (144 startup_MDR32F9Qx.o)
+References #336 .text (32 startup_MDR32F9Qx.o)
+  Marking fragment #402 .debug_info (147 startup_MDR32F9Qx.o)
+References #337 .text (33 startup_MDR32F9Qx.o)
+  Marking fragment #403 .debug_info (150 startup_MDR32F9Qx.o)
+References #338 .text (34 startup_MDR32F9Qx.o)
+  Marking fragment #404 .debug_info (153 startup_MDR32F9Qx.o)
+References #339 .text (35 startup_MDR32F9Qx.o)
+  Marking fragment #405 .debug_info (156 startup_MDR32F9Qx.o)
+References #340 .text (36 startup_MDR32F9Qx.o)
+  Marking fragment #406 .debug_info (159 startup_MDR32F9Qx.o)
+References #341 .text (37 startup_MDR32F9Qx.o)
+  Marking fragment #407 .debug_info (162 startup_MDR32F9Qx.o)
+References #342 .text (38 startup_MDR32F9Qx.o)
+  Marking fragment #408 .debug_info (165 startup_MDR32F9Qx.o)
+References #412 .data (8 system_MDR32F9Qx.o)
+  Marking fragment #417 .debug_info (13 system_MDR32F9Qx.o)
+References #663 .text (9 system_MDR32F9Qx.o)
+  Marking fragment #419 .debug_frame (15 system_MDR32F9Qx.o)
+References #663 .text (9 system_MDR32F9Qx.o)
+  Marking fragment #420 .iar.debug_line (17 system_MDR32F9Qx.o)
+References #663 .text (9 system_MDR32F9Qx.o)
+  Marking fragment #421 .debug_line (18 system_MDR32F9Qx.o)
+References #663 .text (9 system_MDR32F9Qx.o)
+  Marking fragment #422 .debug_info (19 system_MDR32F9Qx.o)
+References #664 .text (9 system_MDR32F9Qx.o)
+  Marking fragment #423 .debug_frame (21 system_MDR32F9Qx.o)
+References #664 .text (9 system_MDR32F9Qx.o)
+  Marking fragment #424 .iar.debug_line (23 system_MDR32F9Qx.o)
+References #664 .text (9 system_MDR32F9Qx.o)
+  Marking fragment #425 .debug_line (24 system_MDR32F9Qx.o)
+References #664 .text (9 system_MDR32F9Qx.o)
+  Marking fragment #426 .debug_info (25 system_MDR32F9Qx.o)
+References #417 .debug_info (13 system_MDR32F9Qx.o)
+  Marking fragment #432 .debug_pubnames (32 system_MDR32F9Qx.o)
+References #422 .debug_info (19 system_MDR32F9Qx.o)
+  Marking fragment #433 .debug_pubnames (35 system_MDR32F9Qx.o)
+References #426 .debug_info (25 system_MDR32F9Qx.o)
+  Marking fragment #434 .debug_pubnames (38 system_MDR32F9Qx.o)
+References #448 .text (6 low_level_init.o(dl7M_tln.a))
+  Marking fragment #451 .debug_frame (9 low_level_init.o(dl7M_tln.a))
+References #454 .text (6 exit.o(dl7M_tln.a))
+  Marking fragment #459 .debug_frame (11 exit.o(dl7M_tln.a))
+References #467 .text (6 exit.o(shb_l.a))
+  Marking fragment #472 .debug_frame (11 exit.o(shb_l.a))
+References #475 .text (6 data_init.o(rt7M_tl.a))
+  Marking fragment #481 .debug_frame (12 data_init.o(rt7M_tl.a)) {__iar_data_init3}
+References #485 .text (7 zero_init3.o(rt7M_tl.a))
+  Marking fragment #490 .debug_frame (12 zero_init3.o(rt7M_tl.a)) {__iar_zero_init3}
+References #494 .text (7 copy_init3.o(rt7M_tl.a))
+  Marking fragment #499 .debug_frame (12 copy_init3.o(rt7M_tl.a)) {__iar_copy_init3}
+References #686 .text (7 rle_init.o(rt7M_tl.a))
+  Marking fragment #508 .debug_frame (12 rle_init.o(rt7M_tl.a)) {__iar_rle_init3}
+References #687 .text (7 rle_init.o(rt7M_tl.a))
+  Marking fragment #509 .debug_frame (15 rle_init.o(rt7M_tl.a)) {__iar_rle_init3}
+References #688 .text (7 packbits_init.o(rt7M_tl.a))
+  Marking fragment #518 .debug_frame (12 packbits_init.o(rt7M_tl.a)) {__iar_packbits_init3}
+References #689 .text (7 packbits_init.o(rt7M_tl.a))
+  Marking fragment #519 .debug_frame (15 packbits_init.o(rt7M_tl.a)) {__iar_packbits_init3}
+References #690 .text (7 lzw_init.o(rt7M_tl.a))
+  Marking fragment #528 .debug_frame (12 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3}
+References #691 .text (7 lzw_init.o(rt7M_tl.a))
+  Marking fragment #529 .debug_frame (15 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3}
+References #692 .text (7 lzw_init.o(rt7M_tl.a))
+  Marking fragment #530 .debug_frame (17 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3}
+References #693 .text (7 lzw_init.o(rt7M_tl.a))
+  Marking fragment #533 .debug_frame (22 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3}
+References #694 .text (7 lzw_init.o(rt7M_tl.a))
+  Marking fragment #534 .debug_frame (24 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3}
+References #693 .text (7 lzw_init.o(rt7M_tl.a))
+  Marking fragment #536 .iar.debug_frame (27 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3}
+References #695 .text (7 bwt_init.o(rt7M_tl.a))
+  Marking fragment #544 .debug_frame (12 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3}
+References #696 .text (7 bwt_init.o(rt7M_tl.a))
+  Marking fragment #545 .debug_frame (15 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3}
+References #697 .text (7 bwt_init.o(rt7M_tl.a))
+  Marking fragment #546 .debug_frame (17 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3}
+References #698 .text (7 bwt_init.o(rt7M_tl.a))
+  Marking fragment #549 .debug_frame (22 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3}
+References #698 .text (7 bwt_init.o(rt7M_tl.a))
+  Marking fragment #551 .iar.debug_frame (25 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3}
+References #699 .text (7 lz77_init.o(rt7M_tl.a))
+  Marking fragment #559 .debug_frame (12 lz77_init.o(rt7M_tl.a)) {__iar_lz77_init3}
+References #700 .text (7 lz77_init.o(rt7M_tl.a))
+  Marking fragment #560 .debug_frame (15 lz77_init.o(rt7M_tl.a)) {__iar_lz77_init3}
+References #701 .text (7 lz77_init.o(rt7M_tl.a))
+  Marking fragment #561 .debug_frame (17 lz77_init.o(rt7M_tl.a)) {__iar_lz77_init3}
+References #564 .text (6 abort.o(dl7M_tln.a))
+  Marking fragment #569 .debug_frame (11 abort.o(dl7M_tln.a)) {__iar_rle_init3 __iar_packbits_init3 __iar_lzw_init3 __iar_bwt_init3 __iar_lz77_init3}
+References #703 .text (6 ABImemclr4.o(rt7M_tl.a))
+  Marking fragment #574 .debug_frame (8 ABImemclr4.o(rt7M_tl.a)) {__iar_bwt_init3}
+References #705 .text (6 ABImemset48.o(rt7M_tl.a))
+  Marking fragment #581 .debug_frame (11 ABImemset48.o(rt7M_tl.a)) {__iar_bwt_init3}
+References #706 .text (6 ABImemset48.o(rt7M_tl.a))
+  Marking fragment #582 .debug_frame (13 ABImemset48.o(rt7M_tl.a)) {__iar_bwt_init3}
+----- pass 2
+----- marking from debug sections
+Marking from fragment #582 .debug_frame (13 ABImemset48.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .debug_frame13                          (10 ABImemset48.o)
+  Marking symbol .text_2                                 (9 ABImemset48.o)
+Marking from fragment #581 .debug_frame (11 ABImemset48.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .debug_frame11                          (8 ABImemset48.o)
+  Marking symbol .text_1                                 (7 ABImemset48.o)
+Marking from fragment #574 .debug_frame (8 ABImemclr4.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .debug_frame8                           (5 ABImemclr4.o)
+  Marking symbol .text6                                  (3 ABImemclr4.o)
+Marking from fragment #569 .debug_frame (11 abort.o(dl7M_tln.a)) {__iar_rle_init3 __iar_packbits_init3 __iar_lzw_init3 __iar_bwt_init3 __iar_lz77_init3}
+  Marking symbol .debug_frame11                          (4 abort.o)
+  Marking symbol .text6                                  (3 abort.o)
+Marking from fragment #561 .debug_frame (17 lz77_init.o(rt7M_tl.a)) {__iar_lz77_init3}
+  Marking symbol .debug_frame17                          (12 lz77_init.o)
+  Marking symbol .text_5                                 (11 lz77_init.o)
+Marking from fragment #560 .debug_frame (15 lz77_init.o(rt7M_tl.a)) {__iar_lz77_init3}
+  Marking symbol .debug_frame15                          (10 lz77_init.o)
+  Marking symbol .text_4                                 (9 lz77_init.o)
+Marking from fragment #559 .debug_frame (12 lz77_init.o(rt7M_tl.a)) {__iar_lz77_init3}
+  Marking symbol .debug_frame12                          (7 lz77_init.o)
+  Marking symbol .text7                                  (6 lz77_init.o)
+Marking from fragment #551 .iar.debug_frame (25 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .text_6                                 (13 bwt_init.o)
+  Marking symbol .iar.debug_frame19                      (14 bwt_init.o)
+    Marking fragment #547 .iar.debug_frame (19 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol __iar_bwt_init3                    Glb  (24 bwt_init.o)
+  Marking symbol .text_5                                 (11 bwt_init.o)
+Marking from fragment #547 .iar.debug_frame (19 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .iar.debug_frame20                      (15 bwt_init.o)
+    Marking fragment #548 .iar.debug_frame (20 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3}
+Marking from fragment #548 .iar.debug_frame (20 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3}
+Marking from fragment #549 .debug_frame (22 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .debug_frame22                          (16 bwt_init.o)
+  Marking symbol .text_6                                 (13 bwt_init.o)
+Marking from fragment #546 .debug_frame (17 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .debug_frame17                          (12 bwt_init.o)
+  Marking symbol .text_5                                 (11 bwt_init.o)
+Marking from fragment #545 .debug_frame (15 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .debug_frame15                          (10 bwt_init.o)
+  Marking symbol .text_4                                 (9 bwt_init.o)
+Marking from fragment #544 .debug_frame (12 bwt_init.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .debug_frame12                          (7 bwt_init.o)
+  Marking symbol .text7                                  (6 bwt_init.o)
+Marking from fragment #536 .iar.debug_frame (27 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .text_6                                 (14 lzw_init.o)
+  Marking symbol .iar.debug_frame19                      (15 lzw_init.o)
+    Marking fragment #531 .iar.debug_frame (19 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol __iar_lzw_init3                    Glb  (27 lzw_init.o)
+  Marking symbol .text_5                                 (12 lzw_init.o)
+Marking from fragment #531 .iar.debug_frame (19 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .iar.debug_frame20                      (16 lzw_init.o)
+    Marking fragment #532 .iar.debug_frame (20 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3}
+Marking from fragment #532 .iar.debug_frame (20 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3}
+Marking from fragment #534 .debug_frame (24 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .debug_frame24                          (19 lzw_init.o)
+  Marking symbol .text_7                                 (18 lzw_init.o)
+Marking from fragment #533 .debug_frame (22 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .debug_frame22                          (17 lzw_init.o)
+  Marking symbol .text_6                                 (14 lzw_init.o)
+Marking from fragment #530 .debug_frame (17 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .debug_frame17                          (13 lzw_init.o)
+  Marking symbol .text_5                                 (12 lzw_init.o)
+Marking from fragment #529 .debug_frame (15 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .debug_frame15                          (11 lzw_init.o)
+  Marking symbol .text_4                                 (10 lzw_init.o)
+Marking from fragment #528 .debug_frame (12 lzw_init.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .debug_frame12                          (8 lzw_init.o)
+  Marking symbol .text7                                  (7 lzw_init.o)
+Marking from fragment #519 .debug_frame (15 packbits_init.o(rt7M_tl.a)) {__iar_packbits_init3}
+  Marking symbol .debug_frame15                          (9 packbits_init.o)
+  Marking symbol .text_4                                 (8 packbits_init.o)
+Marking from fragment #518 .debug_frame (12 packbits_init.o(rt7M_tl.a)) {__iar_packbits_init3}
+  Marking symbol .debug_frame12                          (6 packbits_init.o)
+  Marking symbol .text7                                  (5 packbits_init.o)
+Marking from fragment #509 .debug_frame (15 rle_init.o(rt7M_tl.a)) {__iar_rle_init3}
+  Marking symbol .debug_frame15                          (9 rle_init.o)
+  Marking symbol .text_4                                 (8 rle_init.o)
+Marking from fragment #508 .debug_frame (12 rle_init.o(rt7M_tl.a)) {__iar_rle_init3}
+  Marking symbol .debug_frame12                          (6 rle_init.o)
+  Marking symbol .text7                                  (5 rle_init.o)
+Marking from fragment #499 .debug_frame (12 copy_init3.o(rt7M_tl.a)) {__iar_copy_init3}
+  Marking symbol .debug_frame12                          (5 copy_init3.o)
+  Marking symbol .text7                                  (4 copy_init3.o)
+Marking from fragment #490 .debug_frame (12 zero_init3.o(rt7M_tl.a)) {__iar_zero_init3}
+  Marking symbol .debug_frame12                          (5 zero_init3.o)
+  Marking symbol .text7                                  (4 zero_init3.o)
+Marking from fragment #481 .debug_frame (12 data_init.o(rt7M_tl.a)) {__iar_data_init3}
+  Marking symbol .debug_frame12                          (4 data_init.o)
+  Marking symbol .text6                                  (3 data_init.o)
+Marking from fragment #472 .debug_frame (11 exit.o(shb_l.a))
+  Marking symbol .debug_frame11                          (4 exit.o)
+  Marking symbol .text6                                  (3 exit.o)
+Marking from fragment #459 .debug_frame (11 exit.o(dl7M_tln.a))
+  Marking symbol .debug_frame11                          (4 exit.o)
+  Marking symbol .text6                                  (3 exit.o)
+Marking from fragment #451 .debug_frame (9 low_level_init.o(dl7M_tln.a))
+  Marking symbol .debug_frame9                           (4 low_level_init.o)
+  Marking symbol .text6                                  (3 low_level_init.o)
+Marking from fragment #434 .debug_pubnames (38 system_MDR32F9Qx.o)
+  Marking symbol .debug_info25                           (50 system_MDR32F9Qx.o)
+Marking from fragment #433 .debug_pubnames (35 system_MDR32F9Qx.o)
+  Marking symbol .debug_info19                           (46 system_MDR32F9Qx.o)
+Marking from fragment #432 .debug_pubnames (32 system_MDR32F9Qx.o)
+  Marking symbol .debug_info13                           (42 system_MDR32F9Qx.o)
+Marking from fragment #426 .debug_info (25 system_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev30                         (38 system_MDR32F9Qx.o)
+    Marking fragment #431 .debug_abbrev (30 system_MDR32F9Qx.o)
+  Marking symbol .text_4                                 (31 system_MDR32F9Qx.o)
+  Marking symbol .text_4                                 (31 system_MDR32F9Qx.o)
+  Marking symbol .debug_line24                           (48 system_MDR32F9Qx.o)
+  Marking symbol .iar.debug_line23                       (49 system_MDR32F9Qx.o)
+  Marking symbol .debug_info7                            (39 system_MDR32F9Qx.o)
+    Marking fragment #411 .debug_info (7 system_MDR32F9Qx.o)
+  Marking symbol .debug_loc28                            (47 system_MDR32F9Qx.o)
+    Marking fragment #429 .debug_loc (28 system_MDR32F9Qx.o)
+  Marking symbol .text_4                                 (31 system_MDR32F9Qx.o)
+  Marking symbol .text_4                                 (31 system_MDR32F9Qx.o)
+Marking from fragment #429 .debug_loc (28 system_MDR32F9Qx.o)
+Marking from fragment #411 .debug_info (7 system_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev30                         (38 system_MDR32F9Qx.o)
+  Marking symbol .debug_line6                            (40 system_MDR32F9Qx.o)
+    Marking fragment #410 .debug_line (6 system_MDR32F9Qx.o)
+  Marking symbol .debug_macinfo29                        (41 system_MDR32F9Qx.o)
+    Marking fragment #430 .debug_macinfo (29 system_MDR32F9Qx.o)
+Marking from fragment #430 .debug_macinfo (29 system_MDR32F9Qx.o)
+Marking from fragment #410 .debug_line (6 system_MDR32F9Qx.o)
+Marking from fragment #431 .debug_abbrev (30 system_MDR32F9Qx.o)
+Marking from fragment #425 .debug_line (24 system_MDR32F9Qx.o)
+  Marking symbol .text_4                                 (31 system_MDR32F9Qx.o)
+Marking from fragment #424 .iar.debug_line (23 system_MDR32F9Qx.o)
+  Marking symbol .text_4                                 (31 system_MDR32F9Qx.o)
+  Marking symbol .debug_info25                           (50 system_MDR32F9Qx.o)
+  Marking symbol .debug_info19                           (46 system_MDR32F9Qx.o)
+Marking from fragment #423 .debug_frame (21 system_MDR32F9Qx.o)
+  Marking symbol .debug_frame21                          (32 system_MDR32F9Qx.o)
+  Marking symbol .text_4                                 (31 system_MDR32F9Qx.o)
+Marking from fragment #422 .debug_info (19 system_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev30                         (38 system_MDR32F9Qx.o)
+  Marking symbol .text9                                  (28 system_MDR32F9Qx.o)
+  Marking symbol .text9                                  (28 system_MDR32F9Qx.o)
+  Marking symbol .debug_line18                           (44 system_MDR32F9Qx.o)
+  Marking symbol .iar.debug_line17                       (45 system_MDR32F9Qx.o)
+  Marking symbol .debug_info7                            (39 system_MDR32F9Qx.o)
+  Marking symbol .debug_loc27                            (43 system_MDR32F9Qx.o)
+    Marking fragment #428 .debug_loc (27 system_MDR32F9Qx.o)
+  Marking symbol .text9                                  (28 system_MDR32F9Qx.o)
+  Marking symbol .text9                                  (28 system_MDR32F9Qx.o)
+  Marking symbol .debug_info7                            (39 system_MDR32F9Qx.o)
+  Marking symbol .debug_loc27                            (43 system_MDR32F9Qx.o)
+  Marking symbol .debug_info7                            (39 system_MDR32F9Qx.o)
+  Marking symbol .debug_loc27                            (43 system_MDR32F9Qx.o)
+  Marking symbol .debug_info7                            (39 system_MDR32F9Qx.o)
+  Marking symbol .debug_loc27                            (43 system_MDR32F9Qx.o)
+  Marking symbol .debug_info7                            (39 system_MDR32F9Qx.o)
+  Marking symbol .debug_loc27                            (43 system_MDR32F9Qx.o)
+Marking from fragment #428 .debug_loc (27 system_MDR32F9Qx.o)
+Marking from fragment #421 .debug_line (18 system_MDR32F9Qx.o)
+  Marking symbol .text9                                  (28 system_MDR32F9Qx.o)
+Marking from fragment #420 .iar.debug_line (17 system_MDR32F9Qx.o)
+  Marking symbol .text9                                  (28 system_MDR32F9Qx.o)
+  Marking symbol .debug_info19                           (46 system_MDR32F9Qx.o)
+Marking from fragment #419 .debug_frame (15 system_MDR32F9Qx.o)
+  Marking symbol .debug_frame15                          (29 system_MDR32F9Qx.o)
+  Marking symbol .text9                                  (28 system_MDR32F9Qx.o)
+Marking from fragment #417 .debug_info (13 system_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev30                         (38 system_MDR32F9Qx.o)
+  Marking symbol .debug_line6                            (40 system_MDR32F9Qx.o)
+  Marking symbol .debug_macinfo29                        (41 system_MDR32F9Qx.o)
+  Marking symbol .debug_info7                            (39 system_MDR32F9Qx.o)
+  Marking symbol .data8                                  (26 system_MDR32F9Qx.o)
+Marking from fragment #408 .debug_info (165 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+    Marking fragment #378 .debug_abbrev (75 startup_MDR32F9Qx.o)
+  Marking symbol .text38                                 (67 startup_MDR32F9Qx.o)
+  Marking symbol .text38                                 (67 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line70                           (100 startup_MDR32F9Qx.o)
+Marking from fragment #378 .debug_abbrev (75 startup_MDR32F9Qx.o)
+Marking from fragment #407 .debug_info (162 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text37                                 (65 startup_MDR32F9Qx.o)
+  Marking symbol .text37                                 (65 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line69                           (99 startup_MDR32F9Qx.o)
+Marking from fragment #406 .debug_info (159 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text36                                 (63 startup_MDR32F9Qx.o)
+  Marking symbol .text36                                 (63 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line68                           (98 startup_MDR32F9Qx.o)
+Marking from fragment #405 .debug_info (156 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text35                                 (61 startup_MDR32F9Qx.o)
+  Marking symbol .text35                                 (61 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line67                           (97 startup_MDR32F9Qx.o)
+Marking from fragment #404 .debug_info (153 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text34                                 (59 startup_MDR32F9Qx.o)
+  Marking symbol .text34                                 (59 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line66                           (96 startup_MDR32F9Qx.o)
+Marking from fragment #403 .debug_info (150 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text33                                 (57 startup_MDR32F9Qx.o)
+  Marking symbol .text33                                 (57 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line65                           (95 startup_MDR32F9Qx.o)
+Marking from fragment #402 .debug_info (147 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text32                                 (55 startup_MDR32F9Qx.o)
+  Marking symbol .text32                                 (55 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line64                           (94 startup_MDR32F9Qx.o)
+Marking from fragment #401 .debug_info (144 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text31                                 (53 startup_MDR32F9Qx.o)
+  Marking symbol .text31                                 (53 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line63                           (93 startup_MDR32F9Qx.o)
+Marking from fragment #400 .debug_info (141 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text30                                 (51 startup_MDR32F9Qx.o)
+  Marking symbol .text30                                 (51 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line62                           (92 startup_MDR32F9Qx.o)
+Marking from fragment #399 .debug_info (138 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text29                                 (49 startup_MDR32F9Qx.o)
+  Marking symbol .text29                                 (49 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line61                           (91 startup_MDR32F9Qx.o)
+Marking from fragment #398 .debug_info (135 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text28                                 (47 startup_MDR32F9Qx.o)
+  Marking symbol .text28                                 (47 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line60                           (90 startup_MDR32F9Qx.o)
+Marking from fragment #397 .debug_info (132 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text27                                 (45 startup_MDR32F9Qx.o)
+  Marking symbol .text27                                 (45 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line59                           (89 startup_MDR32F9Qx.o)
+Marking from fragment #396 .debug_info (129 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text26                                 (43 startup_MDR32F9Qx.o)
+  Marking symbol .text26                                 (43 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line58                           (88 startup_MDR32F9Qx.o)
+Marking from fragment #395 .debug_info (126 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text25                                 (41 startup_MDR32F9Qx.o)
+  Marking symbol .text25                                 (41 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line57                           (87 startup_MDR32F9Qx.o)
+Marking from fragment #394 .debug_info (123 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text24                                 (39 startup_MDR32F9Qx.o)
+  Marking symbol .text24                                 (39 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line56                           (86 startup_MDR32F9Qx.o)
+Marking from fragment #393 .debug_info (120 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text23                                 (37 startup_MDR32F9Qx.o)
+  Marking symbol .text23                                 (37 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line55                           (85 startup_MDR32F9Qx.o)
+Marking from fragment #392 .debug_info (117 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text22                                 (35 startup_MDR32F9Qx.o)
+  Marking symbol .text22                                 (35 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line54                           (84 startup_MDR32F9Qx.o)
+Marking from fragment #391 .debug_info (114 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text21                                 (33 startup_MDR32F9Qx.o)
+  Marking symbol .text21                                 (33 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line53                           (83 startup_MDR32F9Qx.o)
+Marking from fragment #390 .debug_info (111 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text20                                 (31 startup_MDR32F9Qx.o)
+  Marking symbol .text20                                 (31 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line52                           (82 startup_MDR32F9Qx.o)
+Marking from fragment #389 .debug_info (108 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text19                                 (29 startup_MDR32F9Qx.o)
+  Marking symbol .text19                                 (29 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line51                           (81 startup_MDR32F9Qx.o)
+Marking from fragment #388 .debug_info (105 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text18                                 (27 startup_MDR32F9Qx.o)
+  Marking symbol .text18                                 (27 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line50                           (80 startup_MDR32F9Qx.o)
+Marking from fragment #387 .debug_info (102 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text17                                 (25 startup_MDR32F9Qx.o)
+  Marking symbol .text17                                 (25 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line49                           (79 startup_MDR32F9Qx.o)
+Marking from fragment #386 .debug_info (99 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text16                                 (23 startup_MDR32F9Qx.o)
+  Marking symbol .text16                                 (23 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line48                           (78 startup_MDR32F9Qx.o)
+Marking from fragment #385 .debug_info (96 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text15                                 (21 startup_MDR32F9Qx.o)
+  Marking symbol .text15                                 (21 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line47                           (77 startup_MDR32F9Qx.o)
+Marking from fragment #384 .debug_info (93 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text14                                 (19 startup_MDR32F9Qx.o)
+  Marking symbol .text14                                 (19 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line46                           (76 startup_MDR32F9Qx.o)
+Marking from fragment #383 .debug_info (90 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text13                                 (17 startup_MDR32F9Qx.o)
+  Marking symbol .text13                                 (17 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line45                           (75 startup_MDR32F9Qx.o)
+Marking from fragment #382 .debug_info (87 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text12                                 (15 startup_MDR32F9Qx.o)
+  Marking symbol .text12                                 (15 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line44                           (74 startup_MDR32F9Qx.o)
+Marking from fragment #381 .debug_info (84 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text11                                 (13 startup_MDR32F9Qx.o)
+  Marking symbol .text11                                 (13 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line43                           (73 startup_MDR32F9Qx.o)
+Marking from fragment #380 .debug_info (81 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text10                                 (11 startup_MDR32F9Qx.o)
+  Marking symbol .text10                                 (11 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line42                           (72 startup_MDR32F9Qx.o)
+Marking from fragment #379 .debug_info (78 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text9                                  (9 startup_MDR32F9Qx.o)
+  Marking symbol .text9                                  (9 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line41                           (71 startup_MDR32F9Qx.o)
+Marking from fragment #377 .debug_info (74 startup_MDR32F9Qx.o)
+  Marking symbol .debug_abbrev75                         (69 startup_MDR32F9Qx.o)
+  Marking symbol .text8                                  (6 startup_MDR32F9Qx.o)
+  Marking symbol .text8                                  (6 startup_MDR32F9Qx.o)
+  Marking symbol .debug_line40                           (70 startup_MDR32F9Qx.o)
+Marking from fragment #374 .debug_line (70 startup_MDR32F9Qx.o)
+  Marking symbol .text38                                 (67 startup_MDR32F9Qx.o)
+Marking from fragment #373 .debug_line (69 startup_MDR32F9Qx.o)
+  Marking symbol .text37                                 (65 startup_MDR32F9Qx.o)
+Marking from fragment #372 .debug_line (68 startup_MDR32F9Qx.o)
+  Marking symbol .text36                                 (63 startup_MDR32F9Qx.o)
+Marking from fragment #371 .debug_line (67 startup_MDR32F9Qx.o)
+  Marking symbol .text35                                 (61 startup_MDR32F9Qx.o)
+Marking from fragment #370 .debug_line (66 startup_MDR32F9Qx.o)
+  Marking symbol .text34                                 (59 startup_MDR32F9Qx.o)
+Marking from fragment #369 .debug_line (65 startup_MDR32F9Qx.o)
+  Marking symbol .text33                                 (57 startup_MDR32F9Qx.o)
+Marking from fragment #368 .debug_line (64 startup_MDR32F9Qx.o)
+  Marking symbol .text32                                 (55 startup_MDR32F9Qx.o)
+Marking from fragment #367 .debug_line (63 startup_MDR32F9Qx.o)
+  Marking symbol .text31                                 (53 startup_MDR32F9Qx.o)
+Marking from fragment #366 .debug_line (62 startup_MDR32F9Qx.o)
+  Marking symbol .text30                                 (51 startup_MDR32F9Qx.o)
+Marking from fragment #365 .debug_line (61 startup_MDR32F9Qx.o)
+  Marking symbol .text29                                 (49 startup_MDR32F9Qx.o)
+Marking from fragment #364 .debug_line (60 startup_MDR32F9Qx.o)
+  Marking symbol .text28                                 (47 startup_MDR32F9Qx.o)
+Marking from fragment #363 .debug_line (59 startup_MDR32F9Qx.o)
+  Marking symbol .text27                                 (45 startup_MDR32F9Qx.o)
+Marking from fragment #362 .debug_line (58 startup_MDR32F9Qx.o)
+  Marking symbol .text26                                 (43 startup_MDR32F9Qx.o)
+Marking from fragment #361 .debug_line (57 startup_MDR32F9Qx.o)
+  Marking symbol .text25                                 (41 startup_MDR32F9Qx.o)
+Marking from fragment #360 .debug_line (56 startup_MDR32F9Qx.o)
+  Marking symbol .text24                                 (39 startup_MDR32F9Qx.o)
+Marking from fragment #359 .debug_line (55 startup_MDR32F9Qx.o)
+  Marking symbol .text23                                 (37 startup_MDR32F9Qx.o)
+Marking from fragment #358 .debug_line (54 startup_MDR32F9Qx.o)
+  Marking symbol .text22                                 (35 startup_MDR32F9Qx.o)
+Marking from fragment #357 .debug_line (53 startup_MDR32F9Qx.o)
+  Marking symbol .text21                                 (33 startup_MDR32F9Qx.o)
+Marking from fragment #356 .debug_line (52 startup_MDR32F9Qx.o)
+  Marking symbol .text20                                 (31 startup_MDR32F9Qx.o)
+Marking from fragment #355 .debug_line (51 startup_MDR32F9Qx.o)
+  Marking symbol .text19                                 (29 startup_MDR32F9Qx.o)
+Marking from fragment #354 .debug_line (50 startup_MDR32F9Qx.o)
+  Marking symbol .text18                                 (27 startup_MDR32F9Qx.o)
+Marking from fragment #353 .debug_line (49 startup_MDR32F9Qx.o)
+  Marking symbol .text17                                 (25 startup_MDR32F9Qx.o)
+Marking from fragment #352 .debug_line (48 startup_MDR32F9Qx.o)
+  Marking symbol .text16                                 (23 startup_MDR32F9Qx.o)
+Marking from fragment #351 .debug_line (47 startup_MDR32F9Qx.o)
+  Marking symbol .text15                                 (21 startup_MDR32F9Qx.o)
+Marking from fragment #350 .debug_line (46 startup_MDR32F9Qx.o)
+  Marking symbol .text14                                 (19 startup_MDR32F9Qx.o)
+Marking from fragment #349 .debug_line (45 startup_MDR32F9Qx.o)
+  Marking symbol .text13                                 (17 startup_MDR32F9Qx.o)
+Marking from fragment #348 .debug_line (44 startup_MDR32F9Qx.o)
+  Marking symbol .text12                                 (15 startup_MDR32F9Qx.o)
+Marking from fragment #347 .debug_line (43 startup_MDR32F9Qx.o)
+  Marking symbol .text11                                 (13 startup_MDR32F9Qx.o)
+Marking from fragment #346 .debug_line (42 startup_MDR32F9Qx.o)
+  Marking symbol .text10                                 (11 startup_MDR32F9Qx.o)
+Marking from fragment #345 .debug_line (41 startup_MDR32F9Qx.o)
+  Marking symbol .text9                                  (9 startup_MDR32F9Qx.o)
+Marking from fragment #344 .debug_line (40 startup_MDR32F9Qx.o)
+  Marking symbol .text8                                  (6 startup_MDR32F9Qx.o)
+Marking from fragment #305 .debug_pubnames (314 MDR32F9Qx_rst_clk.o)
+  Marking symbol .debug_info173                          (302 MDR32F9Qx_rst_clk.o)
+Marking from fragment #229 .debug_info (173 MDR32F9Qx_rst_clk.o)
+  Marking symbol .debug_abbrev219                        (173 MDR32F9Qx_rst_clk.o)
+    Marking fragment #273 .debug_abbrev (219 MDR32F9Qx_rst_clk.o)
+  Marking symbol .debug_info7                            (177 MDR32F9Qx_rst_clk.o)
+    Marking fragment #96 .debug_info (7 MDR32F9Qx_rst_clk.o)
+  Marking symbol .text_33                                (162 MDR32F9Qx_rst_clk.o)
+  Marking symbol .text_33                                (162 MDR32F9Qx_rst_clk.o)
+  Marking symbol .debug_line172                          (300 MDR32F9Qx_rst_clk.o)
+  Marking symbol .iar.debug_line171                      (301 MDR32F9Qx_rst_clk.o)
+  Marking symbol .debug_info7                            (177 MDR32F9Qx_rst_clk.o)
+  Marking symbol .debug_loc216                           (299 MDR32F9Qx_rst_clk.o)
+    Marking fragment #270 .debug_loc (216 MDR32F9Qx_rst_clk.o)
+  Marking symbol .text_33                                (162 MDR32F9Qx_rst_clk.o)
+  Marking symbol .text_33                                (162 MDR32F9Qx_rst_clk.o)
+  Marking symbol .debug_info7                            (177 MDR32F9Qx_rst_clk.o)
+  Marking symbol .debug_info7                            (177 MDR32F9Qx_rst_clk.o)
+Marking from fragment #270 .debug_loc (216 MDR32F9Qx_rst_clk.o)
+Marking from fragment #96 .debug_info (7 MDR32F9Qx_rst_clk.o)
+  Marking symbol .debug_abbrev219                        (173 MDR32F9Qx_rst_clk.o)
+  Marking symbol .debug_line6                            (311 MDR32F9Qx_rst_clk.o)
+    Marking fragment #95 .debug_line (6 MDR32F9Qx_rst_clk.o)
+  Marking symbol .debug_macinfo322                       (312 MDR32F9Qx_rst_clk.o)
+    Marking fragment #308 .debug_macinfo (322 MDR32F9Qx_rst_clk.o)
+Marking from fragment #308 .debug_macinfo (322 MDR32F9Qx_rst_clk.o)
+Marking from fragment #95 .debug_line (6 MDR32F9Qx_rst_clk.o)
+Marking from fragment #273 .debug_abbrev (219 MDR32F9Qx_rst_clk.o)
+Marking from fragment #228 .debug_line (172 MDR32F9Qx_rst_clk.o)
+  Marking symbol .text_33                                (162 MDR32F9Qx_rst_clk.o)
+Marking from fragment #227 .iar.debug_line (171 MDR32F9Qx_rst_clk.o)
+  Marking symbol .text_33                                (162 MDR32F9Qx_rst_clk.o)
+  Marking symbol .debug_info173                          (302 MDR32F9Qx_rst_clk.o)
+Marking from fragment #226 .debug_frame (169 MDR32F9Qx_rst_clk.o)
+  Marking symbol .debug_frame169                         (163 MDR32F9Qx_rst_clk.o)
+  Marking symbol .text_33                                (162 MDR32F9Qx_rst_clk.o)
+Marking from fragment #90 .debug_pubnames (89 MDR32F9Qx_port.o)
+  Marking symbol .debug_info48                           (86 MDR32F9Qx_port.o)
+Marking from fragment #89 .debug_pubnames (86 MDR32F9Qx_port.o)
+  Marking symbol .debug_info43                           (82 MDR32F9Qx_port.o)
+Marking from fragment #87 .debug_pubnames (80 MDR32F9Qx_port.o)
+  Marking symbol .debug_info33                           (74 MDR32F9Qx_port.o)
+Marking from fragment #85 .debug_pubnames (74 MDR32F9Qx_port.o)
+  Marking symbol .debug_info23                           (66 MDR32F9Qx_port.o)
+Marking from fragment #64 .debug_info (48 MDR32F9Qx_port.o)
+  Marking symbol .debug_abbrev69                         (57 MDR32F9Qx_port.o)
+    Marking fragment #83 .debug_abbrev (69 MDR32F9Qx_port.o)
+  Marking symbol .text_8                                 (46 MDR32F9Qx_port.o)
+  Marking symbol .text_8                                 (46 MDR32F9Qx_port.o)
+  Marking symbol .debug_line47                           (84 MDR32F9Qx_port.o)
+  Marking symbol .iar.debug_line46                       (85 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+    Marking fragment #31 .debug_info (7 MDR32F9Qx_port.o)
+  Marking symbol .debug_loc66                            (83 MDR32F9Qx_port.o)
+    Marking fragment #80 .debug_loc (66 MDR32F9Qx_port.o)
+  Marking symbol .text_8                                 (46 MDR32F9Qx_port.o)
+  Marking symbol .text_8                                 (46 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+Marking from fragment #80 .debug_loc (66 MDR32F9Qx_port.o)
+Marking from fragment #31 .debug_info (7 MDR32F9Qx_port.o)
+  Marking symbol .debug_abbrev69                         (57 MDR32F9Qx_port.o)
+  Marking symbol .debug_line6                            (95 MDR32F9Qx_port.o)
+    Marking fragment #30 .debug_line (6 MDR32F9Qx_port.o)
+  Marking symbol .debug_macinfo97                        (96 MDR32F9Qx_port.o)
+    Marking fragment #93 .debug_macinfo (97 MDR32F9Qx_port.o)
+Marking from fragment #93 .debug_macinfo (97 MDR32F9Qx_port.o)
+Marking from fragment #30 .debug_line (6 MDR32F9Qx_port.o)
+Marking from fragment #83 .debug_abbrev (69 MDR32F9Qx_port.o)
+Marking from fragment #63 .debug_line (47 MDR32F9Qx_port.o)
+  Marking symbol .text_8                                 (46 MDR32F9Qx_port.o)
+Marking from fragment #62 .iar.debug_line (46 MDR32F9Qx_port.o)
+  Marking symbol .text_8                                 (46 MDR32F9Qx_port.o)
+  Marking symbol .debug_info48                           (86 MDR32F9Qx_port.o)
+Marking from fragment #61 .debug_frame (44 MDR32F9Qx_port.o)
+  Marking symbol .debug_frame44                          (47 MDR32F9Qx_port.o)
+  Marking symbol .text_8                                 (46 MDR32F9Qx_port.o)
+Marking from fragment #60 .debug_info (43 MDR32F9Qx_port.o)
+  Marking symbol .debug_abbrev69                         (57 MDR32F9Qx_port.o)
+  Marking symbol .text_7                                 (44 MDR32F9Qx_port.o)
+  Marking symbol .text_7                                 (44 MDR32F9Qx_port.o)
+  Marking symbol .debug_line42                           (80 MDR32F9Qx_port.o)
+  Marking symbol .iar.debug_line41                       (81 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_loc65                            (79 MDR32F9Qx_port.o)
+    Marking fragment #79 .debug_loc (65 MDR32F9Qx_port.o)
+  Marking symbol .text_7                                 (44 MDR32F9Qx_port.o)
+  Marking symbol .text_7                                 (44 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+Marking from fragment #79 .debug_loc (65 MDR32F9Qx_port.o)
+Marking from fragment #59 .debug_line (42 MDR32F9Qx_port.o)
+  Marking symbol .text_7                                 (44 MDR32F9Qx_port.o)
+Marking from fragment #58 .iar.debug_line (41 MDR32F9Qx_port.o)
+  Marking symbol .text_7                                 (44 MDR32F9Qx_port.o)
+  Marking symbol .debug_info43                           (82 MDR32F9Qx_port.o)
+Marking from fragment #57 .debug_frame (39 MDR32F9Qx_port.o)
+  Marking symbol .debug_frame39                          (45 MDR32F9Qx_port.o)
+  Marking symbol .text_7                                 (44 MDR32F9Qx_port.o)
+Marking from fragment #52 .debug_info (33 MDR32F9Qx_port.o)
+  Marking symbol .debug_abbrev69                         (57 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .text_5                                 (40 MDR32F9Qx_port.o)
+  Marking symbol .text_5                                 (40 MDR32F9Qx_port.o)
+  Marking symbol .debug_line32                           (72 MDR32F9Qx_port.o)
+  Marking symbol .iar.debug_line31                       (73 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_loc63                            (71 MDR32F9Qx_port.o)
+    Marking fragment #77 .debug_loc (63 MDR32F9Qx_port.o)
+  Marking symbol .text_5                                 (40 MDR32F9Qx_port.o)
+  Marking symbol .text_5                                 (40 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_loc63                            (71 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_loc63                            (71 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_loc63                            (71 MDR32F9Qx_port.o)
+Marking from fragment #77 .debug_loc (63 MDR32F9Qx_port.o)
+Marking from fragment #51 .debug_line (32 MDR32F9Qx_port.o)
+  Marking symbol .text_5                                 (40 MDR32F9Qx_port.o)
+Marking from fragment #50 .iar.debug_line (31 MDR32F9Qx_port.o)
+  Marking symbol .text_5                                 (40 MDR32F9Qx_port.o)
+  Marking symbol .debug_info33                           (74 MDR32F9Qx_port.o)
+Marking from fragment #49 .debug_frame (29 MDR32F9Qx_port.o)
+  Marking symbol .debug_frame29                          (41 MDR32F9Qx_port.o)
+  Marking symbol .text_5                                 (40 MDR32F9Qx_port.o)
+Marking from fragment #44 .debug_info (23 MDR32F9Qx_port.o)
+  Marking symbol .debug_abbrev69                         (57 MDR32F9Qx_port.o)
+  Marking symbol .text_3                                 (36 MDR32F9Qx_port.o)
+  Marking symbol .text_3                                 (36 MDR32F9Qx_port.o)
+  Marking symbol .debug_line22                           (64 MDR32F9Qx_port.o)
+  Marking symbol .iar.debug_line21                       (65 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_loc61                            (63 MDR32F9Qx_port.o)
+    Marking fragment #75 .debug_loc (61 MDR32F9Qx_port.o)
+  Marking symbol .text_3                                 (36 MDR32F9Qx_port.o)
+  Marking symbol .text_3                                 (36 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_loc61                            (63 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_loc61                            (63 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_loc61                            (63 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_loc61                            (63 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_loc61                            (63 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_loc61                            (63 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_loc61                            (63 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_loc61                            (63 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_loc61                            (63 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_loc61                            (63 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_loc61                            (63 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_loc61                            (63 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_loc61                            (63 MDR32F9Qx_port.o)
+  Marking symbol .debug_info7                            (59 MDR32F9Qx_port.o)
+  Marking symbol .debug_loc61                            (63 MDR32F9Qx_port.o)
+Marking from fragment #75 .debug_loc (61 MDR32F9Qx_port.o)
+Marking from fragment #43 .debug_line (22 MDR32F9Qx_port.o)
+  Marking symbol .text_3                                 (36 MDR32F9Qx_port.o)
+Marking from fragment #42 .iar.debug_line (21 MDR32F9Qx_port.o)
+  Marking symbol .text_3                                 (36 MDR32F9Qx_port.o)
+  Marking symbol .debug_info23                           (66 MDR32F9Qx_port.o)
+Marking from fragment #41 .debug_frame (19 MDR32F9Qx_port.o)
+  Marking symbol .debug_frame19                          (37 MDR32F9Qx_port.o)
+  Marking symbol .text_3                                 (36 MDR32F9Qx_port.o)
+Marking from fragment #27 .debug_pubnames (41 main.o)
+  Marking symbol .debug_info28                           (51 main.o)
+Marking from fragment #26 .debug_pubnames (38 main.o)
+  Marking symbol .debug_info23                           (47 main.o)
+Marking from fragment #25 .debug_pubnames (35 main.o)
+  Marking symbol .debug_info17                           (43 main.o)
+Marking from fragment #19 .debug_info (28 main.o)
+  Marking symbol .debug_abbrev33                         (38 main.o)
+    Marking fragment #24 .debug_abbrev (33 main.o)
+  Marking symbol .text_4                                 (31 main.o)
+  Marking symbol .text_4                                 (31 main.o)
+  Marking symbol .debug_line27                           (49 main.o)
+  Marking symbol .iar.debug_line26                       (50 main.o)
+  Marking symbol .debug_info7                            (39 main.o)
+    Marking fragment #2 .debug_info (7 main.o)
+  Marking symbol .debug_loc32                            (48 main.o)
+    Marking fragment #23 .debug_loc (32 main.o)
+  Marking symbol .text_4                                 (31 main.o)
+  Marking symbol .text_4                                 (31 main.o)
+  Marking symbol .debug_info7                            (39 main.o)
+  Marking symbol .debug_loc32                            (48 main.o)
+Marking from fragment #23 .debug_loc (32 main.o)
+Marking from fragment #2 .debug_info (7 main.o)
+  Marking symbol .debug_abbrev33                         (38 main.o)
+  Marking symbol .debug_line6                            (52 main.o)
+    Marking fragment #1 .debug_line (6 main.o)
+  Marking symbol .debug_macinfo43                        (53 main.o)
+    Marking fragment #28 .debug_macinfo (43 main.o)
+Marking from fragment #28 .debug_macinfo (43 main.o)
+Marking from fragment #1 .debug_line (6 main.o)
+Marking from fragment #24 .debug_abbrev (33 main.o)
+Marking from fragment #18 .debug_line (27 main.o)
+  Marking symbol .text_4                                 (31 main.o)
+Marking from fragment #17 .iar.debug_line (26 main.o)
+  Marking symbol .text_4                                 (31 main.o)
+  Marking symbol .debug_info28                           (51 main.o)
+  Marking symbol RST_CLK_PCLKcmd                    Glb  (337 MDR32F9Qx_rst_clk.o)
+  Marking symbol PORT_Init                          Glb  (98 MDR32F9Qx_port.o)
+Marking from fragment #16 .debug_frame (24 main.o)
+  Marking symbol .debug_frame24                          (32 main.o)
+  Marking symbol .text_4                                 (31 main.o)
+Marking from fragment #15 .debug_info (23 main.o)
+  Marking symbol .debug_abbrev33                         (38 main.o)
+  Marking symbol .text_3                                 (29 main.o)
+  Marking symbol .text_3                                 (29 main.o)
+  Marking symbol .debug_line22                           (45 main.o)
+  Marking symbol .iar.debug_line21                       (46 main.o)
+  Marking symbol .debug_info7                            (39 main.o)
+  Marking symbol .debug_loc31                            (44 main.o)
+    Marking fragment #22 .debug_loc (31 main.o)
+  Marking symbol .text_3                                 (29 main.o)
+  Marking symbol .text_3                                 (29 main.o)
+  Marking symbol .debug_info7                            (39 main.o)
+Marking from fragment #22 .debug_loc (31 main.o)
+Marking from fragment #14 .debug_line (22 main.o)
+  Marking symbol .text_3                                 (29 main.o)
+Marking from fragment #13 .iar.debug_line (21 main.o)
+  Marking symbol .text_3                                 (29 main.o)
+  Marking symbol .debug_info23                           (47 main.o)
+Marking from fragment #12 .debug_frame (19 main.o)
+  Marking symbol .debug_frame19                          (30 main.o)
+  Marking symbol .text_3                                 (29 main.o)
+Marking from fragment #11 .debug_info (17 main.o)
+  Marking symbol .debug_abbrev33                         (38 main.o)
+  Marking symbol .text8                                  (26 main.o)
+  Marking symbol .text8                                  (26 main.o)
+  Marking symbol .debug_line16                           (41 main.o)
+  Marking symbol .iar.debug_line15                       (42 main.o)
+  Marking symbol .debug_info7                            (39 main.o)
+  Marking symbol .debug_info7                            (39 main.o)
+  Marking symbol .debug_loc30                            (40 main.o)
+    Marking fragment #21 .debug_loc (30 main.o)
+  Marking symbol .text8                                  (26 main.o)
+  Marking symbol .text8                                  (26 main.o)
+  Marking symbol .debug_info7                            (39 main.o)
+  Marking symbol .debug_loc30                            (40 main.o)
+  Marking symbol .text8                                  (26 main.o)
+  Marking symbol .text8                                  (26 main.o)
+  Marking symbol .debug_info7                            (39 main.o)
+  Marking symbol .debug_loc30                            (40 main.o)
+  Marking symbol .debug_info7                            (39 main.o)
+  Marking symbol .debug_loc30                            (40 main.o)
+  Marking symbol .debug_info7                            (39 main.o)
+  Marking symbol .debug_loc30                            (40 main.o)
+Marking from fragment #21 .debug_loc (30 main.o)
+Marking from fragment #10 .debug_line (16 main.o)
+  Marking symbol .text8                                  (26 main.o)
+Marking from fragment #9 .iar.debug_line (15 main.o)
+  Marking symbol .text8                                  (26 main.o)
+  Marking symbol .debug_info17                           (43 main.o)
+  Marking symbol .debug_info28                           (51 main.o)
+  Marking symbol PORT_ReadInputDataBit              Glb  (100 MDR32F9Qx_port.o)
+  Marking symbol .debug_info23                           (47 main.o)
+  Marking symbol PORT_SetBits                       Glb  (102 MDR32F9Qx_port.o)
+  Marking symbol PORT_ResetBits                     Glb  (101 MDR32F9Qx_port.o)
+Marking from fragment #8 .debug_frame (13 main.o)
+  Marking symbol .debug_frame13                          (27 main.o)
+  Marking symbol .text8                                  (26 main.o)
+
+Unused fragments:
+  Section name           Index  Offset   Size  Object
+  ------------           -----  ------   ----  ------
+  __DLIB_PERTHREAD          10     0x0    0x0  main.o
+  __DLIB_PERTHREAD_init     11     0x0    0x0  main.o
+  .text                      8     0x0   0x22  MDR32F9Qx_port.o
+                                 0x20e   0x2c
+                                 0x250    0x4
+                                 0x282   0x2c
+                                 0x2ae   0x16
+  __DLIB_PERTHREAD          10     0x0    0x0  MDR32F9Qx_port.o
+  __DLIB_PERTHREAD_init     11     0x0    0x0  MDR32F9Qx_port.o
+  .text                      8     0x0   0x32  MDR32F9Qx_rst_clk.o
+                                  0x32   0x72
+                                  0xa4   0x42
+                                  0xe6   0x3c
+                                 0x122   0x42
+                                 0x164   0x3c
+                                 0x1a0    0xc
+                                 0x1ac   0x18
+                                 0x1c4   0x3c
+                                 0x200    0xc
+                                 0x20c   0x18
+                                 0x224   0x3c
+                                 0x260   0x4a
+                                 0x2aa    0xc
+                                 0x2b6    0xa
+                                 0x2c0   0x3c
+                                 0x2fc   0x18
+                                 0x314   0x16
+                                 0x32a   0x4a
+                                 0x374    0xc
+                                 0x380    0xc
+                                 0x38c   0x3c
+                                 0x3c8    0xa
+                                 0x3d2    0xa
+                                 0x3dc   0x12
+                                 0x3ee   0x14
+                                 0x402    0xa
+                                 0x40c   0x14
+                                 0x420    0xa
+                                 0x42a   0x12
+                                 0x43c    0xa
+                                 0x464  0x244
+                                 0x6a8   0x34
+                                 0x6dc    0x4
+                                 0x6e0    0x4
+                                 0x6e4    0x4
+                                 0x6e8    0x4
+                                 0x6ec    0x4
+                                 0x6f0    0x4
+                                 0x6f4    0x4
+                                 0x6f8    0x4
+                                 0x700    0x4
+                                 0x704    0x4
+                                 0x708    0x4
+                                 0x70c    0x4
+                                 0x710    0x4
+                                 0x714    0x4
+                                 0x718    0x4
+                                 0x71c    0x4
+                                 0x720    0x4
+                                 0x724    0x4
+                                 0x728    0x4
+                                 0x72c    0x4
+                                 0x730    0x4
+                                 0x734    0x4
+                                 0x738    0x4
+  __DLIB_PERTHREAD          10     0x0    0x0  MDR32F9Qx_rst_clk.o
+  __DLIB_PERTHREAD_init     11     0x0    0x0  MDR32F9Qx_rst_clk.o
+  CSTACK                     6     0x0    0x0  startup_MDR32F9Qx.o
+  __DLIB_PERTHREAD          11     0x0    0x0  system_MDR32F9Qx.o
+  __DLIB_PERTHREAD_init     12     0x0    0x0  system_MDR32F9Qx.o
+  SHT$$PREINIT_ARRAY         6     0x0    0x0  cmain.o
+  SHT$$INIT_ARRAY            7     0x0    0x0  cmain.o
+  __DLIB_PERTHREAD           8     0x0    0x0  exit.o
+  __DLIB_PERTHREAD_init      9     0x0    0x0  exit.o
+  .text                      6     0x2    0x4  cexit.o
+                                   0x6    0x4
+                                   0xa    0x4
+  __DLIB_PERTHREAD           8     0x0    0x0  exit.o
+  __DLIB_PERTHREAD_init      9     0x0    0x0  exit.o
+  Region$$Table              8     0x0    0x0  data_init.o
+  __DLIB_PERTHREAD           9     0x0    0x0  data_init.o
+  __DLIB_PERTHREAD_init     10     0x0    0x0  data_init.o
+  __DLIB_PERTHREAD           9     0x0    0x0  zero_init3.o
+  __DLIB_PERTHREAD_init     10     0x0    0x0  zero_init3.o
+  __DLIB_PERTHREAD           9     0x0    0x0  copy_init3.o
+  __DLIB_PERTHREAD_init     10     0x0    0x0  copy_init3.o
+  __DLIB_PERTHREAD           9     0x0    0x0  rle_init.o
+  __DLIB_PERTHREAD_init     10     0x0    0x0  rle_init.o
+  __DLIB_PERTHREAD           9     0x0    0x0  packbits_init.o
+  __DLIB_PERTHREAD_init     10     0x0    0x0  packbits_init.o
+  __DLIB_PERTHREAD           9     0x0    0x0  lzw_init.o
+  __DLIB_PERTHREAD_init     10     0x0    0x0  lzw_init.o
+  __DLIB_PERTHREAD           9     0x0    0x0  bwt_init.o
+  __DLIB_PERTHREAD_init     10     0x0    0x0  bwt_init.o
+  __DLIB_PERTHREAD           9     0x0    0x0  lz77_init.o
+  __DLIB_PERTHREAD_init     10     0x0    0x0  lz77_init.o
+  __DLIB_PERTHREAD           8     0x0    0x0  abort.o
+  __DLIB_PERTHREAD_init      9     0x0    0x0  abort.o
+  .text                      6     0x0    0x0  ABImemclr4.o
+  .text                      6     0x0    0x8  ABImemset48.o
+
+Creating copy init batch C1 for P1 -> P2, auto
+  First match: .data (system_MDR32F9Qx.o #8)
+Selecting packing algorithm for 'auto' batches
+  Estimating size for copy init batch C1 (P1 -> P2):
+      copy: 4 bytes
+      packbits: 5 bytes
+      lz77: 6 bytes
+    Selecting copy
+
+Veneer stats:
+
+  45 definitions
+  53 references
+     22 R_ARM_THM_CALL
+     31 R_ARM_THM_JUMP24
+   0 veneers               0 bytes
+   0 redirected references

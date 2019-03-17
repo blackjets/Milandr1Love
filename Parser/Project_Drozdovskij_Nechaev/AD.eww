@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\First\Lab1.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\Second\Lab2.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\Third\Lab3.ewp</path>
+  </project>
+  <project>
+    <path>C:\Users\Student\Desktop\lab_version\lcd\lcd.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\LCD_new\LCD_new.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

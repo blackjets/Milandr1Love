@@ -1,0 +1,229 @@
+###############################################################################
+#
+# IAR ELF Linker V7.10.1.6676/W32 for ARM                 07/May/2018  16:00:46
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\Student\Project_Drozdovskij_Nechaev\Third\Debug\Exe\Lab3.out
+#    Map file     =  
+#        D:\Student\Project_Drozdovskij_Nechaev\Third\Debug\List\Lab3.map
+#    Command line =  
+#        D:\Student\Project_Drozdovskij_Nechaev\Third\Debug\Obj\main.o
+#        D:\Student\Project_Drozdovskij_Nechaev\Third\Debug\Obj\MDR32F9Qx_adc.o
+#        D:\Student\Project_Drozdovskij_Nechaev\Third\Debug\Obj\MDR32F9Qx_port.o
+#        D:\Student\Project_Drozdovskij_Nechaev\Third\Debug\Obj\MDR32F9Qx_rst_clk.o
+#        D:\Student\Project_Drozdovskij_Nechaev\Third\Debug\Obj\MDR32F9Qx_timer.o
+#        D:\Student\Project_Drozdovskij_Nechaev\Third\Debug\Obj\startup_MDR32F9Qx.o
+#        D:\Student\Project_Drozdovskij_Nechaev\Third\Debug\Obj\system_MDR32F9Qx.o
+#        -o D:\Student\Project_Drozdovskij_Nechaev\Third\Debug\Exe\Lab3.out
+#        --map D:\Student\Project_Drozdovskij_Nechaev\Third\Debug\List\Lab3.map
+#        --log
+#        libraries,initialization,modules,redirects,sections,veneers,unused_fragments
+#        --log_file
+#        D:\Student\Project_Drozdovskij_Nechaev\Third\Debug\List\Lab3.log
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        7.0\arm\config\linker\Milandr\MDR1986VE9x\MDR32F1.icf" --remarks
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0801ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20007fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                       0xc0
+  .intvec            ro code  0x08000000    0xc0  startup_MDR32F9Qx.o [1]
+                            - 0x080000c0    0xc0
+
+"P1":                                      0x770
+  .text              ro code  0x080000c0   0x260  MDR32F9Qx_port.o [1]
+  .text              ro code  0x08000320   0x184  main.o [1]
+  .text              ro code  0x080004a4    0x24  MDR32F9Qx_rst_clk.o [1]
+  .text              ro code  0x080004c8   0x104  MDR32F9Qx_adc.o [1]
+  .text              ro code  0x080005cc     0x8  MDR32F9Qx_timer.o [1]
+  .text              ro code  0x080005d4   0x11c  system_MDR32F9Qx.o [1]
+  .text              ro code  0x080006f0    0x2e  copy_init3.o [4]
+  .text              ro code  0x08000720    0x28  data_init.o [4]
+  .iar.init_table    const    0x08000748    0x14  - Linker created -
+  .text              ro code  0x0800075c    0x1a  cmain.o [4]
+  .text              ro code  0x08000776     0x4  low_level_init.o [3]
+  .text              ro code  0x0800077a     0x4  exit.o [3]
+  .text              ro code  0x08000780     0xa  cexit.o [4]
+  .text              ro code  0x0800078c    0x14  exit.o [5]
+  .text              ro code  0x080007a0    0x10  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x080007b0     0xc  cstartup_M.o [4]
+  .text              ro code  0x080007bc     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x080007c0     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x080007c4     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x080007c8     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x080007cc     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x080007d0     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x080007d4     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x080007d8     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x080007dc     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x080007e0     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x080007e4     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x080007e8     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x080007ec     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x080007f0     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x080007f4     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x080007f8     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x080007fc     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000800     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000804     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000808     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x0800080c     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000810     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000814     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000818     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x0800081c     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000820     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000824     0x4  startup_MDR32F9Qx.o [1]
+  .rodata            const    0x08000828     0x0  copy_init3.o [4]
+  Initializer bytes  ro data  0x08000828     0x8  <for P2 s0>
+                            - 0x08000830   0x770
+
+"P2", part 1 of 2:                           0x8
+  P2 s0                       0x20000000     0x8  <Init block>
+    .data            inited   0x20000000     0x4  system_MDR32F9Qx.o [1]
+    .bss             inited   0x20000004     0x4  main.o [1]
+                            - 0x20000008     0x8
+
+"P2", part 2 of 2:                        0x1000
+  CSTACK                      0x20000008  0x1000  <Block>
+    CSTACK           uninit   0x20000008  0x1000  <Block tail>
+                            - 0x20001008  0x1000
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0x8:
+          0x08000828   0x8
+    1 destination range, total size 0x8:
+          0x20000000   0x8
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+D:\Student\Project_Drozdovskij_Nechaev\Third\Debug\Obj: [1]
+    MDR32F9Qx_adc.o          260
+    MDR32F9Qx_port.o         608
+    MDR32F9Qx_rst_clk.o       36
+    MDR32F9Qx_timer.o          8
+    main.o                   388        4        4
+    startup_MDR32F9Qx.o      316
+    system_MDR32F9Qx.o       284        4        4
+    ----------------------------------------------
+    Total:                 1 900        8        8
+
+command line: [2]
+    ----------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                     4
+    low_level_init.o           4
+    ----------------------------------------------
+    Total:                     8
+
+rt7M_tl.a: [4]
+    cexit.o                   10
+    cmain.o                   26
+    copy_init3.o              46
+    cstartup_M.o              12
+    data_init.o               40
+    ----------------------------------------------
+    Total:                   134
+
+shb_l.a: [5]
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    20
+
+    Gaps                       6
+    Linker created                     20    4 096
+--------------------------------------------------
+    Grand Total:           2 068       28    4 104
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                     Address   Size  Type      Object
+-----                     -------   ----  ----      ------
+?main                  0x0800075d         Code  Gb  cmain.o [4]
+ADC1_Init              0x0800050b   0x6e  Code  Gb  MDR32F9Qx_adc.o [1]
+ADC_Init               0x080004c9   0x42  Code  Gb  MDR32F9Qx_adc.o [1]
+ADCx_StructInit        0x08000579   0x32  Code  Gb  MDR32F9Qx_adc.o [1]
+CSTACK$$Base           0x20000008          --   Gb  - Linker created -
+CSTACK$$Limit          0x20001008          --   Gb  - Linker created -
+Delay                  0x08000353    0xc  Code  Lc  main.o [1]
+EXT_INT2               0x20000004    0x4  Data  Gb  main.o [1]
+EXT_INT2_IRQHandler    0x08000441    0x8  Code  Gb  main.o [1]
+InitAdc                0x080003b1   0x90  Code  Lc  main.o [1]
+InitLeds               0x0800035f   0x52  Code  Lc  main.o [1]
+PORT_Init              0x080000c1  0x1ec  Code  Gb  MDR32F9Qx_port.o [1]
+PORT_ReadInputDataBit  0x080002d9   0x16  Code  Gb  MDR32F9Qx_port.o [1]
+PORT_ResetBits         0x08000305   0x18  Code  Gb  MDR32F9Qx_port.o [1]
+PORT_SetBits           0x080002ef   0x16  Code  Gb  MDR32F9Qx_port.o [1]
+PORT_StructInit        0x080002ad   0x2c  Code  Gb  MDR32F9Qx_port.o [1]
+RST_CLK_PCLKcmd        0x080004a5   0x1e  Code  Gb  MDR32F9Qx_rst_clk.o [1]
+Region$$Table$$Base    0x08000748          --   Gb  - Linker created -
+Region$$Table$$Limit   0x0800075c          --   Gb  - Linker created -
+SystemCoreClock        0x20000000    0x4  Data  Gb  system_MDR32F9Qx.o [1]
+SystemCoreClockUpdate  0x080005d5   0x80  Code  Gb  system_MDR32F9Qx.o [1]
+SystemInit             0x08000655   0x64  Code  Gb  system_MDR32F9Qx.o [1]
+TIMER_ClearFlag        0x080005cd    0x8  Code  Gb  MDR32F9Qx_timer.o [1]
+Timer1_IRQHandler      0x08000449   0x22  Code  Gb  main.o [1]
+Timer2_IRQHandler      0x0800046b   0x22  Code  Gb  main.o [1]
+__cmain                0x0800075d         Code  Gb  cmain.o [4]
+__exit                 0x0800078d   0x14  Code  Gb  exit.o [5]
+__iar_copy_init3       0x080006f1   0x2e  Code  Gb  copy_init3.o [4]
+__iar_data_init3       0x08000721   0x28  Code  Gb  data_init.o [4]
+__iar_program_start    0x080007b1         Code  Gb  cstartup_M.o [4]
+__low_level_init       0x08000777    0x4  Code  Gb  low_level_init.o [3]
+__vector_table         0x08000000         Data  Gb  startup_MDR32F9Qx.o [1]
+_call_main             0x08000769         Code  Gb  cmain.o [4]
+_exit                  0x08000781         Code  Gb  cexit.o [4]
+_main                  0x08000773         Code  Gb  cmain.o [4]
+exit                   0x0800077b    0x4  Code  Gb  exit.o [3]
+main                   0x08000321   0x32  Code  Gb  main.o [1]
+
+
+[1] = D:\Student\Project_Drozdovskij_Nechaev\Third\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  2 068 bytes of readonly  code memory
+     28 bytes of readonly  data memory
+  4 104 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

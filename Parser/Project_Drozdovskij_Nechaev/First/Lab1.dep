@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4082510830</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\List\Lab1.log</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_MDR32F9Qx.pbi</file>
+      <file>$PROJ_DIR$\CMSIS\Device\Milandr\MDR32F9Qx\Include\system_MDR32F9Qx.h</file>
+      <file>$PROJ_DIR$\CMSIS\Device\Milandr\MDR32F9Qx\Source\system_MDR32F9Qx.c</file>
+      <file>$PROJ_DIR$\MDRSPL\src\MDR32F9Qx_port.c</file>
+      <file>$PROJ_DIR$\MDRSPL\src\MDR32F9Qx_rst_clk.c</file>
+      <file>$PROJ_DIR$\CMSIS\Device\Milandr\MDR32F9Qx\Source\startup_MDR32F9Qx.s</file>
+      <file>$PROJ_DIR$\..\Second\main.c</file>
+      <file>$PROJ_DIR$\MDRSPL\inc\MDR32F9Qx_rst_clk.h</file>
+      <file>$PROJ_DIR$\CMSIS\Include\core_cm3.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_MDR32F9Qx.o</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\MDR32F9Qx_rst_clk.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\MDR32F9Qx_config.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\MDR32F9Qx_port.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\MDRSPL\inc\MDR32F9Qx_port.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\Debug\Exe\Lab1.out</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\Debug\List\Lab1.map</file>
+      <file>$PROJ_DIR$\Debug\Obj\MDR32F9Qx_rst_clk.o</file>
+      <file>$PROJ_DIR$\MDRSPL\inc\MDR32F9Qx_lib.h</file>
+      <file>$PROJ_DIR$\MDRSPL\inc\MDR32F9Qx_config.h</file>
+      <file>$PROJ_DIR$\MDR32F9Qx_board.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MDR32F9Qx_port.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_MDR32F9Qx.o</file>
+      <file>$TOOLKIT_DIR$\config\linker\Milandr\MDR1986VE9x\MDR32F1.icf</file>
+      <file>$PROJ_DIR$\CMSIS\Device\Milandr\MDR32F9Qx\Include\MDR32Fx.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 35 1 29</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CMSIS\Device\Milandr\MDR32F9Qx\Source\system_MDR32F9Qx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 10 22 17 30 21 32 25 31 33 24 34 18 26 3 38 39 37</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43 10 22 17 30 21 32 25 31 33 24 34 18 26 3 38 39 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MDRSPL\src\MDR32F9Qx_port.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 39 37 22 17 30 21 32 25 31 33 43 10 24 34 18 26 3 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38 39 37 22 17 30 21 32 25 31 33 43 10 24 34 18 26 3 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MDRSPL\src\MDR32F9Qx_rst_clk.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 39 37 22 17 30 21 32 25 31 33 43 10 24 34 18 26 3 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38 39 37 22 17 30 21 32 25 31 33 43 10 24 34 18 26 3 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CMSIS\Device\Milandr\MDR32F9Qx\Source\startup_MDR32F9Qx.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Second\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 10 22 17 30 21 32 25 31 33 24 34 18 26 3 16 39 37 27 38 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43 10 22 17 30 21 32 25 31 33 24 34 18 26 3 16 39 37 27 38 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\Lab1.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 35 1</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 42 13 20 36 11 41 23 19 0 28</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

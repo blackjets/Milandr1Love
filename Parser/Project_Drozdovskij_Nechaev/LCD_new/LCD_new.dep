@@ -1,0 +1,2571 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3099605398</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_label.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_draw_vbasic.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_draw_vbasic.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_draw_rbasic.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_draw.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_draw.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_draw_rbasic.pbi</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_img.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_list.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_label.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_lmeter.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_mbox.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_objx.mk</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_line.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_objx_templ.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_kb.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_led.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_txt.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_hal\lv_hal_tick.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_fs.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_themes\lv_theme_night.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_math.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_hal\lv_hal_disp.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_themes\lv_theme.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_draw\lv_draw_rbasic.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_themes\lv_theme_default.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_themes\lv_theme_mono.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_draw\lv_draw.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_themes\lv_theme_alien.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_themes\lv_theme_zen.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_task.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_hal\lv_hal.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_ufs.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_themes\lv_theme_templ.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_hal\lv_hal_indev.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_objx_templ.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_sw.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_ta.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_tabview.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_roller.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_win.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_page.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_slider.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_theme_night.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_theme_alien.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_theme_night.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_theme_mono.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_theme_material.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_theme_mono.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_theme_templ.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_theme_zen.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_theme_alien.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_theme_material.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_theme_zen.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_theme_default.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_theme.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_theme.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_theme_templ.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_theme_default.pbi</file>
+      <file>$PROJ_DIR$\lvgl\lv_core\lv_group.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_core\lv_core.mk</file>
+      <file>$PROJ_DIR$\lvgl\lv_core\lv_group.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_core\lv_indev.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_core\lv_obj.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_core\lv_obj.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_core\lv_refr.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_core\lv_refr.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_core\lv_indev.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_core\lv_style.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_core\lv_style.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_hal\lv_hal.mk</file>
+      <file>$PROJ_DIR$\lvgl\lv_core\lv_vdb.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_hal\lv_hal_indev.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_hal\lv_hal_tick.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_btn.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_indev.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_style.pbi</file>
+      <file>$PROJ_DIR$\lvgl\lv_draw\lv_draw.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_draw\lv_draw_rbasic.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_hal\lv_hal_disp.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_chart.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_cont.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_ddlist.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_core\lv_vdb.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_obj.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_group.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_group.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_obj.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_refr.o</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_btnm.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_cb.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_style.o</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_bar.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_vdb.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_indev.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_refr.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_vdb.pbi</file>
+      <file>$PROJ_DIR$\lvgl\lv_draw\lv_draw.mk</file>
+      <file>$PROJ_DIR$\lvgl\lv_draw\lv_draw_vbasic.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_draw\lv_draw_vbasic.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_mem.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_gauge.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_area.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_anim.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_font.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_ll.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_symbol_def.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_color.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_themes\lv_theme.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_themes\lv_theme_templ.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_themes\lv_theme_material.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_themes\lv_theme_zen.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_themes\lv_themes.mk</file>
+      <file>$PROJ_DIR$\lvgl\lv_themes\lv_theme_default.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_themes\lv_theme_night.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_themes\lv_theme_alien.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_themes\lv_theme_material.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_themes\lv_theme_mono.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_cb.pbi</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_cont.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_symbol_10.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_symbol_30.pbi</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_list.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_led.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_slider.o</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_page.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_btnm.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_40_latin_sup.pbi</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_line.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_kb.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_symbol_40.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_40_cyrillic.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_symbol_20.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_sw.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_ta.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_tabview.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_win.o</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_btn.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_chart.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_cb.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_slider.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_40.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_bar.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_btn.pbi</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_bar.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_misc.mk</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_ll.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_templ.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_templ.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_font.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_math.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_trigo.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_task.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_ufs.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_color.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_trigo.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_10_cyrillic.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_10_latin_sup.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_30.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_30_cyrillic.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_circ.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_20_cyrillic.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_area.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_30_latin_sup.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_40.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_40_cyrillic.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_mem.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_txt.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_20_latin_sup.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_40_latin_sup.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_10.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_symbol_10.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_fs.c</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_20.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_bar.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_chart.o</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_ta.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_btnm.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_kb.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_line.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_btnm.pbi</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_roller.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_tabview.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_gauge.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_lmeter.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_sw.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_mbox.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_label.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_led.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_btn.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_cb.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_lmeter.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_cont.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_mbox.o</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_win.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_ddlist.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_objx_templ.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_page.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_roller.o</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_ddlist.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_list.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_gauge.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_img.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_symbol_30.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_symbol_40.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_30_cyrillic.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_10_cyrillic.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_40_latin_sup.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_10_cyrillic.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_10_latin_sup.pbi</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_fonts.mk</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_symbol_20.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_10.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_20_cyrillic.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_20_latin_sup.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_30.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_30_cyrillic.pbi</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_symbol_40.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_10_latin_sup.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_20_cyrillic.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_20.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_30_latin_sup.pbi</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_symbol_30.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_20.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_30_latin_sup.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_30.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_40_cyrillic.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_40.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_10.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_dejavu_20_latin_sup.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font_symbol_10.o</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_symbol_20.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\errno.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_hal_indev.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_hal_tick.pbi</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_anim.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_hal_indev.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_hal_tick.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_hal_disp.o</file>
+      <file>$PROJ_DIR$\lvgl\docs\TODO_MINOR.md</file>
+      <file>$PROJ_DIR$\lvgl\docs\CODE_OF_CONDUCT.md</file>
+      <file>$PROJ_DIR$\lvgl\docs\TODO_MAJOR.md</file>
+      <file>$PROJ_DIR$\lvgl\docs\TODO_PATCH.md</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_hal_disp.pbi</file>
+      <file>$PROJ_DIR$\lvgl\docs\CONTRIBUTING.md</file>
+      <file>$PROJ_DIR$\lvgl\lv_conf_templ.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\lv_conf.h</file>
+      <file>$PROJ_DIR$\lvgl\lvgl.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_misc\lv_circ.h</file>
+      <file>$PROJ_DIR$\lvgl\lv_objx\lv_img.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_ddlist.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_mbox.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_lmeter.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_chart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_kb.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_img.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_led.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_roller.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_slider.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_line.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_cont.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_gauge.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_objx_templ.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_label.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_sw.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_tabview.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_win.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_list.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_ta.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_page.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_txt.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_ufs.pbi</file>
+      <file>$PROJ_DIR$\..\Third\main.c</file>
+      <file>C:\Users\Student\Downloads\lvgl_v5_1_1\lvgl\lv_draw\lv_draw_rbasic.h</file>
+      <file>C:\Users\Student\Downloads\lvgl_v5_1_1\lvgl\lvgl.h</file>
+      <file>$PROJ_DIR$\MDRSPL\src\MDR32F9Qx_adc.c</file>
+      <file>$PROJ_DIR$\CMSIS\Device\Milandr\MDR32F9Qx\Source\system_MDR32F9Qx.c</file>
+      <file>$PROJ_DIR$\CMSIS\Include\core_cm3.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MDR32F9Qx_timer.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\CMSIS\Device\Milandr\MDR32F9Qx\Source\startup_MDR32F9Qx.s</file>
+      <file>$PROJ_DIR$\MDRSPL\src\MDR32F9Qx_port.c</file>
+      <file>$PROJ_DIR$\MDRSPL\src\MDR32F9Qx_timer.c</file>
+      <file>$PROJ_DIR$\MDRSPL\src\MDR32F9Qx_rst_clk.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_MDR32F9Qx.o</file>
+      <file>$PROJ_DIR$\Debug\Exe\LCD_new.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\MDR32F9Qx_port.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\CMSIS\Device\Milandr\MDR32F9Qx\Include\system_MDR32F9Qx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\MDR32F9Qx_timer.o</file>
+      <file>$PROJ_DIR$\MDRSPL\inc\MDR32F9Qx_adc.h</file>
+      <file>$PROJ_DIR$\MDRSPL\inc\MDR32F9Qx_config.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MDR32F9Qx_rst_clk.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_MDR32F9Qx.o</file>
+      <file>$PROJ_DIR$\CMSIS\Device\Milandr\MDR32F9Qx\Include\MDR32Fx.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_MDR32F9Qx.pbi</file>
+      <file>$TOOLKIT_DIR$\config\linker\Milandr\MDR1986VE9x\MDR32F1.icf</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MDR32F9Qx_port.o</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\LCD_new.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\MDR32F9Qx_rst_clk.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\MDRSPL\inc\MDR32F9Qx_rst_clk.h</file>
+      <file>$PROJ_DIR$\MDR32F9Qx_config.h</file>
+      <file>$PROJ_DIR$\Debug\List\LCD_new.map</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\MDRSPL\inc\MDR32F9Qx_lib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MDR32F9Qx_adc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\MDR32F9Qx_adc.o</file>
+      <file>$PROJ_DIR$\MDRSPL\inc\MDR32F9Qx_timer.h</file>
+      <file>$PROJ_DIR$\MDRSPL\inc\MDR32F9Qx_port.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\Debug\List\LCD_new.log</file>
+      <file>$PROJ_DIR$\MDR32F9Qx_board.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_trigo.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_mem.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_ll.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_txt.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_color.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_circ.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_font.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_math.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_area.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_fs.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_ll.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_math.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_task.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_trigo.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_templ.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_fs.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_task.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_ufs.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_mem.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_area.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_anim.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_color.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_anim.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_circ.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lv_templ.o</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_img.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 262</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 207</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 255 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 19 0 17 27 23 33 25 28 20 29 26 32</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 255 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 19 0 17 27 23 33 25 28 20 29 26 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_list.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 274</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 205</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 127 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 130 124 67 34 31 22 18 61 142 0 17 255 19 27 23 33 25 28 20 29 26 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 127 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 130 124 67 34 31 22 18 61 142 0 17 255 19 27 23 33 25 28 20 29 26 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_label.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 270</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 192</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 0 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 17 61 27 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 0 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 17 61 27 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_lmeter.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 259</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 196</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 189 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 27 17 23 33 25 28 20 29 26 61 156</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 189 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 27 17 23 33 25 28 20 29 26 61 156</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_mbox.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 258</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 198</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 191 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 124 131 0 17 142 67 34 31 22 18 61 23 33 25 28 20 29 26 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 191 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 124 131 0 17 142 67 34 31 22 18 61 23 33 25 28 20 29 26 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_line.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 266</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 184</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 133 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 27 17 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 133 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 27 17 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_objx_templ.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 269</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 201</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_kb.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 261</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 183</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 134 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 131 0 17 142 124 67 34 31 22 18 61 181 130 23 33 25 28 20 29 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 134 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 131 0 17 142 124 67 34 31 22 18 61 181 130 23 33 25 28 20 29 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 263</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 193</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 128 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 23 33 25 28 20 29 26 27 17</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 128 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 23 33 25 28 20 29 26 27 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_sw.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 271</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 190 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 145 149 124 142 67 34 31 22 18 61 0 17 23 33 25 28 20 29 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 190 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 145 149 124 142 67 34 31 22 18 61 0 17 23 33 25 28 20 29 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_ta.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 275</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 139</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 181 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 130 124 67 34 31 22 18 61 0 17 27 23 33 25 28 20 29 26 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 181 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 130 124 67 34 31 22 18 61 0 17 27 23 33 25 28 20 29 26 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_tabview.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 272</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 140</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 187 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 199 124 142 67 34 31 22 18 61 0 17 255 19 27 130 131 23 33 25 28 20 29 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 187 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 199 124 142 67 34 31 22 18 61 0 17 255 19 27 130 131 23 33 25 28 20 29 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_roller.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 264</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 203</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 186 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 204 130 124 67 34 31 22 18 61 0 17 27 23 33 25 28 20 29 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 186 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 204 130 124 67 34 31 22 18 61 0 17 27 23 33 25 28 20 29 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_win.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 273</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 199 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 124 142 67 34 31 22 18 61 0 17 255 19 27 130 23 33 25 28 20 29 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 199 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 124 142 67 34 31 22 18 61 0 17 255 19 27 130 23 33 25 28 20 29 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_page.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 276</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 202</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 61 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 130 124 67 34 31 22 18 27 17 23 33 25 28 20 29 26 65 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 61 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 130 124 67 34 31 22 18 27 17 23 33 25 28 20 29 26 65 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_slider.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 265</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 145 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 149 124 142 67 34 31 22 18 61 0 17 27 23 33 25 28 20 29 26 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 145 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 149 124 142 67 34 31 22 18 61 0 17 27 23 33 25 28 20 29 26 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_core\lv_group.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 252 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 252 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_core\lv_indev.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67 64 252 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 34 31 22 18 61 65 30 21 24</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67 64 252 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 34 31 22 18 61 65 30 21 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_core\lv_obj.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64 252 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 67 34 31 22 18 61 65 23 33 25 28 20 29 26 27 17 24 30 19 32</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64 252 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 67 34 31 22 18 61 65 23 33 25 28 20 29 26 27 17 24 30 19 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_core\lv_refr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 100 288 299 320 311 297 323 316 111 65 64 109 69 112 305 103 104 105 107 110 106 101 108 71 18 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 100 288 299 320 311 297 323 316 111 65 64 109 69 112 305 103 104 105 107 110 106 101 108 71 18 30</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_core\lv_style.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 69 109 112 305 288 299 320 311 297 323 316 103 104 111 105 107 100 110 106 64 101 108</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 69 109 112 305 288 299 320 311 297 323 316 103 104 111 105 107 100 110 106 64 101 108</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_hal\lv_hal_indev.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 238</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 241</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34 109 305 288 299 320 311 297 323 316 31 22 112 252 18 103 104 111 105 101 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 109 305 288 299 320 311 297 323 316 31 22 112 252 18 103 104 111 105 101 100</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_hal\lv_hal_tick.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 239</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 242</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 305 288 299 320 311 297 323 316 109 100 111 252</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18 305 288 299 320 311 297 323 316 109 100 111 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_btn.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 194</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 104 288 299 320 311 297 323 316 111 105 142 124 64 100 109 69 112 305 103 107 110 106 101 108 67 34 31 22 18 61 27 17 23 33 25 28 20 29 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 104 288 299 320 311 297 323 316 111 105 142 124 64 100 109 69 112 305 103 107 110 106 101 108 67 34 31 22 18 61 27 17 23 33 25 28 20 29 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_draw\lv_draw.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 251 288 299 320 311 297 323 316 111 256 109 27 69 112 305 103 104 105 107 100 110 106 17 24 99 254 19 101 21 32 255 64 108 0</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 251 288 299 320 311 297 323 316 111 256 109 27 69 112 305 103 104 105 107 100 110 106 17 24 99 254 19 101 21 32 255 64 108 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_draw\lv_draw_rbasic.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24 252 112 305 288 299 320 311 297 323 316 103 104 111 105 109 107 100 110 22 31 34 18 27 69 106 17</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24 252 112 305 288 299 320 311 297 323 316 103 104 111 105 109 107 100 110 22 31 34 18 27 69 106 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_hal\lv_hal_disp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 248</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 243</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 305 288 299 320 311 297 323 316 100 111 22 109 31 34 103 104 105 18 112 252 101 64 69 107 110 106 108</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 305 288 299 320 311 297 323 316 100 111 22 109 31 34 103 104 105 18 112 252 101 64 69 107 110 106 108</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_chart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 260</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 143 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 133 27 17 23 33 25 28 20 29 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 143 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 133 27 17 23 33 25 28 20 29 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_cont.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 267</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 109 305 288 299 320 311 297 323 316 104 111 105 124 64 100 69 112 103 107 110 106 101 108 27 17 99 23 33 25 28 20 29 26 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 109 305 288 299 320 311 297 323 316 104 111 105 124 64 100 69 112 103 107 110 106 101 108 27 17 99 23 33 25 28 20 29 26 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_ddlist.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 257</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 200</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 204 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 130 124 67 34 31 22 18 61 0 17 27 23 33 25 28 20 29 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 204 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 130 124 67 34 31 22 18 61 0 17 27 23 33 25 28 20 29 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_core\lv_vdb.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 22 305 288 299 320 311 297 323 316 109 31 34 103 104 111 105 18 112 100 71</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 22 305 288 299 320 311 297 323 316 109 31 34 103 104 111 105 18 112 100 71</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_btnm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 182</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 131 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 0 17 142 124 67 34 31 22 18 61 27 65 23 33 25 28 20 29 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 131 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 0 17 142 124 67 34 31 22 18 61 27 65 23 33 25 28 20 29 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_cb.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 195</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 144 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 142 124 67 34 31 22 18 61 0 17 23 33 25 28 20 29 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 144 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 142 124 67 34 31 22 18 61 0 17 23 33 25 28 20 29 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_bar.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 179</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 149 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 124 142 67 34 31 22 18 61 0 17 27 23 33 25 28 20 29 26 251 256</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 149 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 124 142 67 34 31 22 18 61 0 17 27 23 33 25 28 20 29 26 251 256</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_draw\lv_draw_vbasic.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 109 305 288 299 320 311 297 323 316 104 111 105 22 31 34 103 18 112 107 100 110 71 27 69 106 17</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 109 305 288 299 320 311 297 323 316 104 111 105 22 31 34 103 18 112 107 100 110 71 27 69 106 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_gauge.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 268</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 206</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 188 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 189 0 17 133 27 23 33 25 28 20 29 26 156 21 251 256</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 188 64 100 288 299 320 311 297 323 316 111 109 69 112 305 103 104 105 107 110 106 101 108 189 0 17 133 27 23 33 25 28 20 29 26 156 21 251 256</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_themes\lv_theme.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 252 69 109 112 305 288 299 320 311 297 323 316 103 104 111 105 107 100 110 106 33 25 28 20 29 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 252 69 109 112 305 288 299 320 311 297 323 316 103 104 111 105 107 100 110 106 33 25 28 20 29 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_themes\lv_theme_templ.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 252 69 109 112 305 288 299 320 311 297 323 316 103 104 111 105 107 100 110 106 33 25 28 20 29 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 252 69 109 112 305 288 299 320 311 297 323 316 103 104 111 105 107 100 110 106 33 25 28 20 29 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_themes\lv_theme_material.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 252 69 109 112 305 288 299 320 311 297 323 316 103 104 111 105 107 100 110 106 33 25 28 20 29 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 252 69 109 112 305 288 299 320 311 297 323 316 103 104 111 105 107 100 110 106 33 25 28 20 29 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_themes\lv_theme_zen.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 252 69 109 112 305 288 299 320 311 297 323 316 103 104 111 105 107 100 110 106 33 25 28 20 29 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 252 69 109 112 305 288 299 320 311 297 323 316 103 104 111 105 107 100 110 106 33 25 28 20 29 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_themes\lv_theme_default.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 252 69 109 112 305 288 299 320 311 297 323 316 103 104 111 105 107 100 110 106 33 25 28 20 29 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 252 69 109 112 305 288 299 320 311 297 323 316 103 104 111 105 107 100 110 106 33 25 28 20 29 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_themes\lv_theme_night.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 252 69 109 112 305 288 299 320 311 297 323 316 103 104 111 105 107 100 110 106 33 25 28 20 29 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 252 69 109 112 305 288 299 320 311 297 323 316 103 104 111 105 107 100 110 106 33 25 28 20 29 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_themes\lv_theme_alien.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 252 69 109 112 305 288 299 320 311 297 323 316 103 104 111 105 107 100 110 106 33 25 28 20 29 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 252 69 109 112 305 288 299 320 311 297 323 316 103 104 111 105 107 100 110 106 33 25 28 20 29 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_themes\lv_theme_mono.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 252 69 109 112 305 288 299 320 311 297 323 316 103 104 111 105 107 100 110 106 33 25 28 20 29 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 252 69 109 112 305 288 299 320 311 297 323 316 103 104 111 105 107 100 110 106 33 25 28 20 29 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_ll.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 345</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 336</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 305 288 299 320 311 297 323 316 104 111 105 108 101 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 305 288 299 320 311 297 323 316 104 111 105 108 101 100</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_templ.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 349</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 359</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_font.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 341</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 339</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 100 288 299 320 311 297 323 316 111 107 305 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 100 288 299 320 311 297 323 316 111 107 305 110</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_math.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 346</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 342</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 305 288 299 320 311 297 323 316 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21 305 288 299 320 311 297 323 316 109</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 351</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 347</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 288 299 320 311 297 323 316 111 30 305 109 101 108 18 252</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 288 299 320 311 297 323 316 111 30 305 109 101 108 18 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_ufs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 352</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32 252 109 19 305 288 299 320 311 297 323 316 101 100 111 108 104 105 251 256 237</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32 252 109 19 305 288 299 320 311 297 323 316 101 100 111 108 104 105 251 256 237</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_color.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 356</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 338</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112 252 305 288 299 320 311 297 323 316</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112 252 305 288 299 320 311 297 323 316</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_trigo.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 348</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 334</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 156 305 288 299 320 311 297 323 316</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 156 305 288 299 320 311 297 323 316</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_10_cyrillic.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 211</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_10_latin_sup.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 214</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 223</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_30.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 220</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 230</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_30_cyrillic.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 221</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 210</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_circ.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 358</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103 104 288 299 320 311 297 323 316 111 105 109 305</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103 104 288 299 320 311 297 323 316 111 105 109 305</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_20_cyrillic.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 224</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_area.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 354</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 343</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103 104 288 299 320 311 297 323 316 111 105 109 305 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103 104 288 299 320 311 297 323 316 111 105 109 305 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_30_latin_sup.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 226</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 229</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_40.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 232</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_40_cyrillic.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 231</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_mem.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 353</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 335</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252 101 305 288 299 320 311 297 323 316 100 111 21 104 105</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 101 305 288 299 320 311 297 323 316 100 111 21 104 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_txt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 277</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 337</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17 109 103 104 288 299 320 311 297 323 316 111 105 305 107 252 100 110 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17 109 103 104 288 299 320 311 297 323 316 111 105 305 107 252 100 110 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_20_latin_sup.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 219</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 234</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_40_latin_sup.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 212</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_10.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 217</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 233</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_symbol_10.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 235</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 344</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 350</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 252 305 288 299 320 311 297 323 316 109 101 100 111 108 104 105</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19 252 305 288 299 320 311 297 323 316 109 101 100 111 108 104 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_20.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 225</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 228</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_symbol_40.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 209</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_symbol_30.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 208</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_symbol_20.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 216</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 252 305 288 299 320 311 297 323 316 100 111 110</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_anim.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 357</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 355</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106 252 305 288 299 320 311 297 323 316 109 100 111 104 105 18 30 101 108 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 106 252 305 288 299 320 311 297 323 316 109 100 111 104 105 18 30 101 108 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MDRSPL\src\MDR32F9Qx_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 326</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 327</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 303 333 325 305 288 299 320 311 297 323 316 307 284 331 324 285 286 298 302</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 303 333 325 305 288 299 320 311 297 323 316 307 284 331 324 285 286 298 302</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CMSIS\Device\Milandr\MDR32F9Qx\Source\system_MDR32F9Qx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 308</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 294</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 307 284 305 288 299 320 311 297 323 316 331 324 285 286 298 303 333 325</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 307 284 305 288 299 320 311 297 323 316 331 324 285 286 298 303 333 325</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CMSIS\Device\Milandr\MDR32F9Qx\Source\startup_MDR32F9Qx.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 306</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MDRSPL\src\MDR32F9Qx_port.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 312</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 303 333 325 305 288 299 320 311 297 323 316 307 284 331 324 285 286 298 329</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 303 333 325 305 288 299 320 311 297 323 316 307 284 331 324 285 286 298 329</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MDRSPL\src\MDR32F9Qx_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 287</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 301</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 303 333 325 305 288 299 320 311 297 323 316 307 284 331 324 285 286 298 328</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 303 333 325 305 288 299 320 311 297 323 316 307 284 331 324 285 286 298 328</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MDRSPL\src\MDR32F9Qx_rst_clk.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 304</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 315</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 303 333 325 305 288 299 320 311 297 323 316 307 284 331 324 285 286 298 317</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 303 333 325 305 288 299 320 311 297 323 316 307 284 331 324 285 286 298 317</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 330</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 321</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 307 284 305 288 299 320 311 297 323 316 331 324 285 286 298 318 333 325 329 303 317 328 302 253 30 109 101 100 111 108 31 22 112 252 34 103 104 105 18 64 69 107 110 106 61 71 23 33 25 28 20 29 26 142 124 67 255 19 0 17 27 133 130 127 143 144 149 145 128 131 134 204 186 181 199 187 191 188 189 190</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 307 284 305 288 299 320 311 297 323 316 331 324 285 286 298 318 333 325 329 303 317 328 302 253 30 109 101 100 111 108 31 22 112 252 34 103 104 105 18 64 69 107 110 106 61 71 23 33 25 28 20 29 26 142 124 67 255 19 0 17 27 133 130 127 143 144 149 145 128 131 134 204 186 181 199 187 191 188 189 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\LCD_new.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 319 332</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 309 355 343 179 194 182 195 180 358 338 197 200 4 3 2 339 233 211 223 228 224 234 230 210 229 232 231 212 235 216 208 209 350 206 85 243 241 242 207 94 183 192 193 184 205 336 196 342 198 335 84 201 202 88 203 129 91 138 139 140 347 359 56 44 54 47 48 45 49 50 334 337 352 93 141 321 327 312 315 301 306 294 310 313 300 322</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 295 319 332</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_img.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_list.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_label.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_lmeter.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_mbox.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_line.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_objx_templ.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_kb.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_led.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_sw.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_ta.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_tabview.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_roller.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_win.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_page.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_slider.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_core\lv_group.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_core\lv_indev.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_core\lv_obj.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_core\lv_refr.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_core\lv_style.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_hal\lv_hal_indev.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_hal\lv_hal_tick.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_btn.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_draw\lv_draw.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_draw\lv_draw_rbasic.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_hal\lv_hal_disp.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_chart.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_cont.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_ddlist.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_core\lv_vdb.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_btnm.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_cb.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_bar.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_draw\lv_draw_vbasic.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_objx\lv_gauge.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_themes\lv_theme.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_themes\lv_theme_templ.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_themes\lv_theme_material.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_themes\lv_theme_zen.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_themes\lv_theme_default.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_themes\lv_theme_night.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_themes\lv_theme_alien.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_themes\lv_theme_mono.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_ll.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_templ.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_font.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_math.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_task.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_ufs.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_color.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_trigo.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_10_cyrillic.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_10_latin_sup.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_30.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_30_cyrillic.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_circ.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_20_cyrillic.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_area.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_30_latin_sup.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_40.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_40_cyrillic.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_mem.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_txt.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_20_latin_sup.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_40_latin_sup.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_10.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_symbol_10.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fs.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_dejavu_20.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_symbol_40.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_symbol_30.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_fonts\lv_font_symbol_20.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lvgl\lv_misc\lv_anim.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\MDRSPL\src\MDR32F9Qx_adc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\CMSIS\Device\Milandr\MDR32F9Qx\Source\system_MDR32F9Qx.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\MDRSPL\src\MDR32F9Qx_port.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\MDRSPL\src\MDR32F9Qx_timer.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\MDRSPL\src\MDR32F9Qx_rst_clk.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\main.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
