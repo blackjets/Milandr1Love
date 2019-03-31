@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.10.3)  18 MAR 2019 01:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.10.3)  1 APR 2019 01:40
 entering extended mode
 **./otchyot.tex
 (otchyot.tex
@@ -829,112 +829,99 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 177.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 181--181
+Overfull \hbox (6.0pt too wide) in paragraph at lines 189--189
 [][][][][][][] 
  []
 
-(main2_1.c
+(main2_1_1.c)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 193--193
+[][][][][][][] 
+ []
+
+(MDR32F9Qx_it.c)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/2_1.png, id=365, 240.9pt x 176.15813pt>
+File: img/2_1.png Graphic file (type png)
+<use img/2_1.png>
+Package pdftex.def Info: img/2_1.png  used on input line 199.
+(pdftex.def)             Requested size: 240.8994pt x 176.15768pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 205--205
+[][][][][][][] 
+ []
+
+(main2_1_2.c)
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 207.
  [8
 
 
 ]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 77.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 77.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 77.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 77.
- [9])
-Overfull \hbox (6.0pt too wide) in paragraph at lines 184--184
-[][][][][][][] 
- []
 
-(MDR32F9Qx_it.c
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/2_2.png, id=381, 240.9pt x 176.15813pt>
+File: img/2_2.png Graphic file (type png)
+<use img/2_2.png>
+Package pdftex.def Info: img/2_2.png  used on input line 210.
+(pdftex.def)             Requested size: 240.8994pt x 176.15768pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 215.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 215.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 215.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 32.
- [10]
+(babel)             in language  on input line 215.
+[9]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 215.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 215.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 215.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 98.
- [11]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 164.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 164.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 164.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 164.
- [12]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 230.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 230.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 230.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 230.
- [13]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 296.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 296.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 296.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 296.
- [14])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 188.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 188.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 188.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 188.
- [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
+(babel)             in language  on input line 215.
+ [10 <./img/2_1.png> <./img/2_2.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
  (otchyot.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
 Package rerunfilecheck Info: File `otchyot.out' has not changed.
 (rerunfilecheck)             Checksum: F6CD26943D3CF06F8F1FC06D23802393;2173.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 215.
  ) 
 Here is how much of TeX's memory you used:
- 14302 strings out of 492973
- 204221 string characters out of 3138111
+ 13838 strings out of 492973
+ 196281 string characters out of 3138111
  755849 words of memory out of 3000000
- 17263 multiletter control sequences out of 15000+200000
+ 17201 multiletter control sequences out of 15000+200000
  16020 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,7n,52p,766b,1187s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,8n,52p,1089b,1187s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\blackjetsRPN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dp
 i600\lasi0900.pk> <C:\Users\blackjetsRPN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
 ur\lh\lh-t2a\dpi600\lass0900.pk> <C:\Users\blackjetsRPN\AppData\Local\MiKTeX\2.
@@ -949,9 +936,9 @@ l\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1200.pk> <C:\Users\blackjetsR
 PN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk> <C:\U
 sers\blackjetsRPN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lac
 c1200.pk><C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on otchyot.pdf (16 pages, 355163 bytes).
+Output written on otchyot.pdf (11 pages, 276819 bytes).
 PDF statistics:
- 1563 PDF objects out of 1728 (max. 8388607)
- 768 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1051 PDF objects out of 1200 (max. 8388607)
+ 361 named destinations out of 1000 (max. 500000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

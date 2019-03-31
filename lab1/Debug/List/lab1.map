@@ -1,0 +1,252 @@
+###############################################################################
+#
+# IAR ELF Linker V7.10.1.6676/W32 for ARM                 18/Mar/2019  16:32:53
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  D:\Chupin\lab1\Debug\Exe\lab1.out
+#    Map file     =  D:\Chupin\lab1\Debug\List\lab1.map
+#    Command line =  
+#        D:\Chupin\lab1\Debug\Obj\core_cm3.o D:\Chupin\lab1\Debug\Obj\main.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_adc.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_arinc429r.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_arinc429t.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_audio.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_bkp.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_can.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_comp.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_dac.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_dma.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_ebc.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_eeprom.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_i2c.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_iwdg.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_keypad.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_led.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_port.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_power.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_rst_clk.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_ssp.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_timer.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_uart.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_usb.o
+#        D:\Chupin\lab1\Debug\Obj\MDR32F9Qx_wwdg.o
+#        D:\Chupin\lab1\Debug\Obj\startup_MDR32F9Qx.o
+#        D:\Chupin\lab1\Debug\Obj\system_MDR32F9Qx.o -o
+#        D:\Chupin\lab1\Debug\Exe\lab1.out --map
+#        D:\Chupin\lab1\Debug\List\lab1.map --log
+#        libraries,initialization,modules,redirects,sections,veneers,unused_fragments
+#        --log_file D:\Chupin\lab1\Debug\List\lab1.log --config "C:\Program
+#        Files (x86)\IAR Systems\Embedded Workbench
+#        7.0\arm\config\linker\Milandr\MDR1986VE9x\MDR32F1.icf" --remarks
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0801ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20007fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                       0xc0
+  .intvec            ro code  0x08000000    0xc0  startup_MDR32F9Qx.o [1]
+                            - 0x080000c0    0xc0
+
+"P1":                                      0x8e8
+  .text              ro code  0x080000c0   0x2b0  main.o [1]
+  .text              ro code  0x08000370   0x1f8  MDR32F9Qx_port.o [1]
+  .text              ro code  0x08000568    0x24  MDR32F9Qx_rst_clk.o [1]
+  .text              ro code  0x0800058c   0x1cc  MDR32F9Qx_timer.o [1]
+  .text              ro code  0x08000758   0x110  system_MDR32F9Qx.o [1]
+  .text              ro code  0x08000868    0x2e  copy_init3.o [4]
+  .text              ro code  0x08000898    0x28  data_init.o [4]
+  .iar.init_table    const    0x080008c0    0x14  - Linker created -
+  .text              ro code  0x080008d4    0x1a  cmain.o [4]
+  .text              ro code  0x080008ee     0x4  low_level_init.o [3]
+  .text              ro code  0x080008f2     0x4  exit.o [3]
+  .text              ro code  0x080008f8     0xa  cexit.o [4]
+  .text              ro code  0x08000904    0x14  exit.o [5]
+  .text              ro code  0x08000918    0x10  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000928     0xc  cstartup_M.o [4]
+  .text              ro code  0x08000934     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000938     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x0800093c     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000940     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000944     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000948     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x0800094c     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000950     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000954     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000958     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x0800095c     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000960     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000964     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000968     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x0800096c     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000970     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000974     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000978     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x0800097c     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000980     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000984     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000988     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x0800098c     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000990     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000994     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x08000998     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x0800099c     0x4  startup_MDR32F9Qx.o [1]
+  .text              ro code  0x080009a0     0x4  startup_MDR32F9Qx.o [1]
+  .rodata            const    0x080009a4     0x0  copy_init3.o [4]
+  Initializer bytes  ro data  0x080009a4     0x4  <for P2 s0>
+                            - 0x080009a8   0x8e8
+
+"P2", part 1 of 2:                           0x8
+  P2 s0                       0x20000000     0x4  <Init block>
+    .data            inited   0x20000000     0x4  system_MDR32F9Qx.o [1]
+                            - 0x20000004     0x4
+
+"P2", part 2 of 2:                        0x1000
+  CSTACK                      0x20000008  0x1000  <Block>
+    CSTACK           uninit   0x20000008  0x1000  <Block tail>
+                            - 0x20001008  0x1000
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0x4:
+          0x080009a4   0x4
+    1 destination range, total size 0x4:
+          0x20000000   0x4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+D:\Chupin\lab1\Debug\Obj: [1]
+    MDR32F9Qx_port.o         504
+    MDR32F9Qx_rst_clk.o       36
+    MDR32F9Qx_timer.o        460
+    main.o                   688
+    startup_MDR32F9Qx.o      320
+    system_MDR32F9Qx.o       272        4        4
+    ----------------------------------------------
+    Total:                 2 280        4        4
+
+command line: [2]
+    ----------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                     4
+    low_level_init.o           4
+    ----------------------------------------------
+    Total:                     8
+
+rt7M_tl.a: [4]
+    cexit.o                   10
+    cmain.o                   26
+    copy_init3.o              46
+    cstartup_M.o              12
+    data_init.o               40
+    ----------------------------------------------
+    Total:                   134
+
+shb_l.a: [5]
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    20
+
+    Gaps                       6
+    Linker created                     20    4 096
+--------------------------------------------------
+    Grand Total:           2 448       24    4 100
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+?main                   0x080008d5         Code  Gb  cmain.o [4]
+CSTACK$$Base            0x20000008          --   Gb  - Linker created -
+CSTACK$$Limit           0x20001008          --   Gb  - Linker created -
+Delay                   0x08000151    0xc  Code  Lc  main.o [1]
+InitButtons             0x0800015d   0x6e  Code  Lc  main.o [1]
+InitLeds                0x080002b3   0x52  Code  Lc  main.o [1]
+InitTimers              0x080001cb   0xe8  Code  Lc  main.o [1]
+NVIC_EnableIRQ          0x080000dd   0x14  Code  Lc  main.o [1]
+NVIC_SetPriority        0x080000f1   0x22  Code  Lc  main.o [1]
+NVIC_SetPriorityGrouping
+                        0x080000c1   0x1c  Code  Lc  main.o [1]
+PORT_Init               0x08000371  0x19c  Code  Gb  MDR32F9Qx_port.o [1]
+PORT_ReadInputData      0x0800051d    0x4  Code  Gb  MDR32F9Qx_port.o [1]
+PORT_ReadInputDataBit   0x0800050d   0x10  Code  Gb  MDR32F9Qx_port.o [1]
+PORT_ResetBits          0x08000537   0x18  Code  Gb  MDR32F9Qx_port.o [1]
+PORT_SetBits            0x08000521   0x16  Code  Gb  MDR32F9Qx_port.o [1]
+PORT_Write              0x0800054f   0x12  Code  Gb  MDR32F9Qx_port.o [1]
+RST_CLK_PCLKcmd         0x08000569   0x20  Code  Gb  MDR32F9Qx_rst_clk.o [1]
+Region$$Table$$Base     0x080008c0          --   Gb  - Linker created -
+Region$$Table$$Limit    0x080008d4          --   Gb  - Linker created -
+SystemCoreClock         0x20000000    0x4  Data  Gb  system_MDR32F9Qx.o [1]
+SystemCoreClockUpdate   0x08000759   0x72  Code  Gb  system_MDR32F9Qx.o [1]
+SystemInit              0x080007cb   0x64  Code  Gb  system_MDR32F9Qx.o [1]
+TIMER_BRGInit           0x08000705   0x42  Code  Gb  MDR32F9Qx_timer.o [1]
+TIMER_ChnInit           0x08000609   0x48  Code  Gb  MDR32F9Qx_timer.o [1]
+TIMER_ChnOutInit        0x08000683   0x40  Code  Gb  MDR32F9Qx_timer.o [1]
+TIMER_ChnOutStructInit  0x080006c3   0x26  Code  Gb  MDR32F9Qx_timer.o [1]
+TIMER_ChnStructInit     0x08000651   0x32  Code  Gb  MDR32F9Qx_timer.o [1]
+TIMER_ClearFlag         0x080006e9    0xa  Code  Gb  MDR32F9Qx_timer.o [1]
+TIMER_Cmd               0x080005f3   0x16  Code  Gb  MDR32F9Qx_timer.o [1]
+TIMER_CntInit           0x0800058d   0x34  Code  Gb  MDR32F9Qx_timer.o [1]
+TIMER_CntStructInit     0x080005c1   0x32  Code  Gb  MDR32F9Qx_timer.o [1]
+TIMER_ITConfig          0x080006f3   0x12  Code  Gb  MDR32F9Qx_timer.o [1]
+Timer1_IRQHandler       0x08000305   0x1c  Code  Gb  main.o [1]
+Timer2_IRQHandler       0x08000321   0x22  Code  Gb  main.o [1]
+__cmain                 0x080008d5         Code  Gb  cmain.o [4]
+__exit                  0x08000905   0x14  Code  Gb  exit.o [5]
+__iar_copy_init3        0x08000869   0x2e  Code  Gb  copy_init3.o [4]
+__iar_data_init3        0x08000899   0x28  Code  Gb  data_init.o [4]
+__iar_program_start     0x08000929         Code  Gb  cstartup_M.o [4]
+__low_level_init        0x080008ef    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_MDR32F9Qx.o [1]
+_call_main              0x080008e1         Code  Gb  cmain.o [4]
+_exit                   0x080008f9         Code  Gb  cexit.o [4]
+_main                   0x080008eb         Code  Gb  cmain.o [4]
+exit                    0x080008f3    0x4  Code  Gb  exit.o [3]
+main                    0x08000113   0x3e  Code  Gb  main.o [1]
+
+
+[1] = D:\Chupin\lab1\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  2 448 bytes of readonly  code memory
+     24 bytes of readonly  data memory
+  4 100 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

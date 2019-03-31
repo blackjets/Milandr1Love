@@ -247,8 +247,11 @@ void WWDG_IRQHandler(void)
 *******************************************************************************/
 void Timer1_IRQHandler(void)
 {
-  TIMER_ClearFlag( MDR_TIMER1, TIMER_STATUS_CNT_ARR ); 
-  MDR_PORTC->RXTX ^= PORT_Pin_0;
+  TIMER_ClearFlag(MDR_TIMER1, TIMER_STATUS_CNT_ARR);
+  
+  uint32_t rxtx = PORT_ReadInputData(MDR_PORTC);
+  uint32_t res = rxtx ^ PORT_Pin_0;
+  PORT_Write( MDR_PORTC, res );
 }
 /*******************************************************************************
 * Function Name  : Timer2_IRQHandler
@@ -259,8 +262,10 @@ void Timer1_IRQHandler(void)
 *******************************************************************************/
 void Timer2_IRQHandler(void)
 {
-  TIMER_ClearFlag( MDR_TIMER2, TIMER_STATUS_CNT_ARR ); 
-  MDR_PORTC->RXTX ^= PORT_Pin_1;
+  PORT_SetBits( MDR_PORTC, PORT_Pin_1 );
+  Delay(2000000);
+  TIMER_ClearFlag(MDR_TIMER2, TIMER_STATUS_CNT_ARR);
+  PORT_ResetBits( MDR_PORTC, PORT_Pin_1 );
 }
 /*******************************************************************************
 * Function Name  : Timer3_IRQHandler
