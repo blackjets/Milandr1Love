@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.10.3)  28 APR 2019 23:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.10.3)  29 APR 2019 01:13
 entering extended mode
 **./otchyot.tex
 (otchyot.tex
@@ -510,7 +510,7 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen127
 \Gin@req@width=\dimen128
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 15.
+Package hyperref Info: Option `colorlinks' set `true' on input line 16.
 
 ("C:\Programs\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
@@ -534,31 +534,32 @@ File: lstlang1.sty 2018/09/02 1.7 listings language file
 LaTeX Warning: Unused global option(s):
     [14pt,report].
 
-(otchyot.aux
-LaTeX Font Info:    Try loading font information for T2A+cmr on input line 20.
- ("C:\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmr.fd"
-File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-))
+(otchyot.aux)
 \openout1 = `otchyot.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 127.
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 127.
+
+ ("C:\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmr.fd"
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -621,7 +622,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \AtBeginShipoutBox=\box30
-Package hyperref Info: Link coloring ON on input line 54.
+Package hyperref Info: Link coloring ON on input line 127.
 
 ("C:\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -631,9 +632,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count120
 )
-LaTeX Info: Redefining \ref on input line 54.
-LaTeX Info: Redefining \pageref on input line 54.
-LaTeX Info: Redefining \nameref on input line 54.
+LaTeX Info: Redefining \ref on input line 127.
+LaTeX Info: Redefining \pageref on input line 127.
+LaTeX Info: Redefining \nameref on input line 127.
 
 (otchyot.out) (otchyot.out)
 \@outlinefile=\write3
@@ -643,169 +644,148 @@ LaTeX Info: Redefining \nameref on input line 54.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 76.
+(Font)              <7> on input line 149.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 76.
+(Font)              <5> on input line 149.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 82.
+(Font)              <9> on input line 155.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 82.
+(Font)              <6> on input line 155.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 173.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 173.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 173.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 173.
  [1
 
-{C:/Users/blackjetsRPN/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (otc
-hyot.toc)
+{C:/Users/blackjetsRPN/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
 \tf@toc=\write4
 \openout4 = `otchyot.toc'.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 104.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 104.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 104.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 104.
+(babel)             in language  on input line 177.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.104 \clearpage
+l.177 \clearpage
                  [1
 
 ]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 179.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 179.
 
-Overfull \hbox (20.89772pt too wide) in paragraph at lines 106--106
+Overfull \hbox (20.89772pt too wide) in paragraph at lines 179--179
 |[]\T2A/cmr/bx/n/20.74 À‡·Ó‡ÚÓÌ‡ˇ ‡-·Ó-Ú‡ ù1 æIAR, CMSIS, SPL, GPIOø| 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 181.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 181.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 112.
+(babel)             in language  on input line 185.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 112.
+(babel)             in language  on input line 185.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 126.
-<img/1_1.png, id=69, 237.13594pt x 136.25906pt>
+(babel)             in language  on input line 199.
+<img/1_1.png, id=18, 237.13594pt x 136.25906pt>
 File: img/1_1.png Graphic file (type png)
 <use img/1_1.png>
-Package pdftex.def Info: img/1_1.png  used on input line 134.
+Package pdftex.def Info: img/1_1.png  used on input line 207.
 (pdftex.def)             Requested size: 237.13535pt x 136.25871pt.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 138.
+(babel)             in language  on input line 211.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 138.
-("C:\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+(babel)             in language  on input line 211.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 215.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 215.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 215.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 215.
+[2
+
+
+ <./img/1_1.png>] ("C:\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
 ("C:\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
 )
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 143.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 143.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 143.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 143.
- [2
-
-
- <./img/1_1.png>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 143.
+nput line 221.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 143--143
+Overfull \hbox (6.0pt too wide) in paragraph at lines 221--221
 [][][][][][][] 
  []
 
-LaTeX Font Info:    Try loading font information for T2A+cmss on input line 143
+LaTeX Font Info:    Try loading font information for T2A+cmss on input line 221
 .
 ("C:\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmss.fd"
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ) (main1_2.c
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 1.
-LaTeX Font Info:    No file OMScmss.fd. on input line 1.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 88.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 88.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 88.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 88.
+ [3])
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 224.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 224.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 229.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 229.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 229.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 229.
 
-
-LaTeX Font Warning: Font shape `OMS/cmss/m/it' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textasteriskcentered' on input line 1.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 63.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 63.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 63.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 63.
-[3]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 129.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 129.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 129.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 129.
- [4]
-
-LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textasteriskcentered' on input line 137.
-
-)
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 146.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 146.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 151.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 151.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 151.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 151.
- [5]
+[4]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 231.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 231.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 159.
+(babel)             in language  on input line 237.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 159.
+(babel)             in language  on input line 237.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 177.
+(babel)             in language  on input line 255.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 177.
+(babel)             in language  on input line 255.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 189--189
+Overfull \hbox (6.0pt too wide) in paragraph at lines 267--267
 [][][][][][][] 
  []
 
@@ -814,53 +794,63 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 189--189
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 193--193
+Overfull \hbox (6.0pt too wide) in paragraph at lines 271--271
 [][][][][][][] 
  []
 
-(MDR32F9Qx_it.c)
+(MDR32F9Qx_it.c
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 241
+.
+LaTeX Font Info:    No file OMScmss.fd. on input line 241.
+
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textasteriskcentered' on input line 241.
+
+)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<img/2_1.png, id=245, 240.9pt x 176.15813pt>
+<img/2_1.png, id=113, 240.9pt x 176.15813pt>
 File: img/2_1.png Graphic file (type png)
 <use img/2_1.png>
-Package pdftex.def Info: img/2_1.png  used on input line 199.
+Package pdftex.def Info: img/2_1.png  used on input line 277.
 (pdftex.def)             Requested size: 240.8994pt x 176.15768pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 205--205
+Overfull \hbox (6.0pt too wide) in paragraph at lines 283--283
 [][][][][][][] 
  []
 
 (main2_1_2.c)
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 207.
+(babel)             in language  on input line 285.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 207.
+(babel)             in language  on input line 285.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 207.
+(babel)             in language  on input line 285.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 207.
- [6
+(babel)             in language  on input line 285.
+ [5
 
 
 ]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<img/2_2.png, id=262, 240.9pt x 176.15813pt>
+<img/2_2.png, id=133, 240.9pt x 176.15813pt>
 File: img/2_2.png Graphic file (type png)
 <use img/2_2.png>
-Package pdftex.def Info: img/2_2.png  used on input line 210.
+Package pdftex.def Info: img/2_2.png  used on input line 288.
 (pdftex.def)             Requested size: 240.8994pt x 176.15768pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 216--216
+Overfull \hbox (6.0pt too wide) in paragraph at lines 294--294
 [][][][][][][] 
  []
 
@@ -869,25 +859,25 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 216--216
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 222--222
+Overfull \hbox (6.0pt too wide) in paragraph at lines 300--300
 [][][][][][][] 
  []
 
 (graph.c)
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 222.
+(babel)             in language  on input line 300.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 222.
+(babel)             in language  on input line 300.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 222.
+(babel)             in language  on input line 300.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 222.
- [7]
+(babel)             in language  on input line 300.
+ [6]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 226--226
+Overfull \hbox (6.0pt too wide) in paragraph at lines 304--304
 [][][][][][][] 
  []
 
@@ -895,96 +885,119 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 226--226
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<img/2_3chb.png, id=315, 547.2947pt x 394.47375pt>
+<img/2_3chb.png, id=188, 547.2947pt x 394.47375pt>
 File: img/2_3chb.png Graphic file (type png)
 <use img/2_3chb.png>
-Package pdftex.def Info: img/2_3chb.png  used on input line 230.
+Package pdftex.def Info: img/2_3chb.png  used on input line 308.
 (pdftex.def)             Requested size: 410.47pt x 295.85458pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<img/2_4.png, id=316, 641.39626pt x 478.03593pt>
+<img/2_4.png, id=189, 641.39626pt x 478.03593pt>
 File: img/2_4.png Graphic file (type png)
 <use img/2_4.png>
-Package pdftex.def Info: img/2_4.png  used on input line 236.
+Package pdftex.def Info: img/2_4.png  used on input line 314.
 (pdftex.def)             Requested size: 416.90262pt x 310.71967pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 318.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 318.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 318.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 241.
-[8 <./img/2_1.png> <./img/2_2.png>]
+(babel)             in language  on input line 318.
+[7 <./img/2_1.png> <./img/2_2.png>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 318.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 318.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 318.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 318.
+ [8]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 318.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 318.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 318.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 318.
  [9]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 318.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 318.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 318.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 241.
- [10]
+(babel)             in language  on input line 318.
+ [10 <./img/2_3chb.png> <./img/2_4.png>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 319.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 241.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 241.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 241.
- [11 <./img/2_3chb.png> <./img/2_4.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
- (otchyot.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 241.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 241.
-Package rerunfilecheck Info: File `otchyot.out' has not changed.
-(rerunfilecheck)             Checksum: F6CD26943D3CF06F8F1FC06D23802393;2173.
+(babel)             in language  on input line 319.
 
+Underfull \hbox (badness 10000) in paragraph at lines 320--322
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 324.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 324.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 324.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 324.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 324.
+[11
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 324.
+ (otchyot.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 324.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 324.
+
+
+Package rerunfilecheck Warning: File `otchyot.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `otchyot.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  A5664876FD37F1E2A1673B9FE2E6A89F;2277.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 241.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 324.
  ) 
 Here is how much of TeX's memory you used:
- 13885 strings out of 492973
- 197018 string characters out of 3138111
- 884849 words of memory out of 3000000
- 17250 multiletter control sequences out of 15000+200000
- 16020 words of font info for 33 fonts, out of 3000000 for 9000
+ 13772 strings out of 492973
+ 194631 string characters out of 3138111
+ 886919 words of memory out of 3000000
+ 17220 multiletter control sequences out of 15000+200000
+ 14329 words of font info for 31 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,8n,52p,1088b,1189s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,8n,52p,1088b,1247s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\blackjetsRPN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dp
 i600\lass0900.pk> <C:\Users\blackjetsRPN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
-ur\lh\lh-t2a\dpi600\lasx0900.pk> <C:\Users\blackjetsRPN\AppData\Local\MiKTeX\2.
-9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lasi0900.pk> <C:\Users\blackjetsRPN\AppData\
-Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0500.pk> <C:\Users\blackj
-etsRPN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1000.pk> <
+ur\lh\lh-t2a\dpi600\larm0500.pk> <C:\Users\blackjetsRPN\AppData\Local\MiKTeX\2.
+9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2074.pk> <C:\Users\blackjetsRPN\AppData\
+Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0900.pk> <C:\Users\blackj
+etsRPN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk> <
 C:\Users\blackjetsRPN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600
-\labx2074.pk> <C:\Users\blackjetsRPN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\l
-h\lh-t2a\dpi600\larm0900.pk> <C:\Users\blackjetsRPN\AppData\Local\MiKTeX\2.9\fo
-nts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk> <C:\Users\blackjetsRPN\AppData\Loca
-l\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1200.pk> <C:\Users\blackjetsR
-PN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk> <C:\U
-sers\blackjetsRPN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lac
-c1200.pk><C:/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on otchyot.pdf (12 pages, 1006955 bytes).
+\labx1200.pk> <C:\Users\blackjetsRPN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\l
+h\lh-t2a\dpi600\labx1440.pk> <C:\Users\blackjetsRPN\AppData\Local\MiKTeX\2.9\fo
+nts\pk\ljfour\lh\lh-t2a\dpi600\lacc1200.pk><C:/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy9.pfb>
+Output written on otchyot.pdf (12 pages, 945418 bytes).
 PDF statistics:
- 1053 PDF objects out of 1200 (max. 8388607)
- 351 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 787 PDF objects out of 1000 (max. 8388607)
+ 272 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
